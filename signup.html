@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarbyMy Sign Up</title>
+    <link rel="stylesheet" href="css/sign_in_up.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="container_nav">
+    <nav class="navbar">
+        <div class="links">
+            <a href="#">Our services</a>
+            <a href="#">Top Cars</a>
+            <a href="#">Renting</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="btns">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+            <select name="lang" id="lang">
+                <option value="eng">En</option>
+                <option value="fr">Fr</option>
+            </select>
+        </div>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#">Our services</a>
+            <a href="#">Top Cars</a>
+            <a href="#">Renting</a>
+            <a href="#">Contact</a>
+            
+            <div class="mobile-btns">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="signup">Sign Up</a>
+            </div>
+            
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+</div>
+<!-- NAVBAR -->
+
+<div class="container">
+    <!-- LEFT SIDE -->
+    <div class="left fade-slide-left">
+        <div class="back_to">
+            <a href="#">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Back To</p>
+            </a>
+        </div>
+
+        <div class="logo_welcome">
+            <h2>Welcome To</h2>
+            <div class="logo">Carby<span>My</span></div>
+        </div>
+
+        <form id="loginForm">
+            <div class="grp_label">
+                <div class="label">
+                    <label id="first_name">First Name</label>
+                    <input type="text" form="first_name" id="first_name" placeholder="Enter your first name" required>
+                </div>
+                <div class="label">
+                    <label id="last_name">Last Name</label>
+                    <input type="text" form="last_name" id="last_name" placeholder="Enter your first name" required>
+                </div>
+            </div>
+            <div class="grp_label">
+                <div class="label">
+                    <label id="phone">Phone</label>
+                    <input type="text" form="phone" id="phone" placeholder="Enter your phone" >
+                </div>
+                <div class="label">
+                    <label id="City">City</label>
+                    <select name="city" id="city">
+                        <option value="Casablnca">Casablnca</option>
+                        <option value="Fes">Fes</option>
+                        <option value="Rabat">Rabat</option>
+                        <option value="Marrakech">Marrakech</option>
+                    </select>
+                </div>
+            </div>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <div class="grp_label">
+                <div class="label">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="label">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirm_password" placeholder="confirm your password" required>
+                </div>
+            </div>
+
+            <button type="submit" class="login-btn">Sign Up</button>
+
+            <p class="signup-text">You already have an account? <a href="#">Sign in</a></p>
+        </form>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right fade-slide-right">
+        <p class="sign_in_p">Sign up to rent your next ride.</p>
+        <div class="represent">
+            <p>Drive.</p>
+            <p>Mobility.</p>
+            <p>Comfort.</p>
+            <p>Freedom.</p>
+        </div>
+        <img src="assets/images/bmw.png" alt="Vehicle" class="car-img">
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="follows">
+        <p>Follow us</p>
+        <div class="imgs">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="contact_us">
+        <div class="contact">
+            <div class="img">
+                <i class="fa-regular fa-headphones"></i>
+            </div>
+            <div class="title">
+                Contact Us
+            </div>
+            <div class="adress">
+                support@gmail.com
+            </div>
+        </div>
+        <div class="contact">
+            <div class="img">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="title">
+                Get in touch
+            </div>
+            <div class="adress">
+                contactemail@gmail.com
+            </div>
+        </div>
+        <div class="contact">
+            <div class="img">
+                <i class="fa-solid fa-handshake"></i>
+            </div>
+            <div class="title">
+                Work with Us
+            </div>
+            <div class="adress">
+                career@gmail.com
+            </div>
+        </div>
+    </div>
+    <div class="rights">
+        @ All rights reserved
+    </div>
+</div>
+<!-- FOOTER -->
+
+
+<script>
+    ///////////////////////////navbar///////////////////////////
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    const toggleMenu = () => {
+        hamburger.classList.toggle('hamburger-active');
+        mobileMenu.classList.toggle('active');
+    };
+
+    hamburger.addEventListener('click', toggleMenu);
+
+    const mobileLinks = document.querySelectorAll('.mobile-menu-content a');
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('hamburger-active');
+            mobileMenu.classList.remove('active');
+        });
+    });
+    ///////////////////////////navbar///////////////////////////
+</script>
+</body>
+</html>
