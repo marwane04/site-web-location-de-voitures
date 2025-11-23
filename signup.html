@@ -16,14 +16,14 @@
 <div class="container_nav">
     <nav class="navbar">
         <div class="links">
-            <a href="#">Our services</a>
-            <a href="#">Top Cars</a>
-            <a href="#">Renting</a>
-            <a href="#">Contact</a>
+            <a href="/index.html#services">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
-            <a href="#" class="login">Login</a>
-            <a href="#" class="signup">Sign Up</a>
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
@@ -34,19 +34,21 @@
             <span class="line"></span>
             <span class="line"></span>
         </div>
+        
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
 
     <div class="mobile-menu">
         <div class="mobile-menu-content">
-            <a href="#">Our services</a>
-            <a href="#">Top Cars</a>
-            <a href="#">Renting</a>
-            <a href="#">Contact</a>
+            <a href="/index.html#services">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
             
-            <div class="mobile-btns">
-                <a href="#" class="login">Login</a>
-                <a href="#" class="signup">Sign Up</a>
-            </div>
+        <div class="mobile-btns">
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
+        </div>
             
             <select name="lang" id="lang-mobile" class="lang-select">
                 <option value="eng">English</option>
@@ -61,7 +63,7 @@
     <!-- LEFT SIDE -->
     <div class="left fade-slide-left">
         <div class="back_to">
-            <a href="#">
+            <a href="index.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p>Back To</p>
             </a>
@@ -80,13 +82,13 @@
                 </div>
                 <div class="label">
                     <label id="last_name">Last Name</label>
-                    <input type="text" form="last_name" id="last_name" placeholder="Enter your first name" required>
+                    <input type="text" form="last_name" id="last_name" placeholder="Enter your last name" required>
                 </div>
             </div>
             <div class="grp_label">
                 <div class="label">
                     <label id="phone">Phone</label>
-                    <input type="text" form="phone" id="phone" placeholder="Enter your phone" >
+                    <input type="tel" form="phone" id="phone" placeholder="Enter your phone" >
                 </div>
                 <div class="label">
                     <label id="City">City</label>
@@ -114,7 +116,7 @@
 
             <button type="submit" class="login-btn">Sign Up</button>
 
-            <p class="signup-text">You already have an account? <a href="#">Sign in</a></p>
+            <p class="signup-text">You already have an account? <a href="signin.html">Sign in</a></p>
         </form>
     </div>
 
@@ -178,32 +180,12 @@
         </div>
     </div>
     <div class="rights">
-        @ All rights reserved
+        &copy; All rights reserved
     </div>
 </div>
 <!-- FOOTER -->
 
 
-<script>
-    ///////////////////////////navbar///////////////////////////
-    const hamburger = document.querySelector('.hamburger');
-    const mobileMenu = document.querySelector('.mobile-menu');
-
-    const toggleMenu = () => {
-        hamburger.classList.toggle('hamburger-active');
-        mobileMenu.classList.toggle('active');
-    };
-
-    hamburger.addEventListener('click', toggleMenu);
-
-    const mobileLinks = document.querySelectorAll('.mobile-menu-content a');
-    mobileLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('hamburger-active');
-            mobileMenu.classList.remove('active');
-        });
-    });
-    ///////////////////////////navbar///////////////////////////
-</script>
+<script src="js/mobile-navbar.js"></script>
 </body>
 </html>
