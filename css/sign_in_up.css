@@ -6,7 +6,7 @@
 }
 
 body {
-    background: white;
+    background: #fff;
 }
 
 
@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
 }
 
 .navbar .links a {
@@ -77,7 +77,7 @@ body {
 }
 
 .navbar .btns a.signup:hover {
-    color: white;
+    color: #fff;
     background-color: #212832;
 }
 
@@ -86,6 +86,10 @@ body {
     border: none;
     font-size: 1em;
     cursor: pointer;
+}
+
+.mobile-logo {
+    display: none;
 }
 
 /* Hamburger Menu Styles */
@@ -126,7 +130,7 @@ body {
     left: 0;
     width: 100%;
     height: 0;
-    background-color: white;
+    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
     overflow: hidden;
     transition: height 0.5s ease-in-out ;
@@ -178,7 +182,7 @@ body {
 
 .mobile-menu-content .mobile-btns a.signup {
     background-color: #212832;
-    color: white;
+    color: #fff;
     border: 1px solid #212832;
     transition: all .3s ease;
 }
@@ -302,8 +306,8 @@ input:focus{
 .login-btn {
     width: 150px;
     padding: 12px;
-    background: #967AA1;
-    color: white;
+    background: #6f567a;
+    color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -343,7 +347,7 @@ input:focus{
 /* ---------------------- RIGHT PANEL ---------------------- */
 .right {
     flex: 1;
-    background: #dedbfe;
+    background: #967AA1;
     border-top-left-radius: 90% 100%;
     border-bottom-left-radius: 30% 100%;
     position: relative;
@@ -427,7 +431,7 @@ input:focus{
 .footer{
     padding: 90px 0 60px;
     background-color: #2D3142;
-    color: white;
+    color: #fff;
 }
 .footer .follows{
     display: flex;
@@ -442,7 +446,7 @@ input:focus{
 }
 .footer .follows a{
     text-decoration: none;
-    color: white;
+    color: #fff;
     margin-right: .5em;
     font-size: 21px;
 }
@@ -492,11 +496,14 @@ input:focus{
 
 /* ---------------------- RESPONSIVENESS ---------------------- */
 @media (max-width: 1200px) {
-    .right .represent{
+    .right, .represent{
         display: none;
     }
     .car-img {
         width: 100%;
+    }
+    #loginForm {
+        margin: auto;
     }
 }
 @media (max-width: 900px) {
@@ -504,10 +511,16 @@ input:focus{
         background-color: transparent;
         backdrop-filter: blur(0);
         box-shadow: none;
+        position: relative;
+        background-color: #f5f5f5;
     }
     .navbar .links,
     .navbar .btns {
         display: none;
+    }
+    .mobile-logo {
+        display: block;
+        margin: auto;
     }
     .hamburger {
         display: flex;
@@ -526,6 +539,7 @@ input:focus{
 
     .left {
         padding: 40px;
+        margin-top: 0;
         text-align: center;
     }
 
@@ -534,31 +548,13 @@ input:focus{
         margin: 0 auto;
     }
 
+    .right, .logo_welcome, .back_to {
+        display: none;
+    }
+    .mobile-logo {
+        cursor: pointer;
+    }
     
-    .right {
-        border-top-left-radius: 0 0;
-        border-bottom-left-radius: 0 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .car-img {
-        width: 55%;
-        position: relative;
-        left: 0;
-        top: 0; 
-    }
-    .right P{
-        font-size: 2em;
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: rotate(0deg);
-        margin-bottom: 1em;
-        
-    }
 }
 @media screen and (min-width: 901px) {
     .mobile-menu {
