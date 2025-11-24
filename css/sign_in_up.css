@@ -347,11 +347,17 @@ input:focus{
 /* ---------------------- RIGHT PANEL ---------------------- */
 .right {
     flex: 1;
-    background: #967AA1;
     border-top-left-radius: 90% 100%;
     border-bottom-left-radius: 30% 100%;
     position: relative;
     user-select: none;
+}
+.blur-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(70deg, #967AA1, rgba(0, 0, 255, 0.082));
+    filter: blur(150px);
+    z-index: -1;
 }
 
 .car-img {
