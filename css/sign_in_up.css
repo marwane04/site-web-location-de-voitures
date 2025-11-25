@@ -10,195 +10,6 @@ body {
 }
 
 
-/* ---------------------- NAVBAR ---------------------- */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 25px 10%;
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    backdrop-filter: blur(7px);
-}
-
-.navbar .links a {
-    margin-right: 2em;
-    text-decoration: none;
-    color: #212832;
-    position: relative;
-    font-weight: 500;
-    position: relative;
-}
-
-.navbar .links a::after,
-.navbar .btns a.login::after,
-.mobile-menu-content a::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -2px;
-    width: 0%;
-    height: 2px;
-    background-color: #212832;
-    transition: width 0.3s ease;
-}
-.navbar .links a:hover::after,
-.navbar .btns a.login:hover::after,
-.mobile-menu-content a:hover::after
-{width: 100%;}
-.mobile-menu-content .mobile-btns a.signup:hover::after{width: 0;}
-
-.navbar .btns {
-    display: flex;
-    align-items: center;
-    gap: 2em;
-}
-
-.navbar .btns a {
-    text-decoration: none;
-    color: #212832;
-}
-
-.navbar .btns a.login {
-    font-weight: 500;
-    position: relative;
-}
-
-.navbar .btns a.signup {
-    border: 1px solid #212832;
-    padding: 6px 12px;
-    border-radius: 5px;
-    transition: all .3s ease;
-    font-weight: 500;
-}
-
-.navbar .btns a.signup:hover {
-    color: #fff;
-    background-color: #212832;
-}
-
-.navbar .btns select {
-    background-color: transparent;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.mobile-logo {
-    display: none;
-}
-
-/* Hamburger Menu Styles */
-.hamburger {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    z-index: 999;
-}
-
-.hamburger .line {
-    width: 100%;
-    height: 3px;
-    background-color: #212832;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
-}
-
-.hamburger-active .line:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
-}
-
-.hamburger-active .line:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger-active .line:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
-}
-
-/* Mobile Menu Styles */
-.mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
-    overflow: hidden;
-    transition: height 0.5s ease-in-out ;
-    z-index: 998;
-}
-
-.mobile-menu.active {
-    height: calc(100vh);
-    top: 0;
-    padding-top: 90px;
-}
-.mobile-menu.active .mobile-menu-content{display: flex;}
-
-.mobile-menu-content {
-    padding: 20px 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    display: none;
-}
-
-.mobile-menu-content a {
-    text-decoration: none;
-    color: #212832;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 10px 0;
-    border-bottom: 1px solid #f0f0f0;
-    position: relative;
-}
-
-.mobile-menu-content .mobile-btns {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.mobile-menu-content .mobile-btns a {
-    border: none;
-    text-align: center;
-    padding: 12px;
-    border-radius: 5px;
-}
-
-.mobile-menu-content .mobile-btns a.login {
-    color: #212832;
-}
-
-.mobile-menu-content .mobile-btns a.signup {
-    background-color: #212832;
-    color: #fff;
-    border: 1px solid #212832;
-    transition: all .3s ease;
-}
-.mobile-menu-content .mobile-btns a.signup:hover{background-color: transparent; color: #212832; border: 1px solid #212832;}
-
-.mobile-menu-content .lang-select {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: transparent;
-}
-/* ---------------------- NAVBAR ---------------------- */
-
-
-
 .container {
     display: flex;
     height: 100vh;
@@ -432,74 +243,6 @@ input:focus{
     to { opacity: 1; transform: translateX(0); }
 }
 
-
-/* ---------------------- FOOTER ---------------------- */
-.footer{
-    padding: 90px 0 60px;
-    background-color: #2D3142;
-    color: #fff;
-}
-.footer .follows{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-}
-.footer .follows p{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-}
-.footer .follows a{
-    text-decoration: none;
-    color: #fff;
-    margin-right: .5em;
-    font-size: 21px;
-}
-.footer .follows a i{ transition: all .3s ease;}
-.footer .follows a:hover i{
-    color: #ccc;
-}
-
-.footer .contact_us{
-    padding: 36px 0 47px;
-    margin: 36px 0;
-    border-top: 1px solid rgba(150, 150, 150, 20%);
-    border-bottom: 1px solid rgba(150, 150, 150, 20%);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.contact_us .contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    color: #CFCFCF;
-}
-.contact_us .contact .img i{
-    font-size: 22px;
-}
-.contact_us .contact .title{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.footer .rights{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    vertical-align: middle;
-    color: #CFCFCF;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-/* ---------------------- FOOTER ---------------------- */
-
-
 /* ---------------------- RESPONSIVENESS ---------------------- */
 @media (max-width: 1200px) {
     .right, .represent{
@@ -513,25 +256,6 @@ input:focus{
     }
 }
 @media (max-width: 900px) {
-    .navbar {
-        background-color: transparent;
-        backdrop-filter: blur(0);
-        box-shadow: none;
-        position: relative;
-        background-color: #f5f5f5;
-    }
-    .navbar .links,
-    .navbar .btns {
-        display: none;
-    }
-    .mobile-logo {
-        display: block;
-        margin: auto;
-    }
-    .hamburger {
-        display: flex;
-    }
-
     .container {
         flex-direction: column;
         height: auto;
@@ -557,22 +281,10 @@ input:focus{
     .right, .logo_welcome, .back_to {
         display: none;
     }
-    .mobile-logo {
-        cursor: pointer;
-    }
     
-}
-@media screen and (min-width: 901px) {
-    .mobile-menu {
-        display: none;
-    }
 }
 
 @media (max-width: 500px) {
-
-    .logo {
-        font-size: 28px;
-    }
     .right{padding-top: 70px;}
     .right p.sign_in_p{
         position: relative;
@@ -609,13 +321,9 @@ input:focus{
         margin: 0;
         padding: 0;
     }
-    .back_to a{margin-bottom: 1em;}
+    .back_to a{margin-bottom: 0;}
     .left {
         width: 100%;
-        margin-top: 0px;
-    }
-    .footer .contact_us{
-        flex-direction: column;
-        gap: 1em;
+        margin-top: 20px;
     }
 }
