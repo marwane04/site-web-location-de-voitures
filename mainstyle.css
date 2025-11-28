@@ -1,0 +1,319 @@
+@keyframes text {
+    from{
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes image {
+    from{
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes navbar{
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 10%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    animation-name: navbar;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.navbar .links a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: #212832;
+    position: relative;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar .links a::after,
+.navbar .btns a.login::after,
+.mobile-menu-content a::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #212832;
+    transition: width 0.3s ease;
+}
+.navbar .links a:hover::after,
+.navbar .btns a.login:hover::after,
+.mobile-menu-content a:hover::after
+{width: 100%;}
+.mobile-menu-content .mobile-btns a.signup:hover::after{width: 0;}
+
+.navbar .btns {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar .btns a {
+    text-decoration: none;
+    color: #212832;
+}
+
+.navbar .btns a.login {
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar .btns a.signup {
+    border: 1px solid #212832;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.navbar .btns a.signup:hover {
+    color: white;
+    background-color: #212832;
+}
+
+.navbar .btns select {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}   
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.description h1{ 
+    margin-top: 150px;
+    margin-left: 100px;
+    max-width: 800px;
+    font-size: 100px;
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+    font-weight: 700;
+    color: #2D2D2D;
+    animation-name: text;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+}
+.description p{
+    margin-left: 100px;
+    margin-top: 50px;
+    max-width: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #666666;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+}
+button{
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 20px 15px;
+    border-radius: 15px;
+    background-color: #967AA1;
+    color:white;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    animation-name: text;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+}
+button:hover{
+    background: white;
+    color: #967AA1;
+}
+.container img{
+    margin-right: 50px;
+    margin-top: 130px;
+    animation: image;
+    animation-name: image;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+}
+#srvc{
+    text-align: center;
+      font-size: 50px;
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+    font-weight: 700;
+}
+.our_services{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.service{
+    width: 15%;
+    padding: 20px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    height: 35%;
+    margin-top: 50px;
+}
+.service:hover{
+    transform: scale(1.2);
+}
+.service img{
+    display: block;
+    margin: 0 auto;
+}
+.service h3{
+    margin-top: 15px;
+    text-align: center;
+}
+.service p{
+    text-align: center;
+    margin: 10px ;
+    max-width: 200px;
+        font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #666666;
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+}
+.test{
+    height: 80vh;
+}
+.Renting{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
+.opinion{
+    width: 40%;
+    background-color: #EEF0F2;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.opinion:hover{
+    transform: scale(1.07);
+}
+.opinion p{
+     font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #666666;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    margin: 20px;
+}
+#name{
+    font-size: 17px;
+    margin: 30px;
+    font-weight: 550;
+    line-height: 1.6;
+    color: #2D2D2D;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+#quote{
+    margin-left: 5px;
+    
+}
+.dots {
+  display: flex;
+  flex-direction: row; /* vertical */
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d9d9d9; /* gris clair */
+}
+
+.dot.active {
+  background-color: #0a2a4a; /* foncé */
+}
+.contact{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; 
+  background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+.contact form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+input{
+    margin-bottom: 20px;
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid #d8b4d8; 
+      border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 2px solid #d8b4d8; 
+    border-radius: 8px;
+     outline: none;
+    font-size: 16px;
+}
+form button{
+    width: 100%;
+    margin: 10px 0px 100px 0px;
+}
