@@ -163,8 +163,8 @@ button{
     animation-fill-mode: forwards; 
 }
 button:hover{
-    background: white;
-    color: #967AA1;
+    transform: scale(1.05);
+    background-color: #6f567a;
 }
 .container img{
     margin-right: 50px;
