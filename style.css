@@ -31,7 +31,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 body{
     background-color: white;
@@ -314,6 +314,6 @@ textarea{
     font-size: 16px;
 }
 form button{
-    width: 100%;
+    width: 95%;
     margin: 10px 0px 100px 0px;
 }
