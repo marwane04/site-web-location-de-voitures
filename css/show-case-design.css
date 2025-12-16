@@ -1,0 +1,281 @@
+/* reset */
+*, *::before, *::after { box-sizing: border-box; }
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.container_nav{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 30;
+    
+}
+
+.signup{
+    padding: 5px;
+    border:  solid black 1px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+
+.signup:hover{
+    animation: signin 0.3s forwards;
+}    
+
+.navbar{
+    width: 100%;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: flex;
+    font-weight: 500;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+a:hover {
+    transition: under_line2 0.1s;
+}
+
+.links, .btns{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+.head_logo{
+    display: flex;
+    font-size: xx-large;
+    color: black;
+    font-weight: 600;
+    padding: 0  20px;
+}
+
+
+.head_logo span{
+    color: rgb(150, 122, 161);
+}
+
+#lang{
+    background-color: transparent;
+    border: 0;
+}
+
+/* -----main body----- */
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo_welcome h2{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: xxx-large;
+}
+
+
+.logo_welcome{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 2%;
+    width: 70vw;
+}
+
+.content{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+}
+
+
+
+.prpl_Bg{
+    width: 45%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(222, 219, 254);
+    border-radius: 54% 0 0 54%;
+    height: 103.35em;
+}
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 1px rgb(150, 122, 161);
+
+}
+
+
+.car_specs{
+    display: flex;
+    padding: 30px;
+    margin-top: 30px;
+    gap: 50px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.right_fade-slide-right{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(222, 219, 254), white);
+    width: 35%;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+    box-shadow: 0 0 15px 1px rgb(150, 122, 161);
+}
+
+
+button{
+    padding: 12px;
+    border-radius: 9px;
+    border: solid white 1px;
+    background-color: rgb(208, 204, 247);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+
+/* ----------le footer ----------- */
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(45, 49, 66);
+    color: white;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+    z-index: 12;
+    
+}
+
+
+
+.follows, .contact_us, .rights{
+    padding: 50px 0;
+}
+
+
+.contact_us{
+    display: flex;
+    gap: 200px;
+}
+
+
+.contact{
+    text-align: center;
+}
+
+
+
+.follows{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid rgb(65, 63, 63) 1px;
+    width: 100%;
+}
+
+
+.rights{
+    display: flex;
+    border-top: solid 1px rgb(78, 76, 76);
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* --------------les animations ------------------ */
+
+
+
+@keyframes signin{
+    100% {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }   
+}
+
+
+@keyframes  under_line{
+    0% {
+        border-bottom: solid black 1px;
+        width: 0;
+    }
+    25% {
+        border-bottom: solid black 1px;
+        width: 25%;
+    }
+    75% {
+        border-bottom: solid black 1px;
+        width: 75%;
+    }
+    100% {
+        border-bottom: solid black 1px;
+        width: 100%;
+    }
+    
+}
+
+
+@keyframes under_line2 {
+    from { width: 0; }
+    to { 
+        background-color: black;
+        width: 100%; }
+}
