@@ -17,11 +17,13 @@ html, body{
     display: flex;
     justify-items: center;
     align-items: center;
+    align-self: center;
     padding: 40px 0;
     background-color: transparent;
     backdrop-filter: blur(10px);
     position: fixed;
     z-index: 30;
+    margin: 0;
     
 }
 
@@ -46,16 +48,26 @@ html, body{
 }
 
 .navbar a{
-    text-decoration: none;
-    display: flex;
-    font-weight: 500;
-    color: black;
-    font-size: 17px;
-    cursor: pointer;
+position: relative;
+text-decoration: none;
+display: inline-block;
+font-weight: 500;
+color: black;
+font-size: 17px;
+cursor: pointer;
 }
-
-a:hover {
-    transition: under_line2 0.1s;
+.navbar a::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -2px;
+width: 0;
+height: 2px;
+background-color: #212832;
+transition: width 0.3s ease;
+}
+.navbar a:hover::after {
+width: 100%;
 }
 
 .links, .btns{
@@ -71,7 +83,7 @@ a:hover {
     font-size: xx-large;
     color: black;
     font-weight: 600;
-    padding: 0  20px;
+    /* padding: 0  20px; */
 }
 
 
@@ -123,9 +135,20 @@ a:hover {
     position: absolute;
     right: 0;
     z-index: 1;
-    background-color: rgb(222, 219, 254);
-    border-radius: 54% 0 0 54%;
+    background-color: rgb(187, 184, 225);
+    border-radius: 54% 25% 25% 54%;
     height: 103.35em;
+}
+
+.white_Bg{
+    width:100%;
+    position: absolute;
+    right: 0;
+    z-index: 8;
+    background-color: white;
+    height: 103.35em;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
 }
 
 img{
@@ -206,7 +229,7 @@ input{
 
 
 .follows, .contact_us, .rights{
-    padding: 50px 0;
+    padding: 50px 50px;
 }
 
 
@@ -278,4 +301,65 @@ input{
     to { 
         background-color: black;
         width: 100%; }
+}
+
+
+/* -------------responsive --------------- */
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        gap: 10px;
+    }
+
+    /* .prpl_Bg{
+        width: 70%;
+    } */
+
+    .container_nav{
+        width: 100%;
+
+    }
+
+    .navbar{
+        gap: 5px;
+    }
+
+    .right_fade-slide-right{
+        width: 100%;
+        height: auto;
+    }
+
+    .logo_welcome{
+        /* max-width: 768px; */
+        width: 100%;
+        align-self: self-start;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .container_nav{
+        font-size: x-small;
+        gap: 10px;
+    }
+
+    .head_logo{
+        display: none;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .contact_us{
+        display: flex;
+        flex-direction: column;
+    }
 }
