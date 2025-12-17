@@ -40,7 +40,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "transparent": "assets/images/cars/peugeot-208.png",
@@ -138,7 +138,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/900/8519575e7f76c4bfe6a640.webp",
@@ -170,7 +170,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/700/79179605c5ba659608e640.webp",
@@ -202,7 +202,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/400/761468cefd7d1f2a023640.webp",
@@ -234,7 +234,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/300/755351fbe160df778dd640.webp",
@@ -378,7 +378,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/800/899845c7c23fd574ff1640.webp",
@@ -506,7 +506,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/400/787403674753389a243640.webp",
@@ -538,7 +538,7 @@
     "bodyType": "SUV (кроссовер)",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/900/76798732dd93d8c167e640.webp",
@@ -602,7 +602,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/600/700/6457813b4654a47d1ce640.webp",
@@ -682,7 +682,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/100/9221785c75fa48492c4640.webp",
@@ -906,7 +906,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/700/937741b86b59c382051640.webp",
@@ -1002,7 +1002,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/700/8917788a3760a4363f5640.webp",
@@ -1226,7 +1226,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 2,
     "numberOfSeats": null,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/500/200/56926493df0b75a5cb9640.webp",
@@ -1242,7 +1242,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/600/9366705fa8756e0b655640.webp",
@@ -1322,7 +1322,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/700/886748d942bf6e5f2c6640.webp",
@@ -1354,7 +1354,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/600/8476009369749eda353640.webp",
@@ -1418,7 +1418,7 @@
     "bodyType": "Хетчбек",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/600/900/6439757698f49892e43640.webp",
@@ -1434,7 +1434,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 7,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/000/906048a1a842284d8bd640.webp",
@@ -1514,7 +1514,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/300/81637899081bf282ed8640.webp",
@@ -1562,7 +1562,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/7662193545486837efe640.webp",
@@ -1610,7 +1610,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/300/70733383de0598bfc22640.webp",
@@ -1690,7 +1690,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/600/94162734b88e777965640.webp",
@@ -1722,7 +1722,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 7,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/300/93633865ba10359c8a1640.webp",
@@ -1754,7 +1754,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 2,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/200/9322310eeaca62b692d640.webp",
@@ -1770,7 +1770,7 @@
     "bodyType": "Minibus",
     "numberOfDoors": 5,
     "numberOfSeats": 6,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/900/930904be944f134136a640.webp",
@@ -1834,7 +1834,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 3,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/400/93744742820e51a9ca3640.webp",
@@ -1850,7 +1850,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 2,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/700/877708f0ff16e3a1af7640.webp",
@@ -1882,7 +1882,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/400/854421184f32aed88d8640.webp",
@@ -1930,7 +1930,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/400/888464421dad22bc556640.webp",
@@ -1978,7 +1978,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/900/808992bda5e4f1bca89640.webp",
@@ -1994,7 +1994,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/500/80859984b7847666d82640.webp",
@@ -2170,7 +2170,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/600/400/633414a6d689739fa6c640.webp",
@@ -2186,7 +2186,7 @@
     "bodyType": "Pickup",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/600/300/614359bc7fe4dbf0345640.webp",
@@ -2250,7 +2250,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/400/92544829a027388e2a2640.webp",
@@ -2282,7 +2282,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/800/87182812467e34e14a8640.webp",
@@ -2298,7 +2298,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/751201244780222a830640.webp",
@@ -2314,7 +2314,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 2,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/300/7093874d4b6e123c848640.webp",
@@ -2362,7 +2362,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/300/931300e8c675eaca1eb640.webp",
@@ -2378,7 +2378,7 @@
     "bodyType": "Wagon",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/200/918221d18237542551b640.webp",
@@ -2426,7 +2426,7 @@
     "bodyType": "Window Van",
     "numberOfDoors": 5,
     "numberOfSeats": 7,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/800/78088029c33e0f18ea7640.webp",
@@ -2442,7 +2442,7 @@
     "bodyType": "Window Van",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/78029619912df40ad4f640.webp",
@@ -2458,7 +2458,7 @@
     "bodyType": "Minibus",
     "numberOfDoors": 5,
     "numberOfSeats": 6,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/7632037464d7db02a4e640.webp",
@@ -2506,7 +2506,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 6,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/000/719035895ba28cb7b01640.webp",
@@ -2618,7 +2618,7 @@
     "bodyType": "Window Van",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/300/770350cac619f35303e640.webp",
@@ -2634,7 +2634,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 2,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/77024504a8dc746fc62640.webp",
@@ -2650,7 +2650,7 @@
     "bodyType": "Minibus",
     "numberOfDoors": 5,
     "numberOfSeats": 6,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/200/75926868965473c7fe640.webp",
@@ -2746,7 +2746,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 6,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/800/90587015864d88461f7640.webp",
@@ -2762,7 +2762,7 @@
     "bodyType": "Window Van",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/500/9035404dba6f8a40fd5640.webp",
@@ -2842,7 +2842,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/400/8554970d3f86721d2b4640.webp",
@@ -3194,7 +3194,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/600/9176025b547e664e209640.webp",
@@ -3290,7 +3290,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 4,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/300/879347cc5e30336d9b5640.webp",
@@ -3370,7 +3370,7 @@
     "bodyType": "Window Van",
     "numberOfDoors": 5,
     "numberOfSeats": 7,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/900/825922997fcb4267de1640.webp",
@@ -3418,7 +3418,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/900/8219436c08b73d6bf58640.webp",
@@ -3738,7 +3738,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/000/89408037837aabd171e640.webp",
@@ -3802,7 +3802,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/400/858482e08a66708f5d0640.webp",
@@ -3850,7 +3850,7 @@
     "bodyType": "Van",
     "numberOfDoors": 4,
     "numberOfSeats": 3,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/600/8366401493a755f82d8640.webp",
@@ -3882,7 +3882,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/900/797990a74d3cc8ba6fb640.webp",
@@ -3898,7 +3898,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/000/785045055d4bc256b7a640.webp",
@@ -3946,7 +3946,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/600/400/682483cc94093cc465d640.webp",
@@ -4026,7 +4026,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 7,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/200/94229964e45ae97564e640.webp",
@@ -4042,7 +4042,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/200/9232514c71991010181640.webp",
@@ -4138,7 +4138,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/100/833192a5ff2ad2b4a81640.webp",
@@ -4282,7 +4282,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/900/868927a2f7f313c1d5a640.webp",
@@ -4442,7 +4442,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/700/9127595d850eb732ec4640.webp",
@@ -4474,7 +4474,7 @@
     "bodyType": "Sedan",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/900/800/907896a9e827282ed56640.webp",
@@ -4570,7 +4570,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/600/85363606db1897aff8f640.webp",
@@ -4634,7 +4634,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/400/871458b17563ac399d1640.webp",
@@ -4714,7 +4714,7 @@
     "bodyType": "Hatchback",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/900/717996a09c3e62a1b57640.webp",
@@ -4746,7 +4746,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/700/000/758062f57b523a55afc640.webp",
@@ -4890,7 +4890,7 @@
     "bodyType": "SUV",
     "numberOfDoors": 5,
     "numberOfSeats": 5,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/100/869168e7c6f5702fd6d640.webp",
@@ -5082,7 +5082,7 @@
     "bodyType": "MPV",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/500/88550635030410cec45640.webp",
@@ -5274,7 +5274,7 @@
     "bodyType": "Wagon",
     "numberOfDoors": 5,
     "numberOfSeats": 4,
-    "tankCapacity": "-",
+    "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
       "side": "https://flib.samar.pl/800/800/87483310f1e88e5a567640.webp",
