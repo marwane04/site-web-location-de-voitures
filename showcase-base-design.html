@@ -46,7 +46,11 @@
                 <P style="color: rgb(148, 148, 9);">GT3 RS</P>
                 <p>Track ready. Street legal.</p>
             </div>
-            <img src="assets/images/cars/Porsche 911 GT3 RS 1.webp">
+            <div class="image">
+                <div id="left"><</div>
+                <img src="assets/images/cars/Porsche 911 GT3 RS 1.webp">
+                <div id="right">></div>
+            </div>
             <div class="car_specs">
                 <div class="spec-item">
                     <i class="fa-solid fa-gauge-high fa-3x"></i>
@@ -78,8 +82,8 @@
                     </div>
                     <div class="calc-row">
                         <label>Duration (Days)</label>
-                        <input type="number" id="days" min="1" value="3">
-                        <span class="price-per-day">Rate: 4500 DH / day</span>
+                        <input type="number" id="days" min="1" placeholder="0">
+                        <span class="price-per-day">Rate: <div id="tarif">4500</div> DH / day</span>
                     </div>
                     <div class="options-group">
                         <label class="option-item">
@@ -92,8 +96,8 @@
                         </label>
                     </div>
                     <div class="total-price-box">
-                        <p>Estimated Total</p>
-                        <h3 id="totalDisplay">13 500 DH</h3>
+                        <p>Estimated Total :</p>
+                        <h3 id="totalDisplay">13500</h3>
                     </div>
                     <button type="submit" class="login-btn">Confirm Booking</button>
                 </form>
@@ -101,6 +105,8 @@
         </div>
     </div>
 </div>
+
+<!-- ------Footer------- -->
 
 <div class="footer">
     <div class="follows">
@@ -132,4 +138,7 @@
 </div>
 
 </body>
+
+
+<script src="/js/showcase-base-design.js"></script>
 </html>

@@ -13,7 +13,7 @@ html, body{
 }
 
 .container_nav{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -54,9 +54,8 @@ display: inline-block;
 font-weight: 500;
 color: black;
 font-size: 17px;
-cursor: pointer;
 }
-.navbar a::after {
+.navbar a:not(.signup)::after{
 content: "";
 position: absolute;
 left: 0;
@@ -66,7 +65,7 @@ height: 2px;
 background-color: #212832;
 transition: width 0.3s ease;
 }
-.navbar a:hover::after {
+.navbar a:not(.signup):hover::after {
 width: 100%;
 }
 
@@ -83,7 +82,7 @@ width: 100%;
     font-size: xx-large;
     color: black;
     font-weight: 600;
-    /* padding: 0  20px; */
+    animation: anim_360 2s;
 }
 
 
@@ -137,7 +136,7 @@ width: 100%;
     z-index: 1;
     background-color: rgb(187, 184, 225);
     border-radius: 54% 25% 25% 54%;
-    height: 103.35em;
+    height: 119.35em;
 }
 
 .white_Bg{
@@ -146,7 +145,7 @@ width: 100%;
     right: 0;
     z-index: 8;
     background-color: white;
-    height: 103.35em;
+    height: 119.35em;
     background-color: transparent;
     backdrop-filter: blur(100px);
 }
@@ -186,7 +185,38 @@ img{
 }
 
 
+
+.calc-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.calc-row, .right_fade-slide-right h2, .options-group, .total-price-box{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 0 2ch 0.5ch rgba(156, 135, 193, 0.857);
+}
+
+.right_fade-slide-right h2{
+    margin-bottom: 50px;
+    background-color: transparent;
+    align-items: center;
+    box-shadow: none;
+}
+
 button{
+    width: 50%;
+    align-self: center;
     padding: 12px;
     border-radius: 9px;
     border: solid white 1px;
@@ -194,6 +224,14 @@ button{
     cursor: pointer;
     color: rgb(0, 0, 0);
     font-size: larger;
+}
+
+button:hover{
+    
+    animation: get_bigger 0.8s forwards;
+    border: #0a0b0c solid 1px;
+
+
 }
 
 form{
@@ -262,6 +300,52 @@ input{
     justify-content: center;
 }
 
+.price-per-day{
+    display: flex;
+    gap: 5px;
+}
+
+/* ---------scroll images----------- */
+
+.image{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+#left, #right{
+    font-size: xx-large;
+    align-self: center;
+    cursor: pointer;
+    user-select: none;
+    background-color:rgba(106, 106, 106, 0.517);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#left{
+    position: absolute;
+    left: 22%;
+    top: 50%;
+   
+}
+#right{
+    position: absolute;
+    right: 22%;
+    top: 50%;
+   
+}
+
+#left:hover, #right:hover{
+    background-color: rgba(150, 150, 150, 0.767);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
 /* --------------les animations ------------------ */
 
@@ -275,32 +359,18 @@ input{
 }
 
 
-@keyframes  under_line{
-    0% {
-        border-bottom: solid black 1px;
-        width: 0;
-    }
-    25% {
-        border-bottom: solid black 1px;
-        width: 25%;
-    }
-    75% {
-        border-bottom: solid black 1px;
-        width: 75%;
-    }
+@keyframes  get_bigger{
     100% {
-        border-bottom: solid black 1px;
-        width: 100%;
+        transform: scale(1.2);
     }
+    
     
 }
 
 
-@keyframes under_line2 {
-    from { width: 0; }
-    to { 
-        background-color: black;
-        width: 100%; }
+@keyframes anim_360 {
+
+    100%{transform: rotate(360deg);}
 }
 
 
@@ -314,9 +384,6 @@ input{
         gap: 10px;
     }
 
-    /* .prpl_Bg{
-        width: 70%;
-    } */
 
     .container_nav{
         width: 100%;
@@ -361,5 +428,20 @@ input{
     .contact_us{
         display: flex;
         flex-direction: column;
+    }
+    #left{
+        left: 1%;
+    }
+    #right{
+        right: 1%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #left{
+        left: 6%;
+    }
+    #right{
+        right: 6%;
     }
 }
