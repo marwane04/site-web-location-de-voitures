@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarbyMy</title>
+    <link rel="stylesheet" href="css/search-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<script src="js/search-page.js"></script>
+<!-- NAVBAR -->
+<div class="container_nav">
+    <nav class="navbar">
+        <div class="links">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="btns">
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
+            <select name="lang" id="lang">
+                <option value="eng">En</option>
+                <option value="fr">Fr</option>
+            </select>
+        </div>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+
+            <div class="mobile-btns">
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+            </div>
+
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+</div>
+<!-- NAVBAR -->
+
+<div class="container">
+    <div class="sidebar">
+        <div class="filter-header">
+            <h2>Filters</h2>
+            <button class="clear-filters">Clear all</button>
+        </div>
+
+        <div class="filter-section">
+            <div class="filter-title">
+                <h3>Brand</h3>
+                <i class="uil uil-angle-up"></i>
+            </div>
+            <div class="filter-options">
+                <label class="checkbox-container">BMW
+                    <input type="checkbox" name="brand" value="BMW">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Volkswagen
+                    <input type="checkbox" name="brand" value="Volkswagen">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Peugeot
+                    <input type="checkbox" name="brand" value="Peugeot">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Porsche
+                    <input type="checkbox" name="brand" value="Porsche">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Price Range (DH/day)</h3>
+            <div class="price-range">
+                <input type="number" placeholder="Min" class="price-input" min="0">
+                -
+                <input type="number" placeholder="Max" class="price-input" min="0">
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <div class="filter-title">
+                <h3>Body Type</h3>
+                <i class="uil uil-angle-up"></i>
+            </div>
+            <div class="filter-options">
+                <label class="checkbox-container">Sedan
+                    <input type="checkbox" name="bodyType" value="Sedan">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">SUV
+                    <input type="checkbox" name="bodyType" value="SUV">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Hatchback
+                    <input type="checkbox" name="bodyType" value="Hatchback">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Coupe
+                    <input type="checkbox" name="bodyType" value="Coupe">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Seats</h3>
+            <div class="filter-options">
+                <label class="checkbox-container">2 Seats
+                    <input type="checkbox" name="seats" value="2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">4 Seats
+                    <input type="checkbox" name="seats" value="4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">5 Seats
+                    <input type="checkbox" name="seats" value="5">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">7+ Seats
+                    <input type="checkbox" name="seats" value="7">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Doors</h3>
+            <div class="filter-options">
+                <label class="checkbox-container">2 Doors
+                    <input type="checkbox" name="doors" value="2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">4 Doors
+                    <input type="checkbox" name="doors" value="4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">5 Doors
+                    <input type="checkbox" name="doors" value="5">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <select class="search-dropdown" name="sort">
+                <option value="" selected>Sort by</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+            </select>
+            <div class="separator"></div>
+            <input type="text" placeholder="Search for your perfect car..."/>
+            <button class="search-btn">Search</button>
+        </div>
+
+        <div class="cars-grid">
+            <!-- Car Card 1: BMW 3 -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/800/100/8971092868c4c665cda2560.webp" alt="BMW 3" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">BMW 3</h3>
+                        <p class="car-price">850DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>5 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>59 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>4 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+
+            <!-- Car Card 2: Volkswagen Tiguan -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/900/300/921399ec65c2c75b5752560.webp" alt="Volkswagen Tiguan" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">Volkswagen Tiguan</h3>
+                        <p class="car-price">750DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>5 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>58 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>5 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+
+            <!-- Car Card 3: Peugeot 208 -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/800/700/8337347e189beeac6392560.webp" alt="Peugeot 208" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">Peugeot 208</h3>
+                        <p class="car-price">500DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>5 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>50 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>5 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+
+            <!-- Car Card 4: Porsche 911 -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/900/700/922756dc09c4ee328722560.webp" alt="Porsche 911" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">Porsche 911</h3>
+                        <p class="car-price">2500DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>2 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>63 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>2 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+
+            <!-- Car Card 5: Audi Q7 -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/900/800/931835ec8c19adf35352560.webp" alt="Audi Q7" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">Audi Q7</h3>
+                        <p class="car-price">1500DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>7 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>85 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>5 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+
+            <!-- Car Card 6: Audi A3 -->
+            <div class="car-card">
+                <div class="card-image-container">
+                    <img src="https://flib.samar.pl/900/800/9048757bd8dda5f87f72560.webp" alt="Audi A3" class="car-image">
+                    <button class="wishlist-btn"><i class="uil uil-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <div class="card-header-info">
+                        <h3 class="car-model">Audi A3</h3>
+                        <p class="car-price">900DH<span>/day</span></p>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <i class="uil uil-users-alt"></i>
+                            <span>5 Seats</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-pump"></i>
+                            <span>50 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="uil uil-car-sideview"></i>
+                            <span>4 Doors</span>
+                        </div>
+                    </div>
+                    <button class="rent-now-btn">Rent Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
