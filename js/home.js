@@ -1,3 +1,5 @@
+
+import {getPopularCars} from "./carsService.js";
 ///////////////////////////carousel///////////////////////////
 let nextButton = document.getElementById('next');
 let prevButton = document.getElementById('prev');
@@ -5,6 +7,9 @@ let carousel = document.querySelector('.carousel');
 let listHTML = document.querySelector('.carousel .list');
 let seeMoreButtons = document.querySelectorAll('.seeMore');
 let backButton = document.getElementById('back');
+
+//testing getPopulatCars function
+console.log(await getPopularCars())
 
 nextButton.onclick = function(){
     showSlider('next');

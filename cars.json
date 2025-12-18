@@ -1,0 +1,5366 @@
+[
+  {
+    "id": 1,
+    "modelName": "BMW 3",
+    "brand": "BMW",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "59 L",
+    "dailyPrice": 0,
+    "images": {
+      "transparent": "assets/cars/bwm.png",
+      "side": "https://flib.samar.pl/800/000/897082cbd4e3e5e0728640.webp",
+      "front": "https://flib.samar.pl/800/100/8971069688e2f11195b640.webp",
+      "rear": "https://flib.samar.pl/800/000/897090304b539295778640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8971092868c4c665cda2560.webp"
+    }
+  },
+  {
+    "id": 2,
+    "modelName": "Volkswagen Tiguan",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "transparent": "assets/images/cars/volkswagen-tiguan.png",
+      "side": "https://flib.samar.pl/900/300/921339a9c299a5a5813640.webp",
+      "front": "https://flib.samar.pl/900/300/9213963f114e88f697d640.webp",
+      "rear": "https://flib.samar.pl/900/300/9213470b17d271b448e640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/921399ec65c2c75b5752560.webp"
+    }
+  },
+  {
+    "id": 3,
+    "modelName": "Peugeot 208",
+    "brand": "Peugeot",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "transparent": "assets/images/cars/peugeot-208.png",
+      "side": "https://flib.samar.pl/800/700/83370753b772e1030bf640.webp",
+      "front": "https://flib.samar.pl/800/700/833731ebdc156ff3e4b640.webp",
+      "rear": "https://flib.samar.pl/800/700/83371556caae4538a3a640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/8337347e189beeac6392560.webp"
+    }
+  },
+  {
+    "id": 4,
+    "modelName": "Porsche 911",
+    "brand": "porsche",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "63 L",
+    "dailyPrice": 0,
+    "images": {
+      "transparent": "assets/images/cars/Porsche-911.png",
+      "side": "https://flib.samar.pl/900/700/922729943d0088b67bf640.webp",
+      "front": "https://flib.samar.pl/900/700/9227534fb414225fc8e640.webp",
+      "rear": "https://flib.samar.pl/900/700/922737749ac7d58d321640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/922756dc09c4ee328722560.webp"
+    }
+  },
+  {
+    "id": 5,
+    "modelName": "Audi Q7",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "85 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/931808e283111204d02640.webp",
+      "front": "https://flib.samar.pl/900/800/9318323c9aefafe4137640.webp",
+      "rear": "https://flib.samar.pl/900/800/93181699adde20897d3640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/931835ec8c19adf35352560.webp"
+    }
+  },
+  {
+    "id": 6,
+    "modelName": "Audi A3",
+    "brand": "Audi",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/9048480d3b2920dd425640.webp",
+      "front": "https://flib.samar.pl/900/800/90487205393be0a0b39640.webp",
+      "rear": "https://flib.samar.pl/900/800/9048561bb157430d7e1640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/9048757bd8dda5f87f72560.webp"
+    }
+  },
+  {
+    "id": 7,
+    "modelName": "Audi A6",
+    "brand": "Audi",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "63 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/8797371622e99893a85640.webp",
+      "front": "https://flib.samar.pl/800/700/879761e2f5fd4be5d0d640.webp",
+      "rear": "https://flib.samar.pl/800/700/879745f99258ae5e6c7640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/87976431f748843a9ad2560.webp"
+    }
+  },
+  {
+    "id": 8,
+    "modelName": "Audi A7",
+    "brand": "Audi",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "73 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/876679eaad3bc8abf7e640.webp",
+      "front": "https://flib.samar.pl/800/700/8767036cedd0e6c2b77640.webp",
+      "rear": "https://flib.samar.pl/800/600/876687d399b5b1ec0cb640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/876706f1da627ab720a2560.webp"
+    }
+  },
+  {
+    "id": 9,
+    "modelName": "Audi Q8 e-tron",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/8519575e7f76c4bfe6a640.webp",
+      "front": "https://flib.samar.pl/800/900/851982f229a55d67884640.webp",
+      "rear": "https://flib.samar.pl/800/900/851965acaa2f8fcc43e640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/8519852924d5febfac72560.webp"
+    }
+  },
+  {
+    "id": 10,
+    "modelName": "Audi A8",
+    "brand": "Audi",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/80403561a4cb1491269640.webp",
+      "front": "https://flib.samar.pl/800/000/804059715d5ca619bf1640.webp",
+      "rear": "https://flib.samar.pl/800/000/80404308953c169604c640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/8040626276301c2e4962560.webp"
+    }
+  },
+  {
+    "id": 11,
+    "modelName": "Audi e-tron",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/79179605c5ba659608e640.webp",
+      "front": "https://flib.samar.pl/700/800/7918207f1cd16c72f4a640.webp",
+      "rear": "https://flib.samar.pl/700/800/79180430187191a927c640.webp",
+      "diagonal": "https://flib.samar.pl/700/800/79182391a8a643499742560.webp"
+    }
+  },
+  {
+    "id": 12,
+    "modelName": "Audi R8",
+    "brand": "Audi",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/7649545693ac9a3ad13640.webp",
+      "front": "https://flib.samar.pl/700/900/764978b2cd806dfddfa640.webp",
+      "rear": "https://flib.samar.pl/700/900/764962ac74e8fe4870c640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/764981cfd87f30b7e942560.webp"
+    }
+  },
+  {
+    "id": 13,
+    "modelName": "Audi Q4 e-tron",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/400/761468cefd7d1f2a023640.webp",
+      "front": "https://flib.samar.pl/700/400/761492d733b03d059db640.webp",
+      "rear": "https://flib.samar.pl/700/400/76147666376ba030d35640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/761495d905427ebbc792560.webp"
+    }
+  },
+  {
+    "id": 14,
+    "modelName": "Audi Q5",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/500/7575110613431ea180d640.webp",
+      "front": "https://flib.samar.pl/700/500/757535579f43f6dc8b6640.webp",
+      "rear": "https://flib.samar.pl/700/500/757519b69f5acb4c4af640.webp",
+      "diagonal": "https://flib.samar.pl/700/500/75753899f5fde242c0a2560.webp"
+    }
+  },
+  {
+    "id": 15,
+    "modelName": "Audi e-tron GT",
+    "brand": "Audi",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/755351fbe160df778dd640.webp",
+      "front": "https://flib.samar.pl/700/300/755375ca38f5ec3af8f640.webp",
+      "rear": "https://flib.samar.pl/700/300/755359f95f6bf459280640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/755378be6750160e0b32560.webp"
+    }
+  },
+  {
+    "id": 16,
+    "modelName": "Audi Q2",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/400/7244423b7a1adfb886e640.webp",
+      "front": "https://flib.samar.pl/700/400/7244667e7adb0e9ee90640.webp",
+      "rear": "https://flib.samar.pl/700/400/724450fcec9c9e9f419640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/724469515d592dfe6a32560.webp"
+    }
+  },
+  {
+    "id": 17,
+    "modelName": "Audi A5",
+    "brand": "Audi",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/71976558526c8816eca640.webp",
+      "front": "https://flib.samar.pl/700/700/719789eb3a43d46e136640.webp",
+      "rear": "https://flib.samar.pl/700/700/719773dc15cc6a35e0b640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/719792239f3af5c7c0b2560.webp"
+    }
+  },
+  {
+    "id": 18,
+    "modelName": "Audi Q3",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/7040990df45797c6c07640.webp",
+      "front": "https://flib.samar.pl/700/100/70412413a5fee07827c640.webp",
+      "rear": "https://flib.samar.pl/700/100/7041075adf225430cec640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7041270b90adb5d46fa2560.webp"
+    }
+  },
+  {
+    "id": 19,
+    "modelName": "Audi A4",
+    "brand": "Audi",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/68545366ab68a4e70b0640.webp",
+      "front": "https://flib.samar.pl/600/400/68547790ceda10102cb640.webp",
+      "rear": "https://flib.samar.pl/600/400/6854612bdaadc726d5c640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/68548017715c849bba72560.webp"
+    }
+  },
+  {
+    "id": 20,
+    "modelName": "Audi Q8",
+    "brand": "Audi",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "85 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/673441d4b226e73c4fe640.webp",
+      "front": "https://flib.samar.pl/600/400/6734651eea3ad5e7b84640.webp",
+      "rear": "https://flib.samar.pl/600/400/673449aa3313a215878640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/67346854ce24c13605b2560.webp"
+    }
+  },
+  {
+    "id": 21,
+    "modelName": "Audi A6 Allroad",
+    "brand": "Audi",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "73 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/500/6405787b1a2c28a2d1c640.webp",
+      "front": "https://flib.samar.pl/600/600/6406020595b0cf2b264640.webp",
+      "rear": "https://flib.samar.pl/600/500/640586e9adeae4269ac640.webp",
+      "diagonal": "https://flib.samar.pl/600/600/6406058014057e12e5f2560.webp"
+    }
+  },
+  {
+    "id": 22,
+    "modelName": "Audi A4 Allroad",
+    "brand": "Audi",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/6319258a3a5f625d344640.webp",
+      "front": "https://flib.samar.pl/600/900/631949d5a8c90137d47640.webp",
+      "rear": "https://flib.samar.pl/600/900/631933a8211db1d762d640.webp",
+      "diagonal": "https://flib.samar.pl/600/900/63195292365e1f046322560.webp"
+    }
+  },
+  {
+    "id": 23,
+    "modelName": "Audi A1",
+    "brand": "Audi",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/400/597434c6a2d19a75402640.webp",
+      "front": "https://flib.samar.pl/500/400/597458a64a64ae589b0640.webp",
+      "rear": "https://flib.samar.pl/500/400/597442dd0b4c3949440640.webp",
+      "diagonal": "https://flib.samar.pl/500/400/5974618999e66200e142560.webp"
+    }
+  },
+  {
+    "id": 24,
+    "modelName": "BMW 4",
+    "brand": "BMW",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/899845c7c23fd574ff1640.webp",
+      "front": "https://flib.samar.pl/800/800/899869bfdcf740237cd640.webp",
+      "rear": "https://flib.samar.pl/800/800/899853af693f523fbab640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/899872d5a047cb7db3a2560.webp"
+    }
+  },
+  {
+    "id": 25,
+    "modelName": "BMW 5",
+    "brand": "BMW",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/89764669fc520856741640.webp",
+      "front": "https://flib.samar.pl/800/600/8976701b5385c6624ed640.webp",
+      "rear": "https://flib.samar.pl/800/600/89765498454e59fba28640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/897673ac75ad49cafd22560.webp"
+    }
+  },
+  {
+    "id": 26,
+    "modelName": "BMW 6",
+    "brand": "BMW",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/838697acc5fbcb70936640.webp",
+      "front": "https://flib.samar.pl/800/700/838721d0be6a5a4e3d6640.webp",
+      "rear": "https://flib.samar.pl/800/700/83870555361e5cec615640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/83872453a95f43841362560.webp"
+    }
+  },
+  {
+    "id": 27,
+    "modelName": "BMW X7",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 6,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/8379823a8d3899c8e55640.webp",
+      "front": "https://flib.samar.pl/800/000/8380067dec2c3685041640.webp",
+      "rear": "https://flib.samar.pl/800/900/8379906da2462ba6a6c640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/83800952abac555f3762560.webp"
+    }
+  },
+  {
+    "id": 28,
+    "modelName": "BMW 7",
+    "brand": "BMW",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/8373070f9cba9120424640.webp",
+      "front": "https://flib.samar.pl/800/300/837331d63c7e8fac917640.webp",
+      "rear": "https://flib.samar.pl/800/300/837315b19f32d02b5a2640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/837334a747a08cc98492560.webp"
+    }
+  },
+  {
+    "id": 29,
+    "modelName": "BMW X1",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "47 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/832594140e45be9c310640.webp",
+      "front": "https://flib.samar.pl/800/600/8326185859cbcb456f8640.webp",
+      "rear": "https://flib.samar.pl/800/600/832602894b0d12d9cc3640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/832621c6c81850fca542560.webp"
+    }
+  },
+  {
+    "id": 30,
+    "modelName": "BMW 2",
+    "brand": "BMW",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "52 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/81316570cd5266bdf1c640.webp",
+      "front": "https://flib.samar.pl/800/100/8131899644dd506e39d640.webp",
+      "rear": "https://flib.samar.pl/800/100/813173c4d190bc658c6640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8131928baeac4bfb0c22560.webp"
+    }
+  },
+  {
+    "id": 31,
+    "modelName": "BMW 2 Active Tourer",
+    "brand": "BMW",
+    "bodyType": "MPV (минивэн)",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "47 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/8075849576d95712b5b640.webp",
+      "front": "https://flib.samar.pl/800/600/80760885f8986c1a2e7640.webp",
+      "rear": "https://flib.samar.pl/800/500/80759220f95fc160fb9640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/8076118ab54c80a16682560.webp"
+    }
+  },
+  {
+    "id": 32,
+    "modelName": "BMW iX",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/400/787403674753389a243640.webp",
+      "front": "https://flib.samar.pl/700/400/7874271a9ed9198725d640.webp",
+      "rear": "https://flib.samar.pl/700/400/7874111d0e8c278f28c640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/787430f7c4de7f958aa2560.webp"
+    }
+  },
+  {
+    "id": 33,
+    "modelName": "BMW X4",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/500/786578ee497dcdf4ac3640.webp",
+      "front": "https://flib.samar.pl/700/600/786602d1efc308de7ea640.webp",
+      "rear": "https://flib.samar.pl/700/500/7865861d8ae0aa69b65640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/7866058fe70dd386f0f2560.webp"
+    }
+  },
+  {
+    "id": 34,
+    "modelName": "BMW X3",
+    "brand": "BMW",
+    "bodyType": "SUV (кроссовер)",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/76798732dd93d8c167e640.webp",
+      "front": "https://flib.samar.pl/700/000/76801181c8c44a2aba0640.webp",
+      "rear": "https://flib.samar.pl/700/900/767995e2999709a13f3640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/768014986ebfb0359842560.webp"
+    }
+  },
+  {
+    "id": 35,
+    "modelName": "BMW X2",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "61 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/681236ef276d9fbc39d640.webp",
+      "front": "https://flib.samar.pl/600/200/681260d0d59ff32a842640.webp",
+      "rear": "https://flib.samar.pl/600/200/6812440bb5e4a38b475640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/68126380da157f587d32560.webp"
+    }
+  },
+  {
+    "id": 36,
+    "modelName": "BMW 8",
+    "brand": "BMW",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 4,
+    "tankCapacity": "68 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/67337049aaa617da75d640.webp",
+      "front": "https://flib.samar.pl/600/300/6733946c5ee28862d84640.webp",
+      "rear": "https://flib.samar.pl/600/300/673378bd492dd81fffb640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/67339709c3da9a098b12560.webp"
+    }
+  },
+  {
+    "id": 37,
+    "modelName": "BMW X6",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "83 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/6487736a7998ac9d89d640.webp",
+      "front": "https://flib.samar.pl/600/700/648797f9e6a7681daa3640.webp",
+      "rear": "https://flib.samar.pl/600/700/648781aabdf30f506f7640.webp",
+      "diagonal": "https://flib.samar.pl/600/800/648800595ccb08476222560.webp"
+    }
+  },
+  {
+    "id": 38,
+    "modelName": "BMW i3",
+    "brand": "BMW",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/6457813b4654a47d1ce640.webp",
+      "front": "https://flib.samar.pl/600/800/645805c547a03d3a0ea640.webp",
+      "rear": "https://flib.samar.pl/600/700/6457896ab4b7090a4bd640.webp",
+      "diagonal": "https://flib.samar.pl/600/800/64580876fe1a6a0b2a32560.webp"
+    }
+  },
+  {
+    "id": 39,
+    "modelName": "BMW 1",
+    "brand": "BMW",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/646303a402a9d068a6d640.webp",
+      "front": "https://flib.samar.pl/600/300/646327fa43ee11cd21f640.webp",
+      "rear": "https://flib.samar.pl/600/300/646311c38017e5e2bae640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/6463304d44bae64d59d2560.webp"
+    }
+  },
+  {
+    "id": 40,
+    "modelName": "BMW X5",
+    "brand": "BMW",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "83 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/644201957e7e9a7a192640.webp",
+      "front": "https://flib.samar.pl/600/200/6442254a0378a15eb00640.webp",
+      "rear": "https://flib.samar.pl/600/200/64420931b56a79834f9640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/644228e3b7490ef659c2560.webp"
+    }
+  },
+  {
+    "id": 41,
+    "modelName": "BMW Z4",
+    "brand": "BMW",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "52 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/6392176253aabbf5d64640.webp",
+      "front": "https://flib.samar.pl/600/200/63924129ca313b7c8b3640.webp",
+      "rear": "https://flib.samar.pl/600/200/639225ec6f3255b0d01640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/6392449e6b33ca33fc62560.webp"
+    }
+  },
+  {
+    "id": 42,
+    "modelName": "BMW i8",
+    "brand": "BMW",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "30 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/900/56399739d0a3a38bcc1640.webp",
+      "front": "https://flib.samar.pl/500/000/564021248e9e2918ab3640.webp",
+      "rear": "https://flib.samar.pl/500/000/56400585cbf42c63823640.webp",
+      "diagonal": "https://flib.samar.pl/500/000/564024bdefcff2fbbef2560.webp"
+    }
+  },
+  {
+    "id": 43,
+    "modelName": "Citroen C4 X",
+    "brand": "Citroen",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/9221785c75fa48492c4640.webp",
+      "front": "https://flib.samar.pl/900/200/9222020da5ba85533a0640.webp",
+      "rear": "https://flib.samar.pl/900/100/922186535a86d0b71ba640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/9222056e527df8129be2560.webp"
+    }
+  },
+  {
+    "id": 44,
+    "modelName": "Citroen C5 Aircross",
+    "brand": "Citroen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/919346fa2fcbb755d78640.webp",
+      "front": "https://flib.samar.pl/900/300/919370682b7930a596b640.webp",
+      "rear": "https://flib.samar.pl/900/300/9193540af60ad8effa9640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/919373ce200eb3cd4652560.webp"
+    }
+  },
+  {
+    "id": 45,
+    "modelName": "Citroen C3 Aircross",
+    "brand": "Citroen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/9184556f13dea0dc6ab640.webp",
+      "front": "https://flib.samar.pl/900/400/91847976f412db3b5cf640.webp",
+      "rear": "https://flib.samar.pl/900/400/918463cd62607001bbd640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/918482490a547dd8c8c2560.webp"
+    }
+  },
+  {
+    "id": 46,
+    "modelName": "Citroen C4",
+    "brand": "Citroen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/900/914958177fcd96364a6640.webp",
+      "front": "https://flib.samar.pl/900/900/9149824130231c88122640.webp",
+      "rear": "https://flib.samar.pl/900/900/914966154b0b1796502640.webp",
+      "diagonal": "https://flib.samar.pl/900/900/914985505a95d70a00a2560.webp"
+    }
+  },
+  {
+    "id": 47,
+    "modelName": "Citroen C3",
+    "brand": "Citroen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/8564718de4c095959d0640.webp",
+      "front": "https://flib.samar.pl/800/400/856495d4e31f0e7650f640.webp",
+      "rear": "https://flib.samar.pl/800/400/85647942c9eeb92b41a640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8564980e419a3c6c2982560.webp"
+    }
+  },
+  {
+    "id": 48,
+    "modelName": "Citroen C5 X",
+    "brand": "Citroen",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "53 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/8022300cfc6ca2da1ad640.webp",
+      "front": "https://flib.samar.pl/800/200/802254aba16c74bdb64640.webp",
+      "rear": "https://flib.samar.pl/800/200/802238981833ba34495640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/8022570e28966e3a11f2560.webp"
+    }
+  },
+  {
+    "id": 49,
+    "modelName": "Citroen Jumpy",
+    "brand": "Citroen",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 6,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/600/74769365d5afed37d05640.webp",
+      "front": "https://flib.samar.pl/700/700/747717f88f1185382fb640.webp",
+      "rear": "https://flib.samar.pl/700/700/7477019880bedc2bb62640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/7477207dd300f9456d72560.webp"
+    }
+  },
+  {
+    "id": 50,
+    "modelName": "Citroen Berlingo",
+    "brand": "Citroen",
+    "bodyType": "Furgon",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/70510066afb2be7f9f0640.webp",
+      "front": "https://flib.samar.pl/700/100/705124929924cd416c0640.webp",
+      "rear": "https://flib.samar.pl/700/100/705108aada9b54a31ae640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7051271a1f0903650d22560.webp"
+    }
+  },
+  {
+    "id": 51,
+    "modelName": "Citroen C4 Spacetourer",
+    "brand": "Citroen",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/000/6320935284836f03c98640.webp",
+      "front": "https://flib.samar.pl/600/100/63211718f6688138186640.webp",
+      "rear": "https://flib.samar.pl/600/100/6321016d07dbd09c09c640.webp",
+      "diagonal": "https://flib.samar.pl/600/100/6321201ef3753cf18442560.webp"
+    }
+  },
+  {
+    "id": 52,
+    "modelName": "Citroen C1",
+    "brand": "Citroen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/6292806df50a1b325c5640.webp",
+      "front": "https://flib.samar.pl/600/300/629304559f13b6ad77c640.webp",
+      "rear": "https://flib.samar.pl/600/200/6292885a22fcd8f39e5640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/6293072bfd8be33be02560.webp"
+    }
+  },
+  {
+    "id": 53,
+    "modelName": "Citroen Spacetourer",
+    "brand": "Citroen",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 9,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/623368460b537b713f2640.webp",
+      "front": "https://flib.samar.pl/600/300/6233937fcdb4659aaa5640.webp",
+      "rear": "https://flib.samar.pl/600/300/623376a3793ae38b80d640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/623396ae48c04282b432560.webp"
+    }
+  },
+  {
+    "id": 54,
+    "modelName": "Citroen 2CV",
+    "brand": "Citroen",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/400/576480f5e289b65d66d640.webp",
+      "front": "https://flib.samar.pl/500/500/57650450b03f136b94d640.webp",
+      "rear": "https://flib.samar.pl/500/400/576488d01b1888b02a0640.webp",
+      "diagonal": "https://flib.samar.pl/500/500/576507becf468f491d32560.webp"
+    }
+  },
+  {
+    "id": 55,
+    "modelName": "Citroen C4 Cactus",
+    "brand": "Citroen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/000/565069251d210361bb1640.webp",
+      "front": "https://flib.samar.pl/500/000/565099a80402a6460e3640.webp",
+      "rear": "https://flib.samar.pl/500/000/565083e7a7414bfd774640.webp",
+      "diagonal": "https://flib.samar.pl/500/100/565102190a1997981992560.webp"
+    }
+  },
+  {
+    "id": 56,
+    "modelName": "Dacia Duster",
+    "brand": "Dacia",
+    "bodyType": "SUV (красовер)",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/9482455a08626ca34f0640.webp",
+      "front": "https://flib.samar.pl/900/200/948269d956309f05aa640.webp",
+      "rear": "https://flib.samar.pl/900/200/9482534eea0bb5f14fb640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/948272908301ab340ce2560.webp"
+    }
+  },
+  {
+    "id": 57,
+    "modelName": "Dacia Spring",
+    "brand": "Dacia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/937741b86b59c382051640.webp",
+      "front": "https://flib.samar.pl/900/700/937776217d2b819ed97640.webp",
+      "rear": "https://flib.samar.pl/900/700/9377584a37f93b99b4e640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/9377803e8f819c10f6d2560.webp"
+    }
+  },
+  {
+    "id": 58,
+    "modelName": "Dacia Sandero",
+    "brand": "Dacia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/9244978ef27035cfd38640.webp",
+      "front": "https://flib.samar.pl/900/500/92452144efbc175821e640.webp",
+      "rear": "https://flib.samar.pl/900/500/924505127c628f2eed7640.webp",
+      "diagonal": "https://flib.samar.pl/900/500/924524f4fc48c71f7852560.webp"
+    }
+  },
+  {
+    "id": 59,
+    "modelName": "Dacia Jogger",
+    "brand": "Dacia",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/9191229afdbdc45b0fa640.webp",
+      "front": "https://flib.samar.pl/900/100/919146c97bd208b7801640.webp",
+      "rear": "https://flib.samar.pl/900/100/91913044d9c4369ef47640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/919149eaf71959764322560.webp"
+    }
+  },
+  {
+    "id": 60,
+    "modelName": "Dacia Logan",
+    "brand": "Dacia",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/724122a01081895ec05640.webp",
+      "front": "https://flib.samar.pl/700/100/7241465530d010c152d640.webp",
+      "rear": "https://flib.samar.pl/700/100/724130303412a9c8e05640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7241499cb0a4ffac3522560.webp"
+    }
+  },
+  {
+    "id": 61,
+    "modelName": "Dacia Lodgy",
+    "brand": "Dacia",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/6869009d2bfbdcf4a54640.webp",
+      "front": "https://flib.samar.pl/600/900/68692417467a17f393d640.webp",
+      "rear": "https://flib.samar.pl/600/900/686908154d66ef8429c640.webp",
+      "diagonal": "https://flib.samar.pl/600/900/6869270e0519cc6a6152560.webp"
+    }
+  },
+  {
+    "id": 62,
+    "modelName": "Dacia Dokker Van",
+    "brand": "Dacia",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/650278471c1f5122025640.webp",
+      "front": "https://flib.samar.pl/600/300/650302cf32d998ba1e0640.webp",
+      "rear": "https://flib.samar.pl/600/200/65028605034edc18d43640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/6503054b7dcb8d44b82560.webp"
+    }
+  },
+  {
+    "id": 63,
+    "modelName": "Fiat 600",
+    "brand": "Fiat",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/8917788a3760a4363f5640.webp",
+      "front": "https://flib.samar.pl/800/800/8918024c953e6fdf6f0640.webp",
+      "rear": "https://flib.samar.pl/800/700/8917860d4c13fd52bcc640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/89180565c26e095712c2560.webp"
+    }
+  },
+  {
+    "id": 64,
+    "modelName": "Fiat Doblo",
+    "brand": "Fiat",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/84214411ead8fb944a7640.webp",
+      "front": "https://flib.samar.pl/800/100/8421683365d1f94a5b0640.webp",
+      "rear": "https://flib.samar.pl/800/100/84215235ccf5bfd7c98640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/842171adeb64ea0a1912560.webp"
+    }
+  },
+  {
+    "id": 65,
+    "modelName": "Fiat Tipo",
+    "brand": "Fiat",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/834560570e89befcb86640.webp",
+      "front": "https://flib.samar.pl/800/500/8345849d19191e5cb9d640.webp",
+      "rear": "https://flib.samar.pl/800/500/834568d47c7e191db46640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/8345874c81cfd3589922560.webp"
+    }
+  },
+  {
+    "id": 66,
+    "modelName": "Fiat 500",
+    "brand": "Fiat",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "37 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/8271427b3831bc853b1640.webp",
+      "front": "https://flib.samar.pl/800/100/82716675f069c76a672640.webp",
+      "rear": "https://flib.samar.pl/800/100/8271502b88eb8be861c640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/82716995407bb25c0382560.webp"
+    }
+  },
+  {
+    "id": 67,
+    "modelName": "Fiat 500X",
+    "brand": "Fiat",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "48 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/8078847cefa0f078f69640.webp",
+      "front": "https://flib.samar.pl/800/900/80792680ff9e21710fc640.webp",
+      "rear": "https://flib.samar.pl/800/800/807898793b81e9affcf640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/807932360b283e1572a2560.webp"
+    }
+  },
+  {
+    "id": 68,
+    "modelName": "Fiat 125",
+    "brand": "Fiat",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/7631108dd9e15a5cd87640.webp",
+      "front": "https://flib.samar.pl/700/100/763134d9242dd53e1ef640.webp",
+      "rear": "https://flib.samar.pl/700/100/7631188d7850bce5cd640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/763137600de76affee52560.webp"
+    }
+  },
+  {
+    "id": 69,
+    "modelName": "Fiat Panda",
+    "brand": "Fiat",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "37 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/719127af48c5e8034e9640.webp",
+      "front": "https://flib.samar.pl/700/100/7191516cebc536fa3b9640.webp",
+      "rear": "https://flib.samar.pl/700/100/7191356fdb61b223293640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7191549a773d0c1edbd2560.webp"
+    }
+  },
+  {
+    "id": 70,
+    "modelName": "Fiat Coupe",
+    "brand": "Fiat",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/71700477382879322d2640.webp",
+      "front": "https://flib.samar.pl/700/000/7170282b9b9685ea215640.webp",
+      "rear": "https://flib.samar.pl/700/000/71701256c00795ebcd3640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/7170311740efcc69c892560.webp"
+    }
+  },
+  {
+    "id": 71,
+    "modelName": "Fiat Seicento",
+    "brand": "Fiat",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 3,
+    "numberOfSeats": 5,
+    "tankCapacity": "37 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/100/671186b260fd2b160f6640.webp",
+      "front": "https://flib.samar.pl/600/200/6712106211aea56c39a640.webp",
+      "rear": "https://flib.samar.pl/600/100/671194b8715ed004f92640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/6712130a3dcb76492382560.webp"
+    }
+  },
+  {
+    "id": 72,
+    "modelName": "Fiat Fiorino",
+    "brand": "Fiat",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/670226251ab6d7298a4640.webp",
+      "front": "https://flib.samar.pl/600/200/67025004b1deb71563a640.webp",
+      "rear": "https://flib.samar.pl/600/200/670234fc9484be4aa48640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/670253db7c5fcfc24312560.webp"
+    }
+  },
+  {
+    "id": 73,
+    "modelName": "Fiat 124",
+    "brand": "Fiat",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/000/6560475c69e15a9655d640.webp",
+      "front": "https://flib.samar.pl/600/000/656071d32d37eb3bf80640.webp",
+      "rear": "https://flib.samar.pl/600/000/65605574f1e8f83c07640.webp",
+      "diagonal": "https://flib.samar.pl/600/000/656074c7706d691d3222560.webp"
+    }
+  },
+  {
+    "id": 74,
+    "modelName": "Fiat Talento",
+    "brand": "Fiat",
+    "bodyType": "Minibus",
+    "numberOfDoors": 4,
+    "numberOfSeats": 9,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/600/626682ebbb36e698222640.webp",
+      "front": "https://flib.samar.pl/600/700/6267067e38030cf6575640.webp",
+      "rear": "https://flib.samar.pl/600/600/6266909e1f55aa6084640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/626709d1774cfc99be62560.webp"
+    }
+  },
+  {
+    "id": 75,
+    "modelName": "Fiat 500L",
+    "brand": "Fiat",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/6227068de61a6810fd2640.webp",
+      "front": "https://flib.samar.pl/600/700/622730d505f79582db0640.webp",
+      "rear": "https://flib.samar.pl/600/700/622714a88db9f29ccaf640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/622733154d1d1cd226f2560.webp"
+    }
+  },
+  {
+    "id": 76,
+    "modelName": "Fiat Fullback",
+    "brand": "Fiat",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "75 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/800/56987213afad19c36d1640.webp",
+      "front": "https://flib.samar.pl/500/800/5698961e3a7c4f1435f640.webp",
+      "rear": "https://flib.samar.pl/500/800/56988022b6ca58e7c4d640.webp",
+      "diagonal": "https://flib.samar.pl/500/800/569899675bf69544ab52560.webp"
+    }
+  },
+  {
+    "id": 77,
+    "modelName": "Fiat 126 EL",
+    "brand": "Fiat",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 2,
+    "numberOfSeats": null,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/200/56926493df0b75a5cb9640.webp",
+      "front": "https://flib.samar.pl/500/200/5692885e18ed2f9101b640.webp",
+      "rear": "https://flib.samar.pl/500/200/5692722ab4f0686ae0e640.webp",
+      "diagonal": "https://flib.samar.pl/500/200/569291468e1f9c3150e2560.webp"
+    }
+  },
+  {
+    "id": 78,
+    "modelName": "Hyundai Ioniq 5",
+    "brand": "Hyundai",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/9366705fa8756e0b655640.webp",
+      "front": "https://flib.samar.pl/900/600/936695c432394a56fd9640.webp",
+      "rear": "https://flib.samar.pl/900/600/936679456a0ae2a41ff640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/936698319c8b0970f0a2560.webp"
+    }
+  },
+  {
+    "id": 79,
+    "modelName": "Hyundai Santa Fe",
+    "brand": "Hyundai",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "47 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/934454eb69b1137780d640.webp",
+      "front": "https://flib.samar.pl/900/400/934478e68e5ff4e5c5c640.webp",
+      "rear": "https://flib.samar.pl/900/400/9344625108ee5946ba2640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/934481bb833eecffd132560.webp"
+    }
+  },
+  {
+    "id": 80,
+    "modelName": "Hyundai Tucson",
+    "brand": "Hyundai",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "54 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/930368d94a53ac093db640.webp",
+      "front": "https://flib.samar.pl/900/300/93039224b1f526beaa0640.webp",
+      "rear": "https://flib.samar.pl/900/300/9303769e9be0283c8c9640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/9303951e94964e7ecb42560.webp"
+    }
+  },
+  {
+    "id": 81,
+    "modelName": "Hyundai i30",
+    "brand": "Hyundai",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/900/9279579b9b29652963e640.webp",
+      "front": "https://flib.samar.pl/900/900/927981a7599b13b7bf0640.webp",
+      "rear": "https://flib.samar.pl/900/900/927965365b85fdd06d3640.webp",
+      "diagonal": "https://flib.samar.pl/900/900/927984594551a78d9842560.webp"
+    }
+  },
+  {
+    "id": 82,
+    "modelName": "Hyundai i20",
+    "brand": "Hyundai",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/905403b395782370b16640.webp",
+      "front": "https://flib.samar.pl/900/400/905427cb6820d88359e640.webp",
+      "rear": "https://flib.samar.pl/900/400/9054114963a382c90c1640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/90543077b5d035700112560.webp"
+    }
+  },
+  {
+    "id": 83,
+    "modelName": "Hyundai Kona",
+    "brand": "Hyundai",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/886748d942bf6e5f2c6640.webp",
+      "front": "https://flib.samar.pl/800/700/8867721465d5ef99b59640.webp",
+      "rear": "https://flib.samar.pl/800/700/8867569df092a6512f6640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/8867757e5be013192da2560.webp"
+    }
+  },
+  {
+    "id": 84,
+    "modelName": "Hyundai i10",
+    "brand": "Hyundai",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "36 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/849572cdd6f328eef99640.webp",
+      "front": "https://flib.samar.pl/800/500/849596f61172e17efd1640.webp",
+      "rear": "https://flib.samar.pl/800/500/849580a979d031dc49d640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/8495996fe4bd50070f52560.webp"
+    }
+  },
+  {
+    "id": 85,
+    "modelName": "Hyundai Ioniq 6",
+    "brand": "Hyundai",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/8476009369749eda353640.webp",
+      "front": "https://flib.samar.pl/800/600/8476247bddc4d36bd7b640.webp",
+      "rear": "https://flib.samar.pl/800/600/8476083c38c714bf38a640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/84762750bebfac45e942560.webp"
+    }
+  },
+  {
+    "id": 86,
+    "modelName": "Hyundai Bayon",
+    "brand": "Hyundai",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/79291451d4962973990640.webp",
+      "front": "https://flib.samar.pl/700/900/792938cf4a24b9917e6640.webp",
+      "rear": "https://flib.samar.pl/700/900/7929224117b64fb2bd4640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/792941be2ef6e087e2a2560.webp"
+    }
+  },
+  {
+    "id": 87,
+    "modelName": "Hyundai Elantra",
+    "brand": "Hyundai",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "47 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/7447532401af3b80721640.webp",
+      "front": "https://flib.samar.pl/700/700/74477734d2671bbd2cb640.webp",
+      "rear": "https://flib.samar.pl/700/700/744761d4803dff5958d640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/744780b98343824a0c22560.webp"
+    }
+  },
+  {
+    "id": 88,
+    "modelName": "Hyundai i40",
+    "brand": "Hyundai",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/646968581d579e36bed640.webp",
+      "front": "https://flib.samar.pl/600/900/64699287f90254fbe84640.webp",
+      "rear": "https://flib.samar.pl/600/900/64697652b3b853f15ab640.webp",
+      "diagonal": "https://flib.samar.pl/600/900/646995915b1957a1e1e2560.webp"
+    }
+  },
+  {
+    "id": 89,
+    "modelName": "Hyundai Ioniq",
+    "brand": "Hyundai",
+    "bodyType": "Хетчбек",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/6439757698f49892e43640.webp",
+      "front": "https://flib.samar.pl/600/900/6439990b3fff6007c15640.webp",
+      "rear": "https://flib.samar.pl/600/900/64398368e3b14edca6c640.webp",
+      "diagonal": "https://flib.samar.pl/600/000/644002cc6fa724a377e2560.webp"
+    }
+  },
+  {
+    "id": 90,
+    "modelName": "Kia EV9",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/000/906048a1a842284d8bd640.webp",
+      "front": "https://flib.samar.pl/900/000/9060721f34e2f2e920a640.webp",
+      "rear": "https://flib.samar.pl/900/000/9060564e766707ff608640.webp",
+      "diagonal": "https://flib.samar.pl/900/000/90607574432d24378c92560.webp"
+    }
+  },
+  {
+    "id": 91,
+    "modelName": "Kia XCeed",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/89324079e0579a58088640.webp",
+      "front": "https://flib.samar.pl/800/200/89326442dd89b2b4b7c640.webp",
+      "rear": "https://flib.samar.pl/800/200/893248405ace0655b61640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/8932677caec5885e3bd2560.webp"
+    }
+  },
+  {
+    "id": 92,
+    "modelName": "Kia Ceed",
+    "brand": "Kia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/855123293e8d17fc813640.webp",
+      "front": "https://flib.samar.pl/800/100/855166e66dc85a80327640.webp",
+      "rear": "https://flib.samar.pl/800/100/8551395ce09c712a7db640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/85516963541cb579fff2560.webp"
+    }
+  },
+  {
+    "id": 93,
+    "modelName": "Kia ProCeed",
+    "brand": "Kia",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/84563099dfd65814097640.webp",
+      "front": "https://flib.samar.pl/800/600/845654f0c0359ed9651640.webp",
+      "rear": "https://flib.samar.pl/800/600/8456381ab804fd9d442640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/8456575853448439a672560.webp"
+    }
+  },
+  {
+    "id": 94,
+    "modelName": "Kia Sportage",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "42 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/818717a1b9e8cd84dc1640.webp",
+      "front": "https://flib.samar.pl/800/700/8187419c5a67f54ecb2640.webp",
+      "rear": "https://flib.samar.pl/800/700/8187258129c7b128c19640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/818744879fa558093d72560.webp"
+    }
+  },
+  {
+    "id": 95,
+    "modelName": "Kia Niro",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/81637899081bf282ed8640.webp",
+      "front": "https://flib.samar.pl/800/400/816402b2dba112d4073640.webp",
+      "rear": "https://flib.samar.pl/800/300/8163863498da0a03629640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/81640542824a3f9cb512560.webp"
+    }
+  },
+  {
+    "id": 96,
+    "modelName": "Kia Sorento",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "67 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/8067720ab67c7fcc6fc640.webp",
+      "front": "https://flib.samar.pl/800/700/806796cf6a466e53824640.webp",
+      "rear": "https://flib.samar.pl/800/700/806780ef081386cf8e3640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/806799f91ffef2824292560.webp"
+    }
+  },
+  {
+    "id": 97,
+    "modelName": "Kia Stinger",
+    "brand": "Kia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/805144f207ea2f715b6640.webp",
+      "front": "https://flib.samar.pl/800/100/805168ba827f4d00d7f640.webp",
+      "rear": "https://flib.samar.pl/800/100/805152e4e40a771693b640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/805171a44e0602bac932560.webp"
+    }
+  },
+  {
+    "id": 98,
+    "modelName": "Kia EV6",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/7662193545486837efe640.webp",
+      "front": "https://flib.samar.pl/700/200/766243918046eb1accb640.webp",
+      "rear": "https://flib.samar.pl/700/200/766227c6145d058ac31640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/76624613c2a77db897b2560.webp"
+    }
+  },
+  {
+    "id": 99,
+    "modelName": "Kia Rio",
+    "brand": "Kia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/500/7585805ebc2b1c828ff640.webp",
+      "front": "https://flib.samar.pl/700/600/758604567a068e7a692640.webp",
+      "rear": "https://flib.samar.pl/700/500/758588041ae4e3507a2640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/75860781b33dd64c0342560.webp"
+    }
+  },
+  {
+    "id": 100,
+    "modelName": "Kia Stonic",
+    "brand": "Kia",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/740141a7a7e0a90c1a3640.webp",
+      "front": "https://flib.samar.pl/700/100/74016565bb5cadd2e33640.webp",
+      "rear": "https://flib.samar.pl/700/100/7401491e987b482160e640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/740168986da452981d72560.webp"
+    }
+  },
+  {
+    "id": 101,
+    "modelName": "Kia Soul",
+    "brand": "Kia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/70733383de0598bfc22640.webp",
+      "front": "https://flib.samar.pl/700/300/7073574fbf73840d3ef640.webp",
+      "rear": "https://flib.samar.pl/700/300/7073415cdf21f4fb0c6640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/7073609007a7e70acb42560.webp"
+    }
+  },
+  {
+    "id": 102,
+    "modelName": "Kia Optima",
+    "brand": "Kia",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/600/638627e5d84d733f54a640.webp",
+      "front": "https://flib.samar.pl/600/600/638651ea1261897e6d1640.webp",
+      "rear": "https://flib.samar.pl/600/600/638635fd226c2c78277640.webp",
+      "diagonal": "https://flib.samar.pl/600/600/6386544c0f6e7d0190f2560.webp"
+    }
+  },
+  {
+    "id": 103,
+    "modelName": "Kia Venga",
+    "brand": "Kia",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/6363711f8f63d63e4bc640.webp",
+      "front": "https://flib.samar.pl/600/300/6363958d4774efd2396640.webp",
+      "rear": "https://flib.samar.pl/600/300/636379ff43e02e1dfbf640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/6363986f299b603df182560.webp"
+    }
+  },
+  {
+    "id": 104,
+    "modelName": "Kia Picanto",
+    "brand": "Kia",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/400/5684716e26fa05c1023640.webp",
+      "front": "https://flib.samar.pl/500/400/56849552baa96300c41640.webp",
+      "rear": "https://flib.samar.pl/500/400/568479f0f4a4a847dfb640.webp",
+      "diagonal": "https://flib.samar.pl/500/400/568498a875c8665dde92560.webp"
+    }
+  },
+  {
+    "id": 105,
+    "modelName": "Mercedes V",
+    "brand": "Mercedes",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 6,
+    "tankCapacity": "57 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/943851632fe3a2943df640.webp",
+      "front": "https://flib.samar.pl/900/800/943875176582b3c7763640.webp",
+      "rear": "https://flib.samar.pl/900/800/943859f5ca3eee4e0e8640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/9438789299dff8ce1592560.webp"
+    }
+  },
+  {
+    "id": 106,
+    "modelName": "Mercedes EQA",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/94162734b88e777965640.webp",
+      "front": "https://flib.samar.pl/900/600/9416512a38f89e2741a640.webp",
+      "rear": "https://flib.samar.pl/900/600/9416359784f98a829da640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/9416541cbce00caffd32560.webp"
+    }
+  },
+  {
+    "id": 107,
+    "modelName": "Mercedes S",
+    "brand": "Mercedes",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "67 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/9401909ef540012c62b640.webp",
+      "front": "https://flib.samar.pl/900/200/9402140ff12073b6f41640.webp",
+      "rear": "https://flib.samar.pl/900/100/9401986c166244d407d640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/940217d0a5de32af4c52560.webp"
+    }
+  },
+  {
+    "id": 108,
+    "modelName": "Mercedes EQB",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/93633865ba10359c8a1640.webp",
+      "front": "https://flib.samar.pl/900/300/9363624f41b84a54a3a640.webp",
+      "rear": "https://flib.samar.pl/900/300/93634651a1050f370a2640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/936365eefc9aaa638082560.webp"
+    }
+  },
+  {
+    "id": 109,
+    "modelName": "Mercedes Marco Polo",
+    "brand": "Mercedes",
+    "bodyType": "Minibus",
+    "numberOfDoors": 4,
+    "numberOfSeats": 4,
+    "tankCapacity": "57 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/932732d478b02409e25640.webp",
+      "front": "https://flib.samar.pl/900/700/9327596551f958be1ad640.webp",
+      "rear": "https://flib.samar.pl/900/700/932740b7bf775f5ddd5640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/932762708ad1488fa622560.webp"
+    }
+  },
+  {
+    "id": 110,
+    "modelName": "Mercedes Vito",
+    "brand": "Mercedes",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/9322310eeaca62b692d640.webp",
+      "front": "https://flib.samar.pl/900/200/932255a8b00e3d5705b640.webp",
+      "rear": "https://flib.samar.pl/900/200/93223929df96a5fd71e640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/93225876c912be453d02560.webp"
+    }
+  },
+  {
+    "id": 111,
+    "modelName": "Mercedes EQV",
+    "brand": "Mercedes",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 6,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/900/930904be944f134136a640.webp",
+      "front": "https://flib.samar.pl/900/900/93092801c63f082be94640.webp",
+      "rear": "https://flib.samar.pl/900/900/930912d5294c376ba8640.webp",
+      "diagonal": "https://flib.samar.pl/900/900/930931b6b387d7d541b2560.webp"
+    }
+  },
+  {
+    "id": 112,
+    "modelName": "Mercedes CLE",
+    "brand": "Mercedes",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/90180694a534ce8cdc4640.webp",
+      "front": "https://flib.samar.pl/900/800/90183054e29c23ba3fb640.webp",
+      "rear": "https://flib.samar.pl/900/800/90181493bb87610d741640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/901833deb267e20745f2560.webp"
+    }
+  },
+  {
+    "id": 113,
+    "modelName": "Mercedes GLC Coupe",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "62 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/8985671c67c45714c7f640.webp",
+      "front": "https://flib.samar.pl/800/500/8985913caec729e866e640.webp",
+      "rear": "https://flib.samar.pl/800/500/898575f4eb75891fc8f640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/8985942fb3934735fa62560.webp"
+    }
+  },
+  {
+    "id": 114,
+    "modelName": "Mercedes T",
+    "brand": "Mercedes",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "54 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/894422b73b9d74d2418640.webp",
+      "front": "https://flib.samar.pl/800/400/8944468d88a05189ba1640.webp",
+      "rear": "https://flib.samar.pl/800/400/894430a3ab001c3bcd2640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8944493fea3567cbbfb2560.webp"
+    }
+  },
+  {
+    "id": 115,
+    "modelName": "Mercedes Sprinter",
+    "brand": "Mercedes",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 3,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/93744742820e51a9ca3640.webp",
+      "front": "https://flib.samar.pl/900/400/9374719032692f91c22640.webp",
+      "rear": "https://flib.samar.pl/900/400/9374558d1108f35a78e640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/9374740161fad01b85b2560.webp"
+    }
+  },
+  {
+    "id": 116,
+    "modelName": "Mercedes Citan",
+    "brand": "Mercedes",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/877708f0ff16e3a1af7640.webp",
+      "front": "https://flib.samar.pl/800/700/8777324c967a449ae53640.webp",
+      "rear": "https://flib.samar.pl/800/700/877716fe06c37bd1c5e640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/8777359b8801aff89d32560.webp"
+    }
+  },
+  {
+    "id": 117,
+    "modelName": "Mercedes E",
+    "brand": "Mercedes",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/870255475d9ceda8f66640.webp",
+      "front": "https://flib.samar.pl/800/200/8702792d49366b03a42640.webp",
+      "rear": "https://flib.samar.pl/800/200/87026337f9fc12550d0640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/870282ec46843d551ab2560.webp"
+    }
+  },
+  {
+    "id": 118,
+    "modelName": "Mercedes EQE SUV",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/854421184f32aed88d8640.webp",
+      "front": "https://flib.samar.pl/800/400/8544459031794d9ac50640.webp",
+      "rear": "https://flib.samar.pl/800/400/854429b901753fee179640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/85444846fc90b7c0dc62560.webp"
+    }
+  },
+  {
+    "id": 119,
+    "modelName": "Mercedes A",
+    "brand": "Mercedes",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/84732085cd06b51d86f640.webp",
+      "front": "https://flib.samar.pl/800/300/847363114cf6e73141d640.webp",
+      "rear": "https://flib.samar.pl/800/300/8473367f0603ab3efa9640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/847366bc2ff9f61bd772560.webp"
+    }
+  },
+  {
+    "id": 120,
+    "modelName": "Mercedes C",
+    "brand": "Mercedes",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/83626116c9a82af8321640.webp",
+      "front": "https://flib.samar.pl/800/200/8362853f4bf49a10497640.webp",
+      "rear": "https://flib.samar.pl/800/200/83626943067da8fa3b7640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/8362881056c85152ec92560.webp"
+    }
+  },
+  {
+    "id": 121,
+    "modelName": "Mercedes EQS SUV",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/888464421dad22bc556640.webp",
+      "front": "https://flib.samar.pl/800/400/888489e5a0d94b0ea66640.webp",
+      "rear": "https://flib.samar.pl/800/400/888472e087f5a13161f640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/888492b8d40afb236ee2560.webp"
+    }
+  },
+  {
+    "id": 122,
+    "modelName": "Mercedes GLC",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/82867924b28c298f609640.webp",
+      "front": "https://flib.samar.pl/800/700/828703ca3c4bf63eb41640.webp",
+      "rear": "https://flib.samar.pl/800/600/828687286c566dba6a2640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/828706e5abed11bdada2560.webp"
+    }
+  },
+  {
+    "id": 123,
+    "modelName": "Mercedes SL",
+    "brand": "Mercedes",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/8205607e799b61039c0640.webp",
+      "front": "https://flib.samar.pl/800/500/82058470ae0e4582f9b640.webp",
+      "rear": "https://flib.samar.pl/800/500/820568483284eb7b4d1640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/8205874b7e097b746c62560.webp"
+    }
+  },
+  {
+    "id": 124,
+    "modelName": "Mercedes EQS",
+    "brand": "Mercedes",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/808992bda5e4f1bca89640.webp",
+      "front": "https://flib.samar.pl/800/000/8090167d01b720e77f9640.webp",
+      "rear": "https://flib.samar.pl/800/000/80900008b5bda4b9f76640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/80901949aa4dffe30632560.webp"
+    }
+  },
+  {
+    "id": 125,
+    "modelName": "Mercedes EQE",
+    "brand": "Mercedes",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/80859984b7847666d82640.webp",
+      "front": "https://flib.samar.pl/800/600/8086230338f02109565640.webp",
+      "rear": "https://flib.samar.pl/800/600/808607bb71a401133d9640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/8086265b79b791ad3332560.webp"
+    }
+  },
+  {
+    "id": 126,
+    "modelName": "Mercedes CLS",
+    "brand": "Mercedes",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/796105d58f84470a7aa640.webp",
+      "front": "https://flib.samar.pl/700/100/7961294d1a02a59a6a3640.webp",
+      "rear": "https://flib.samar.pl/700/100/796113d910b76ab12bd640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7961327e29fa089edc2560.webp"
+    }
+  },
+  {
+    "id": 127,
+    "modelName": "Mercedes C All-Terrain",
+    "brand": "Mercedes",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/7941940e68e072d82a3640.webp",
+      "front": "https://flib.samar.pl/700/200/7942185ea3d29499c16640.webp",
+      "rear": "https://flib.samar.pl/700/200/7942027cbcd19cdfa10640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/79422189ebe1ad0c81c2560.webp"
+    }
+  },
+  {
+    "id": 128,
+    "modelName": "Mercedes GLS",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "90 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/7923554e95772d7f5a8640.webp",
+      "front": "https://flib.samar.pl/700/300/792379937050577cf90640.webp",
+      "rear": "https://flib.samar.pl/700/300/792363df4334686080d640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/79238211851d15052632560.webp"
+    }
+  },
+  {
+    "id": 129,
+    "modelName": "Mercedes CLA",
+    "brand": "Mercedes",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "51 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/800/768877e8396486cb0c4640.webp",
+      "front": "https://flib.samar.pl/700/900/76890112bd41af8b9c5640.webp",
+      "rear": "https://flib.samar.pl/700/800/76888564ee2705dedcf640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/7689041dc916b30d6212560.webp"
+    }
+  },
+  {
+    "id": 130,
+    "modelName": "Mercedes GLB",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/7657828ad7bd0af5a56640.webp",
+      "front": "https://flib.samar.pl/700/800/7658069d3e1298d4697640.webp",
+      "rear": "https://flib.samar.pl/700/700/765790df429fd1d24d6640.webp",
+      "diagonal": "https://flib.samar.pl/700/800/76580916f6f9f4931a62560.webp"
+    }
+  },
+  {
+    "id": 131,
+    "modelName": "Mercedes GLE Coupe",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/743223f79df913491c1640.webp",
+      "front": "https://flib.samar.pl/700/200/743247fc928c480bf17640.webp",
+      "rear": "https://flib.samar.pl/700/200/743231144ea24da4d24640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/74325080d86dcc31e0b2560.webp"
+    }
+  },
+  {
+    "id": 132,
+    "modelName": "Mercedes GLA",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "51 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/71233554cdb847003e6640.webp",
+      "front": "https://flib.samar.pl/700/300/7123590923a921cb33d640.webp",
+      "rear": "https://flib.samar.pl/700/300/712343a14a4d583c07c640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/7123625cc9a7fcfae862560.webp"
+    }
+  },
+  {
+    "id": 133,
+    "modelName": "Mercedes G",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "100 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/600/7006796dc98ee676474640.webp",
+      "front": "https://flib.samar.pl/700/700/7007034c185ba938051640.webp",
+      "rear": "https://flib.samar.pl/700/600/700687226870c19b93f640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/7007068defab38586662560.webp"
+    }
+  },
+  {
+    "id": 134,
+    "modelName": "Mercedes AMG GT",
+    "brand": "Mercedes",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/683728527ea261518e6640.webp",
+      "front": "https://flib.samar.pl/600/700/6837522db39fdac9410640.webp",
+      "rear": "https://flib.samar.pl/600/700/6837369dbd4645282b2640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/6837553652dc3d456b92560.webp"
+    }
+  },
+  {
+    "id": 135,
+    "modelName": "Mercedes GLE",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "85 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/63478424d6b6b865fec640.webp",
+      "front": "https://flib.samar.pl/600/800/63480859ac8392ac653640.webp",
+      "rear": "https://flib.samar.pl/600/700/6347923fbadfbfd74ba640.webp",
+      "diagonal": "https://flib.samar.pl/600/800/6348111a7cefc7c90f22560.webp"
+    }
+  },
+  {
+    "id": 136,
+    "modelName": "Mercedes EQC",
+    "brand": "Mercedes",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/633414a6d689739fa6c640.webp",
+      "front": "https://flib.samar.pl/600/400/63343848002374e08cb640.webp",
+      "rear": "https://flib.samar.pl/600/400/63342275661e7cceec9640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/633441eb17d3f884a8d2560.webp"
+    }
+  },
+  {
+    "id": 137,
+    "modelName": "Mercedes X",
+    "brand": "Mercedes",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/614359bc7fe4dbf0345640.webp",
+      "front": "https://flib.samar.pl/600/300/61438541726a88de7c5640.webp",
+      "rear": "https://flib.samar.pl/600/300/614368499cdf6b28236640.webp",
+      "diagonal": "https://flib.samar.pl/600/300/6143882f5a8a4307d1d2560.webp"
+    }
+  },
+  {
+    "id": 138,
+    "modelName": "Mercedes B",
+    "brand": "Mercedes",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "51 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/100/609156456631e44d8cf640.webp",
+      "front": "https://flib.samar.pl/600/100/60918019ec1f4ef188b640.webp",
+      "rear": "https://flib.samar.pl/600/100/609164c80576871a131640.webp",
+      "diagonal": "https://flib.samar.pl/600/100/6091838a96f639a06472560.webp"
+    }
+  },
+  {
+    "id": 139,
+    "modelName": "Nissan X-Trail",
+    "brand": "Nissan",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/927740f078ef2c0fc92640.webp",
+      "front": "https://flib.samar.pl/900/700/9277648fef157c96ba7640.webp",
+      "rear": "https://flib.samar.pl/900/700/9277483d2993721bad7640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/927767a16a627236ecc2560.webp"
+    }
+  },
+  {
+    "id": 140,
+    "modelName": "Nissan Qashqai",
+    "brand": "Nissan",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/92580708e40e0e36c35640.webp",
+      "front": "https://flib.samar.pl/900/800/9258317ff6696996e0a640.webp",
+      "rear": "https://flib.samar.pl/900/800/925815680c0b8c8f3fb640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/925834148a0df570c7b2560.webp"
+    }
+  },
+  {
+    "id": 141,
+    "modelName": "Nissan Ariya",
+    "brand": "Nissan",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/92544829a027388e2a2640.webp",
+      "front": "https://flib.samar.pl/900/400/9254729e5ed2d92fc77640.webp",
+      "rear": "https://flib.samar.pl/900/400/925456d826ca8009398640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/925475f951ff9acadac2560.webp"
+    }
+  },
+  {
+    "id": 142,
+    "modelName": "Nissan Juke",
+    "brand": "Nissan",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "46 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/9176761aaa031a90bdf640.webp",
+      "front": "https://flib.samar.pl/900/700/917700c37ef0057df20640.webp",
+      "rear": "https://flib.samar.pl/900/600/9176846cf02e29d3af8640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/917703b911151e450a72560.webp"
+    }
+  },
+  {
+    "id": 143,
+    "modelName": "Nissan Townstar",
+    "brand": "Nissan",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/87182812467e34e14a8640.webp",
+      "front": "https://flib.samar.pl/800/800/8718524328d888ce9b1640.webp",
+      "rear": "https://flib.samar.pl/800/800/871836deeb83a057e8c640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/87185556460ad4f97352560.webp"
+    }
+  },
+  {
+    "id": 144,
+    "modelName": "Nissan Leaf",
+    "brand": "Nissan",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/751201244780222a830640.webp",
+      "front": "https://flib.samar.pl/700/200/751226c6229508aff5c640.webp",
+      "rear": "https://flib.samar.pl/700/200/751209f2d466794d451640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/7512295282d55777d682560.webp"
+    }
+  },
+  {
+    "id": 145,
+    "modelName": "Nissan e-NV200",
+    "brand": "Nissan",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/7093874d4b6e123c848640.webp",
+      "front": "https://flib.samar.pl/700/400/709411b50f58d76a138640.webp",
+      "rear": "https://flib.samar.pl/700/300/70939537b9c3e285626640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/7094147bfbdb4c260a62560.webp"
+    }
+  },
+  {
+    "id": 146,
+    "modelName": "Nissan NP300 Navara",
+    "brand": "Nissan",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "73 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/100/5541690515a166d7799640.webp",
+      "front": "https://flib.samar.pl/500/100/55419327b6deec96ec7640.webp",
+      "rear": "https://flib.samar.pl/500/100/554177542d01e7e89f7640.webp",
+      "diagonal": "https://flib.samar.pl/500/100/5541964e68b03867d312560.webp"
+    }
+  },
+  {
+    "id": 147,
+    "modelName": "Nissan Micra",
+    "brand": "Nissan",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "41 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/700/551765c14cc92a71f1c640.webp",
+      "front": "https://flib.samar.pl/500/700/551789d8ea186e4cc43640.webp",
+      "rear": "https://flib.samar.pl/500/700/5517738884b97d5886e640.webp",
+      "diagonal": "https://flib.samar.pl/500/700/551792ccf6b3ee6ce7d2560.webp"
+    }
+  },
+  {
+    "id": 148,
+    "modelName": "Opel Mokka",
+    "brand": "Opel",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/931300e8c675eaca1eb640.webp",
+      "front": "https://flib.samar.pl/900/300/931324a090ea0b8912d640.webp",
+      "rear": "https://flib.samar.pl/900/300/9313081bc0f63168af2640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/931327567a354dff1b72560.webp"
+    }
+  },
+  {
+    "id": 149,
+    "modelName": "Opel Astra",
+    "brand": "Opel",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/918221d18237542551b640.webp",
+      "front": "https://flib.samar.pl/900/200/918245804effae92632640.webp",
+      "rear": "https://flib.samar.pl/900/200/918229164f98ca8424d640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/91824887b5291f8e0182560.webp"
+    }
+  },
+  {
+    "id": 150,
+    "modelName": "Opel Corsa",
+    "brand": "Opel",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/911335130cb09d6160b640.webp",
+      "front": "https://flib.samar.pl/900/300/91135904e1b4ff7fdc4640.webp",
+      "rear": "https://flib.samar.pl/900/300/911343ffb2e698feafb640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/911362fc25c536baaa12560.webp"
+    }
+  },
+  {
+    "id": 151,
+    "modelName": "Opel Grandland X",
+    "brand": "Opel",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/845096d3dbf0fc672e1640.webp",
+      "front": "https://flib.samar.pl/800/100/8451314f00d4bd13b84640.webp",
+      "rear": "https://flib.samar.pl/800/100/8451123b5c2c22950a8640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8451344a6e3a9676edd2560.webp"
+    }
+  },
+  {
+    "id": 152,
+    "modelName": "Opel Combo",
+    "brand": "Opel",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/800/78088029c33e0f18ea7640.webp",
+      "front": "https://flib.samar.pl/700/900/780916d4ef9e2e6b6ab640.webp",
+      "rear": "https://flib.samar.pl/700/800/780896a3bc25a453207640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/7809195cfa9a4238a702560.webp"
+    }
+  },
+  {
+    "id": 153,
+    "modelName": "Opel Combo Van",
+    "brand": "Opel",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/78029619912df40ad4f640.webp",
+      "front": "https://flib.samar.pl/700/300/78032078e8de7f31ce2640.webp",
+      "rear": "https://flib.samar.pl/700/300/780304b988f16eac80d640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/780323eb15cb15cbc602560.webp"
+    }
+  },
+  {
+    "id": 154,
+    "modelName": "Opel Zafira Life",
+    "brand": "Opel",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 6,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/7632037464d7db02a4e640.webp",
+      "front": "https://flib.samar.pl/700/200/763227492df7e2c29de640.webp",
+      "rear": "https://flib.samar.pl/700/200/7632113d254a04f616f640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/7632303267d09e5a2e92560.webp"
+    }
+  },
+  {
+    "id": 155,
+    "modelName": "Opel Insignia",
+    "brand": "Opel",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "62 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/500/7595885a753c2e4404d640.webp",
+      "front": "https://flib.samar.pl/700/600/759612c10aa8e2f9ea8640.webp",
+      "rear": "https://flib.samar.pl/700/500/759596e03512cd1b437640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/7596158a569d3010ce22560.webp"
+    }
+  },
+  {
+    "id": 156,
+    "modelName": "Opel Crossland X",
+    "brand": "Opel",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/74430085508c34f7466640.webp",
+      "front": "https://flib.samar.pl/700/300/7443243eddf431fd0d0640.webp",
+      "rear": "https://flib.samar.pl/700/300/7443084e9468348a142640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/744327c303cc63da9112560.webp"
+    }
+  },
+  {
+    "id": 157,
+    "modelName": "Opel Vivaro",
+    "brand": "Opel",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 6,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/719035895ba28cb7b01640.webp",
+      "front": "https://flib.samar.pl/700/000/7190598de51462b749c640.webp",
+      "rear": "https://flib.samar.pl/700/000/719043b8c52007aac10640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/7190624fd49781a4afb2560.webp"
+    }
+  },
+  {
+    "id": 158,
+    "modelName": "Peugeot 2008",
+    "brand": "Peugeot",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "44 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/500/931594adec4155473a6640.webp",
+      "front": "https://flib.samar.pl/900/600/931618a056f888c7dbc640.webp",
+      "rear": "https://flib.samar.pl/900/600/931602bb93f5fc2e50c640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/9316213e25e7d594a522560.webp"
+    }
+  },
+  {
+    "id": 159,
+    "modelName": "Peugeot 308",
+    "brand": "Peugeot",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "52 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/916283d54fa85db11ba640.webp",
+      "front": "https://flib.samar.pl/900/300/916307b42360dd424a6640.webp",
+      "rear": "https://flib.samar.pl/900/200/916291edbdc122af002640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/916310bf8e7efe5c34a2560.webp"
+    }
+  },
+  {
+    "id": 160,
+    "modelName": "Peugeot 3008",
+    "brand": "Peugeot",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/903139180ea23371c3c640.webp",
+      "front": "https://flib.samar.pl/900/100/9031633a44a4b01411c640.webp",
+      "rear": "https://flib.samar.pl/900/100/9031472b24272611969640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/90316670fcf5a0952c82560.webp"
+    }
+  },
+  {
+    "id": 161,
+    "modelName": "Peugeot 508",
+    "brand": "Peugeot",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "42 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/890437edbab0ee27980640.webp",
+      "front": "https://flib.samar.pl/800/400/8904616cc09e99b7965640.webp",
+      "rear": "https://flib.samar.pl/800/400/8904454097b11dd610f640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/890464558e332327cf02560.webp"
+    }
+  },
+  {
+    "id": 162,
+    "modelName": "Peugeot 5008",
+    "brand": "Peugeot",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "56 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/8874152870f6c0f7d1c640.webp",
+      "front": "https://flib.samar.pl/800/400/8874391c80eb6f78bee640.webp",
+      "rear": "https://flib.samar.pl/800/400/8874238f3637db561be640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/887442149408b2a47832560.webp"
+    }
+  },
+  {
+    "id": 163,
+    "modelName": "Peugeot 408",
+    "brand": "Peugeot",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/8479917cd0260451313640.webp",
+      "front": "https://flib.samar.pl/800/000/848015e25f854b3da9f640.webp",
+      "rear": "https://flib.samar.pl/800/900/8479997af75e1395816640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/848018cb32a4d850d252560.webp"
+    }
+  },
+  {
+    "id": 164,
+    "modelName": "Peugeot Rifter",
+    "brand": "Peugeot",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/770350cac619f35303e640.webp",
+      "front": "https://flib.samar.pl/700/300/770374623b3ad58d1a9640.webp",
+      "rear": "https://flib.samar.pl/700/300/770358f366c0c1d2f2f640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/770377a428e43f43dc02560.webp"
+    }
+  },
+  {
+    "id": 165,
+    "modelName": "Peugeot Partner",
+    "brand": "Peugeot",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/77024504a8dc746fc62640.webp",
+      "front": "https://flib.samar.pl/700/200/770269bafddd66b90c3640.webp",
+      "rear": "https://flib.samar.pl/700/200/7702536d922f0e79977640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/770272938522e33b45a2560.webp"
+    }
+  },
+  {
+    "id": 166,
+    "modelName": "Peugeot Traveller",
+    "brand": "Peugeot",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 6,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/75926868965473c7fe640.webp",
+      "front": "https://flib.samar.pl/700/200/759292effdf82fbe466640.webp",
+      "rear": "https://flib.samar.pl/700/200/759276f706dbf02e38f640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/759295c320aa335dabe2560.webp"
+    }
+  },
+  {
+    "id": 167,
+    "modelName": "Peugeot Expert",
+    "brand": "Peugeot",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 6,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/400/713427b1e96661ba65d640.webp",
+      "front": "https://flib.samar.pl/700/400/713451f21f861982b82640.webp",
+      "rear": "https://flib.samar.pl/700/400/713435f6503bde8d346640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/713454c4c6887da12442560.webp"
+    }
+  },
+  {
+    "id": 168,
+    "modelName": "Renault Rafale",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/500/9475414eda4c24854a5640.webp",
+      "front": "https://flib.samar.pl/900/500/9475658ed298942a23f640.webp",
+      "rear": "https://flib.samar.pl/900/500/9475497f68b58730ef3640.webp",
+      "diagonal": "https://flib.samar.pl/900/500/94756841fab8d9fb0d22560.webp"
+    }
+  },
+  {
+    "id": 169,
+    "modelName": "Renault Captur",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "48 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/94311682614c07b4725640.webp",
+      "front": "https://flib.samar.pl/900/100/943140e49e9018ec9fb640.webp",
+      "rear": "https://flib.samar.pl/900/100/9431242ba859613bd5640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/943143a92c8f0d6c8692560.webp"
+    }
+  },
+  {
+    "id": 170,
+    "modelName": "Renault Symbioz",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "48 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/9267580124a99e119cd640.webp",
+      "front": "https://flib.samar.pl/900/700/926782a07c6d3c64339640.webp",
+      "rear": "https://flib.samar.pl/900/700/926766d514ae7116e33640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/926785f8bbf45c441e22560.webp"
+    }
+  },
+  {
+    "id": 171,
+    "modelName": "Renault Espace",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/909173b6c02170275ce640.webp",
+      "front": "https://flib.samar.pl/900/100/909197ec0def77400f1640.webp",
+      "rear": "https://flib.samar.pl/900/100/90918107791d8bea1c1640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/9092004d4321e52638b2560.webp"
+    }
+  },
+  {
+    "id": 172,
+    "modelName": "Renault Trafic",
+    "brand": "Renault",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 6,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/90587015864d88461f7640.webp",
+      "front": "https://flib.samar.pl/900/800/90589483f2cb9a33bef640.webp",
+      "rear": "https://flib.samar.pl/900/800/9058786eb7c6cce63bc640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/9058973dd84b2542b212560.webp"
+    }
+  },
+  {
+    "id": 173,
+    "modelName": "Renault Kangoo",
+    "brand": "Renault",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/500/9035404dba6f8a40fd5640.webp",
+      "front": "https://flib.samar.pl/900/500/9035642918a6d30b2c4640.webp",
+      "rear": "https://flib.samar.pl/900/500/903548b75688993fada640.webp",
+      "diagonal": "https://flib.samar.pl/900/500/9035672310f4fada93c2560.webp"
+    }
+  },
+  {
+    "id": 174,
+    "modelName": "Renault Arkana",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/9028002b2ed6da16be3640.webp",
+      "front": "https://flib.samar.pl/900/800/9028240bc6b6a1361e1640.webp",
+      "rear": "https://flib.samar.pl/900/800/90280845a96d7240dab640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/902827503f87f16cc3c2560.webp"
+    }
+  },
+  {
+    "id": 175,
+    "modelName": "Renault Megane",
+    "brand": "Renault",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/8993987cc2362b03edc640.webp",
+      "front": "https://flib.samar.pl/800/400/899422b5cc5bed40643640.webp",
+      "rear": "https://flib.samar.pl/800/400/89940664b42e1adf84e640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8994257efed2b4deae82560.webp"
+    }
+  },
+  {
+    "id": 176,
+    "modelName": "Renault Clio",
+    "brand": "Renault",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "39 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/8761341292f1a11609a640.webp",
+      "front": "https://flib.samar.pl/800/100/876158f6515ed7006e0640.webp",
+      "rear": "https://flib.samar.pl/800/100/876142127bb03eed36a640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8761619b54128614b212560.webp"
+    }
+  },
+  {
+    "id": 177,
+    "modelName": "Renault Austral",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/8706157a527f4377599640.webp",
+      "front": "https://flib.samar.pl/800/600/870606cd6e203dc8acf640.webp",
+      "rear": "https://flib.samar.pl/800/500/870571d1dfbb02f8f35640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/8706090055dcffb75cd2560.webp"
+    }
+  },
+  {
+    "id": 178,
+    "modelName": "Renault ZOE",
+    "brand": "Renault",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/8554970d3f86721d2b4640.webp",
+      "front": "https://flib.samar.pl/800/400/85548980617154aa4fe640.webp",
+      "rear": "https://flib.samar.pl/800/400/8554537eb100f7279aa640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8554929af185a89aa52560.webp"
+    }
+  },
+  {
+    "id": 179,
+    "modelName": "Renault Kangoo Van",
+    "brand": "Renault",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/825480b8987f06ac9fa640.webp",
+      "front": "https://flib.samar.pl/800/500/825504ad7f1d548a6d1640.webp",
+      "rear": "https://flib.samar.pl/800/400/8254883dbbafd3a1585640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/82550745ad74e00c7242560.webp"
+    }
+  },
+  {
+    "id": 180,
+    "modelName": "Renault Express VAN",
+    "brand": "Renault",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/816935f63a7cd63a5aa640.webp",
+      "front": "https://flib.samar.pl/800/900/8169592ccaa3849a624640.webp",
+      "rear": "https://flib.samar.pl/800/900/8169430fd81b9c50f16640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/8169628dd1fce4bde312560.webp"
+    }
+  },
+  {
+    "id": 181,
+    "modelName": "Renault Koleos",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/200/745230a582651877bd4640.webp",
+      "front": "https://flib.samar.pl/700/200/745254c1980487cfd9c640.webp",
+      "rear": "https://flib.samar.pl/700/200/745238916340f813461640.webp",
+      "diagonal": "https://flib.samar.pl/700/200/74525764f3701c865ba2560.webp"
+    }
+  },
+  {
+    "id": 182,
+    "modelName": "Renault Talisman",
+    "brand": "Renault",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/7379044d94c9d42314b640.webp",
+      "front": "https://flib.samar.pl/700/900/7379283991c4c7af5cf640.webp",
+      "rear": "https://flib.samar.pl/700/900/7379120ba08d46d91f1640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/7379315e5af8581b5862560.webp"
+    }
+  },
+  {
+    "id": 183,
+    "modelName": "Renault Avantime",
+    "brand": "Renault",
+    "bodyType": "MPV",
+    "numberOfDoors": 3,
+    "numberOfSeats": 5,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/716912d7915dca0a0c2640.webp",
+      "front": "https://flib.samar.pl/700/900/71693647c53a0df224d640.webp",
+      "rear": "https://flib.samar.pl/700/900/716920e29703dacd75b640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/716939be9a1566750d82560.webp"
+    }
+  },
+  {
+    "id": 184,
+    "modelName": "Renault Kangoo Express",
+    "brand": "Renault",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/709792896336ca5aeed640.webp",
+      "front": "https://flib.samar.pl/700/800/709833ac1ce00f4961f640.webp",
+      "rear": "https://flib.samar.pl/700/800/70980794de4f2051712640.webp",
+      "diagonal": "https://flib.samar.pl/700/800/709838bade05e639c9d2560.webp"
+    }
+  },
+  {
+    "id": 185,
+    "modelName": "Renault Kadjar",
+    "brand": "Renault",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/622382b228b7b83057e640.webp",
+      "front": "https://flib.samar.pl/600/400/6224064363a99f45d76640.webp",
+      "rear": "https://flib.samar.pl/600/300/62239061fcf8b49ad49640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/622409495dc6ab57ab22560.webp"
+    }
+  },
+  {
+    "id": 186,
+    "modelName": "Renault Twizy",
+    "brand": "Renault",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/100/615120a396e0c4d611a640.webp",
+      "front": "https://flib.samar.pl/600/100/615144ce6de6bcd0c2f640.webp",
+      "rear": "https://flib.samar.pl/600/100/61512821070f1a22beb640.webp",
+      "diagonal": "https://flib.samar.pl/600/100/615147e09f68a99af442560.webp"
+    }
+  },
+  {
+    "id": 187,
+    "modelName": "Renault Scenic",
+    "brand": "Renault",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "53 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/300/56732050a794a436666640.webp",
+      "front": "https://flib.samar.pl/500/300/5673440190368c4bd03640.webp",
+      "rear": "https://flib.samar.pl/500/300/5673281915a0a441108640.webp",
+      "diagonal": "https://flib.samar.pl/500/300/567347ff796008bd5812560.webp"
+    }
+  },
+  {
+    "id": 188,
+    "modelName": "Renault Twingo",
+    "brand": "Renault",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/500/554563980e92871871e640.webp",
+      "front": "https://flib.samar.pl/500/500/5545884211e2ff4924b640.webp",
+      "rear": "https://flib.samar.pl/500/500/5545714314296f0747d640.webp",
+      "diagonal": "https://flib.samar.pl/500/500/5545915aa28d8d29b012560.webp"
+    }
+  },
+  {
+    "id": 189,
+    "modelName": "SEAT Arona",
+    "brand": "SEAT",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/923816894e50e391b6e640.webp",
+      "front": "https://flib.samar.pl/900/800/923840baec8e368ea26640.webp",
+      "rear": "https://flib.samar.pl/900/800/923824009723ced6217640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/923843fe2376c40ee7f2560.webp"
+    }
+  },
+  {
+    "id": 190,
+    "modelName": "SEAT Leon",
+    "brand": "SEAT",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/911666af91ceca54136640.webp",
+      "front": "https://flib.samar.pl/900/600/911690e62c1ee0c994d640.webp",
+      "rear": "https://flib.samar.pl/900/600/911674422fe558bcc60640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/9116935d220024f4bca2560.webp"
+    }
+  },
+  {
+    "id": 191,
+    "modelName": "SEAT Ateca",
+    "brand": "SEAT",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/844740abd8d147a1c18640.webp",
+      "front": "https://flib.samar.pl/800/700/8447649224a281b75ed640.webp",
+      "rear": "https://flib.samar.pl/800/700/844748f79384a422dc8640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/844767be22a4e92e34b2560.webp"
+    }
+  },
+  {
+    "id": 192,
+    "modelName": "SEAT Ibiza",
+    "brand": "SEAT",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/7733894fdfe3045c63c640.webp",
+      "front": "https://flib.samar.pl/700/400/773413b129b30d7b931640.webp",
+      "rear": "https://flib.samar.pl/700/300/773397cce8d5a178603640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/773416bc04dd6480a812560.webp"
+    }
+  },
+  {
+    "id": 193,
+    "modelName": "SEAT Tarraco",
+    "brand": "SEAT",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/734036962f1aa6b2bb4640.webp",
+      "front": "https://flib.samar.pl/700/000/73406027ba40892d074640.webp",
+      "rear": "https://flib.samar.pl/700/000/734044f04f78a647aea640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/734063c607b9eb8c0c12560.webp"
+    }
+  },
+  {
+    "id": 194,
+    "modelName": "SEAT Alhambra",
+    "brand": "SEAT",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/100/616150d9466930e96f4640.webp",
+      "front": "https://flib.samar.pl/600/100/616174ecdded4cc342d640.webp",
+      "rear": "https://flib.samar.pl/600/100/616158ff854f83bf603640.webp",
+      "diagonal": "https://flib.samar.pl/600/100/616177b2212088d11302560.webp"
+    }
+  },
+  {
+    "id": 195,
+    "modelName": "Skoda Octavia",
+    "brand": "Skoda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/000/94606912ed710321502640.webp",
+      "front": "https://flib.samar.pl/900/000/946093acbbd24b29fde640.webp",
+      "rear": "https://flib.samar.pl/900/000/94607725f57ab36fd68640.webp",
+      "diagonal": "https://flib.samar.pl/900/000/94609676a7c15ffb5f22560.webp"
+    }
+  },
+  {
+    "id": 196,
+    "modelName": "Skoda Kamiq",
+    "brand": "Skoda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/927106d960230a8b883640.webp",
+      "front": "https://flib.samar.pl/900/100/92713033fbd3e86a93d640.webp",
+      "rear": "https://flib.samar.pl/900/100/92711436ad60be6e8c4640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/9271331312d76f95d792560.webp"
+    }
+  },
+  {
+    "id": 197,
+    "modelName": "Skoda Kodiaq",
+    "brand": "Skoda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/926472f77faf684cb34640.webp",
+      "front": "https://flib.samar.pl/900/400/92649694cc47e8f9a21640.webp",
+      "rear": "https://flib.samar.pl/900/400/926480de9f00609aae6640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/926499d6c43a908c8872560.webp"
+    }
+  },
+  {
+    "id": 198,
+    "modelName": "Skoda Scala",
+    "brand": "Skoda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/9251682c03097debb86640.webp",
+      "front": "https://flib.samar.pl/900/100/92519278f5b69eda9a4640.webp",
+      "rear": "https://flib.samar.pl/900/100/925176f1e164bb2e79d640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/9251959a8d599e226ce2560.webp"
+    }
+  },
+  {
+    "id": 199,
+    "modelName": "Skoda Superb",
+    "brand": "Skoda",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/921727bd7a14b1bd9df640.webp",
+      "front": "https://flib.samar.pl/900/700/9217514e96e157ac021640.webp",
+      "rear": "https://flib.samar.pl/900/700/921735c201f132fea22640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/9217548e494be4cc5252560.webp"
+    }
+  },
+  {
+    "id": 200,
+    "modelName": "Skoda Enyaq iV",
+    "brand": "Skoda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/9176025b547e664e209640.webp",
+      "front": "https://flib.samar.pl/900/600/91762630efd07c2fdb2640.webp",
+      "rear": "https://flib.samar.pl/900/600/917610d1492ba5a5e9f640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/917629e60347e61a1dd2560.webp"
+    }
+  },
+  {
+    "id": 201,
+    "modelName": "Skoda Karoq",
+    "brand": "Skoda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/887750a4a34ecf53001640.webp",
+      "front": "https://flib.samar.pl/800/700/887774e68b1a87348ae640.webp",
+      "rear": "https://flib.samar.pl/800/700/887758045d7b57470dd640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/8877779407d356e98942560.webp"
+    }
+  },
+  {
+    "id": 202,
+    "modelName": "Skoda Fabia",
+    "brand": "Skoda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/8837222d3f46265cd35640.webp",
+      "front": "https://flib.samar.pl/800/700/88374646b65373760a2640.webp",
+      "rear": "https://flib.samar.pl/800/700/88373047ca360592a3a640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/88374937b113ee00a122560.webp"
+    }
+  },
+  {
+    "id": 203,
+    "modelName": "Skoda Citigo",
+    "brand": "Skoda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/500/601550522dad3ee2090640.webp",
+      "front": "https://flib.samar.pl/600/500/601574f4fd59fd276c3640.webp",
+      "rear": "https://flib.samar.pl/600/500/60155828516bb85f16f640.webp",
+      "diagonal": "https://flib.samar.pl/600/500/601577e47b5ea58d8892560.webp"
+    }
+  },
+  {
+    "id": 204,
+    "modelName": "Skoda Rapid",
+    "brand": "Skoda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/200/5782282b6d32e731d04640.webp",
+      "front": "https://flib.samar.pl/500/200/578252d159a7c2192b2640.webp",
+      "rear": "https://flib.samar.pl/500/200/578236b73b460a00c7e640.webp",
+      "diagonal": "https://flib.samar.pl/500/200/578255282da6f7a117f2560.webp"
+    }
+  },
+  {
+    "id": 205,
+    "modelName": "Toyota C-HR",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/899276e308517061c8b640.webp",
+      "front": "https://flib.samar.pl/800/300/8993007acb0e4a72289640.webp",
+      "rear": "https://flib.samar.pl/800/200/899284e2e483a083370640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8993032980a66b0fc082560.webp"
+    }
+  },
+  {
+    "id": 206,
+    "modelName": "Toyota Mirai",
+    "brand": "Toyota",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/879347cc5e30336d9b5640.webp",
+      "front": "https://flib.samar.pl/800/300/879371d9bd0321ffd55640.webp",
+      "rear": "https://flib.samar.pl/800/300/879355227eacc06d5bb640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/87937481872cd88fcab2560.webp"
+    }
+  },
+  {
+    "id": 207,
+    "modelName": "Toyota Prius",
+    "brand": "Toyota",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/8744123ee446a17bfa0640.webp",
+      "front": "https://flib.samar.pl/800/400/8744360c9a62c793e93640.webp",
+      "rear": "https://flib.samar.pl/800/400/87442046b3a7b413b84640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8744392ec0c54e5a0732560.webp"
+    }
+  },
+  {
+    "id": 208,
+    "modelName": "Toyota Corolla",
+    "brand": "Toyota",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/867616ce43528ce0647640.webp",
+      "front": "https://flib.samar.pl/800/600/867640587264ee8c9b7640.webp",
+      "rear": "https://flib.samar.pl/800/600/867624b77cd231eb2c3640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/867643ee7d55a964b342560.webp"
+    }
+  },
+  {
+    "id": 209,
+    "modelName": "Toyota Yaris Cross",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "36 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/849281c8260c51a28a8640.webp",
+      "front": "https://flib.samar.pl/800/300/8493059310d1a6d16e0640.webp",
+      "rear": "https://flib.samar.pl/800/200/849289bacb81420790e640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8493080f1756b4b45602560.webp"
+    }
+  },
+  {
+    "id": 210,
+    "modelName": "Toyota Camry",
+    "brand": "Toyota",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/846983c955c911db617640.webp",
+      "front": "https://flib.samar.pl/800/000/8470074a5b5f9ee4e7f640.webp",
+      "rear": "https://flib.samar.pl/800/900/846991a57ad2c36b36a640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/847010e51922dbe76862560.webp"
+    }
+  },
+  {
+    "id": 211,
+    "modelName": "Toyota Proace City Verso",
+    "brand": "Toyota",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/825922997fcb4267de1640.webp",
+      "front": "https://flib.samar.pl/800/900/8259466f47ff4c06672640.webp",
+      "rear": "https://flib.samar.pl/800/900/8259307ff8e9d0956df640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/8259498849fbaceb8612560.webp"
+    }
+  },
+  {
+    "id": 212,
+    "modelName": "Toyota Yaris",
+    "brand": "Toyota",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "36 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/824921a18a0cb460fdd640.webp",
+      "front": "https://flib.samar.pl/800/900/824945950960c793a31640.webp",
+      "rear": "https://flib.samar.pl/800/900/824929d223c40e32892640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/824948516b297d240ca2560.webp"
+    }
+  },
+  {
+    "id": 213,
+    "modelName": "Toyota GR86",
+    "brand": "Toyota",
+    "bodyType": "Coupe",
+    "numberOfDoors": 3,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/82430015bbbd4139f58640.webp",
+      "front": "https://flib.samar.pl/800/300/824324e16d4ba4e73e8640.webp",
+      "rear": "https://flib.samar.pl/800/300/824308b66e6c0a4d05b640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/824327f56dcea48ef9f2560.webp"
+    }
+  },
+  {
+    "id": 214,
+    "modelName": "Toyota bZ4x",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/8219436c08b73d6bf58640.webp",
+      "front": "https://flib.samar.pl/800/900/821967ef571f947fcf4640.webp",
+      "rear": "https://flib.samar.pl/800/900/821951fa6b0d0c45b52640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/821970eebb8dbadb5a12560.webp"
+    }
+  },
+  {
+    "id": 215,
+    "modelName": "Toyota Corolla Cross",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/818790f846f75dc410f640.webp",
+      "front": "https://flib.samar.pl/800/800/8188146741663001284640.webp",
+      "rear": "https://flib.samar.pl/800/700/818798b9d4135221643640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/8188179062bf24e8b762560.webp"
+    }
+  },
+  {
+    "id": 216,
+    "modelName": "Toyota RAV4",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/809278590af8aef82ae640.webp",
+      "front": "https://flib.samar.pl/800/300/809302a08304412f51b640.webp",
+      "rear": "https://flib.samar.pl/800/200/8092861d3bd399efa1a640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8093052d542a3de94242560.webp"
+    }
+  },
+  {
+    "id": 217,
+    "modelName": "Toyota Supra",
+    "brand": "Toyota",
+    "bodyType": "Coupe",
+    "numberOfDoors": 3,
+    "numberOfSeats": 2,
+    "tankCapacity": "52 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/80486690ab59619c4ed640.webp",
+      "front": "https://flib.samar.pl/800/800/8048908dcccb9a7c642640.webp",
+      "rear": "https://flib.samar.pl/800/800/804874423dfd2c9d6a5640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/8048934ed3a394f0b742560.webp"
+    }
+  },
+  {
+    "id": 218,
+    "modelName": "Toyota Aygo X",
+    "brand": "Toyota",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "30 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/7997585a0a57dea7cb8640.webp",
+      "front": "https://flib.samar.pl/700/700/79978239b0a883ac4e640.webp",
+      "rear": "https://flib.samar.pl/700/700/7997669dab4571ffe9c640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/799785a4b082e91fff32560.webp"
+    }
+  },
+  {
+    "id": 219,
+    "modelName": "Toyota Hilux",
+    "brand": "Toyota",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/741727395ba31ed3d9f640.webp",
+      "front": "https://flib.samar.pl/700/700/741751acdc8c8e2a50b640.webp",
+      "rear": "https://flib.samar.pl/700/700/741735e14499a92c4e5640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/741754033008c3fc4872560.webp"
+    }
+  },
+  {
+    "id": 220,
+    "modelName": "Toyota Proace",
+    "brand": "Toyota",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 3,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/800/7378292fe4e086961b0640.webp",
+      "front": "https://flib.samar.pl/700/800/737853309ec55f1609c640.webp",
+      "rear": "https://flib.samar.pl/700/800/737837d16bf59912189640.webp",
+      "diagonal": "https://flib.samar.pl/700/800/737856763919496bcd42560.webp"
+    }
+  },
+  {
+    "id": 221,
+    "modelName": "Toyota Proace City",
+    "brand": "Toyota",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 2,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/718959e9ca43b6bdec8640.webp",
+      "front": "https://flib.samar.pl/700/900/7189834062baeda51d5640.webp",
+      "rear": "https://flib.samar.pl/700/900/718967aef396ad0b0c3640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/718986a5345370797de2560.webp"
+    }
+  },
+  {
+    "id": 222,
+    "modelName": "Toyota Highlander",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/715751fcaa116f55a99640.webp",
+      "front": "https://flib.samar.pl/700/700/71577541b801dbdefad640.webp",
+      "rear": "https://flib.samar.pl/700/700/715759d1678e0ebb7b0640.webp",
+      "diagonal": "https://flib.samar.pl/700/700/71577851a91457047322560.webp"
+    }
+  },
+  {
+    "id": 223,
+    "modelName": "Toyota Proace Verso",
+    "brand": "Toyota",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 9,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/200/6932007faab191eaf86640.webp",
+      "front": "https://flib.samar.pl/600/200/693224a33b634693adc640.webp",
+      "rear": "https://flib.samar.pl/600/200/69320861d65436dc87b640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/693227e05f86ceb03822560.webp"
+    }
+  },
+  {
+    "id": 224,
+    "modelName": "Toyota Land Cruiser",
+    "brand": "Toyota",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "87 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/655715d60d64cfce42c640.webp",
+      "front": "https://flib.samar.pl/600/700/65573901505a7c4b8db640.webp",
+      "rear": "https://flib.samar.pl/600/700/655723ecb5f425fa536640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/6557425c1757bf13c812560.webp"
+    }
+  },
+  {
+    "id": 225,
+    "modelName": "Toyota GT 86",
+    "brand": "Toyota",
+    "bodyType": "Coupe",
+    "numberOfDoors": 3,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/900/5909386fb78a53f6420640.webp",
+      "front": "https://flib.samar.pl/500/900/5909628714e17b6733c640.webp",
+      "rear": "https://flib.samar.pl/500/900/590946a5d598f982309640.webp",
+      "diagonal": "https://flib.samar.pl/500/900/5909658b330e6d793272560.webp"
+    }
+  },
+  {
+    "id": 226,
+    "modelName": "Toyota Aygo",
+    "brand": "Toyota",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "35 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/200/5742507b33b58db2823640.webp",
+      "front": "https://flib.samar.pl/500/200/574274466ad268d9543640.webp",
+      "rear": "https://flib.samar.pl/500/200/5742581b35f680fbbb1640.webp",
+      "diagonal": "https://flib.samar.pl/500/200/574277fa717fdafa7a82560.webp"
+    }
+  },
+  {
+    "id": 227,
+    "modelName": "Toyota Auris",
+    "brand": "Toyota",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/300/555399d1b46871ec19a640.webp",
+      "front": "https://flib.samar.pl/500/400/555423946e051da299b640.webp",
+      "rear": "https://flib.samar.pl/500/400/5554070616e2933596640.webp",
+      "diagonal": "https://flib.samar.pl/500/400/555426d915bcdfa83382560.webp"
+    }
+  },
+  {
+    "id": 228,
+    "modelName": "Volkswagen Crafter",
+    "brand": "volkswagen",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 3,
+    "tankCapacity": "78 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/944878de4c2114665cb640.webp",
+      "front": "https://flib.samar.pl/900/900/944902103d13db89857640.webp",
+      "rear": "https://flib.samar.pl/900/800/944886f73c9143bfa35640.webp",
+      "diagonal": "https://flib.samar.pl/900/900/944905cfd0e95dbf5d72560.webp"
+    }
+  },
+  {
+    "id": 229,
+    "modelName": "Volkswagen California",
+    "brand": "volkswagen",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/939156a68bddd4ebe02640.webp",
+      "front": "https://flib.samar.pl/900/100/939180c97eacae670b2640.webp",
+      "rear": "https://flib.samar.pl/900/100/9391645ed29f24d7cd5640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/93918364fc98ac440ad2560.webp"
+    }
+  },
+  {
+    "id": 230,
+    "modelName": "Volkswagen Golf",
+    "brand": "volkswagen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/93435100861d9a7b89b640.webp",
+      "front": "https://flib.samar.pl/900/300/934375885dc4fea7955640.webp",
+      "rear": "https://flib.samar.pl/900/300/934359b91c4c7947431640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/934378eb1364340ed1d2560.webp"
+    }
+  },
+  {
+    "id": 231,
+    "modelName": "Volkswagen Touareg",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "76 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/9333386ed75f512c3a9640.webp",
+      "front": "https://flib.samar.pl/900/300/9333623e2342051471f640.webp",
+      "rear": "https://flib.samar.pl/900/300/933346d30e418306970640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/93336595f6a3aedf6db2560.webp"
+    }
+  },
+  {
+    "id": 232,
+    "modelName": "Volkswagen Caddy",
+    "brand": "volkswagen",
+    "bodyType": "Window Van",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/891294ad76a259ce233640.webp",
+      "front": "https://flib.samar.pl/800/300/8913183659539265d6f640.webp",
+      "rear": "https://flib.samar.pl/800/300/8913023b53294d5a837640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8913213f48897be7fbf2560.webp"
+    }
+  },
+  {
+    "id": 233,
+    "modelName": "Volkswagen Passat",
+    "brand": "volkswagen",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/898046d22c838a6a095640.webp",
+      "front": "https://flib.samar.pl/800/000/89807088825f3ffb77b640.webp",
+      "rear": "https://flib.samar.pl/800/000/898054dc4ef7cb2ed33640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/89807300d1362e79a642560.webp"
+    }
+  },
+  {
+    "id": 234,
+    "modelName": "Volkswagen ID.7",
+    "brand": "volkswagen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/89408037837aabd171e640.webp",
+      "front": "https://flib.samar.pl/800/100/89410429c3518ea9613640.webp",
+      "rear": "https://flib.samar.pl/800/000/89408804bb36b9d100e640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/894107d603b6819acbf2560.webp"
+    }
+  },
+  {
+    "id": 235,
+    "modelName": "Volkswagen Polo",
+    "brand": "volkswagen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/868640f83c2423b73b4640.webp",
+      "front": "https://flib.samar.pl/800/600/868664c8e22c631accd640.webp",
+      "rear": "https://flib.samar.pl/800/600/8686483d89c186c27c1640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/86866717c8cf7365aeb2560.webp"
+    }
+  },
+  {
+    "id": 236,
+    "modelName": "Volkswagen T-Roc",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/8672680299ae10d75d9640.webp",
+      "front": "https://flib.samar.pl/800/200/867292ff071300c52c9640.webp",
+      "rear": "https://flib.samar.pl/800/200/867276caa419c5607a0640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/86729509fa2fa89d5a22560.webp"
+    }
+  },
+  {
+    "id": 237,
+    "modelName": "Volkswagen Amarok",
+    "brand": "volkswagen",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/860462ab4c661010775640.webp",
+      "front": "https://flib.samar.pl/800/400/8604868ae36f5aee30d640.webp",
+      "rear": "https://flib.samar.pl/800/400/860470e96fc6bc9b13a640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8604893d596a8cd565b2560.webp"
+    }
+  },
+  {
+    "id": 238,
+    "modelName": "Volkswagen ID.3",
+    "brand": "volkswagen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/858482e08a66708f5d0640.webp",
+      "front": "https://flib.samar.pl/800/500/8585425ab213f5c1d99640.webp",
+      "rear": "https://flib.samar.pl/800/400/858495a15880b8f005f640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/858548be510ecc1f3e02560.webp"
+    }
+  },
+  {
+    "id": 239,
+    "modelName": "Volkswagen Arteon",
+    "brand": "volkswagen",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/8401579a1bda86ada00640.webp",
+      "front": "https://flib.samar.pl/800/100/840181affd1c2cddd5a640.webp",
+      "rear": "https://flib.samar.pl/800/100/8401656f4d7dacffb27640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8401843f7050d8bbc822560.webp"
+    }
+  },
+  {
+    "id": 240,
+    "modelName": "Volkswagen Taigo",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/838617fe121788ec475640.webp",
+      "front": "https://flib.samar.pl/800/600/8386417ead43e53ed17640.webp",
+      "rear": "https://flib.samar.pl/800/600/8386254928b2968abca640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/838644fa7c143ce6cb82560.webp"
+    }
+  },
+  {
+    "id": 241,
+    "modelName": "Volkswagen ID.Buzz",
+    "brand": "volkswagen",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 3,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/8366401493a755f82d8640.webp",
+      "front": "https://flib.samar.pl/800/600/836664e0d98adf175d5640.webp",
+      "rear": "https://flib.samar.pl/800/600/8366484ffadefba9fab640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/836667bef10a6eec53a2560.webp"
+    }
+  },
+  {
+    "id": 242,
+    "modelName": "Volkswagen Multivan",
+    "brand": "volkswagen",
+    "bodyType": "Minibus",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/829545a5f02ff71cec3640.webp",
+      "front": "https://flib.samar.pl/800/500/829569abce2c4bf9430640.webp",
+      "rear": "https://flib.samar.pl/800/500/829553a71353c4a0ccb640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/829572e0979b5c49a942560.webp"
+    }
+  },
+  {
+    "id": 243,
+    "modelName": "Volkswagen ID.5",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/797990a74d3cc8ba6fb640.webp",
+      "front": "https://flib.samar.pl/700/000/7980144b721c5a97b7b640.webp",
+      "rear": "https://flib.samar.pl/700/900/797998d7b9fa205f8c1640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/7980172fbb1c50432c52560.webp"
+    }
+  },
+  {
+    "id": 244,
+    "modelName": "Volkswagen ID.4",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/785045055d4bc256b7a640.webp",
+      "front": "https://flib.samar.pl/700/000/785069b3accd7a811ec640.webp",
+      "rear": "https://flib.samar.pl/700/000/7850535cb7c4294151c640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/7850724de4e31c699372560.webp"
+    }
+  },
+  {
+    "id": 245,
+    "modelName": "Volkswagen T-Cross",
+    "brand": "volkswagen",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/736937b2210d9294120640.webp",
+      "front": "https://flib.samar.pl/700/900/736961f69cbd93310e0640.webp",
+      "rear": "https://flib.samar.pl/700/900/736945e1486aca33d59640.webp",
+      "diagonal": "https://flib.samar.pl/700/900/736964d9a138225dd082560.webp"
+    }
+  },
+  {
+    "id": 246,
+    "modelName": "Volkswagen Schwimmwagen",
+    "brand": "volkswagen",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/500/9495007cc7cfbd6ab4a640.webp",
+      "front": "https://flib.samar.pl/900/500/9495248c3e2716a0d52640.webp",
+      "rear": "https://flib.samar.pl/900/500/9495088b7d526d807d7640.webp",
+      "diagonal": "https://flib.samar.pl/900/500/9495277d1700b548ef92560.webp"
+    }
+  },
+  {
+    "id": 247,
+    "modelName": "Volkswagen up!",
+    "brand": "volkswagen",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/682483cc94093cc465d640.webp",
+      "front": "https://flib.samar.pl/600/500/68250748a521b278f95640.webp",
+      "rear": "https://flib.samar.pl/600/400/68249179801b3573928640.webp",
+      "diagonal": "https://flib.samar.pl/600/500/682510ffabcf7d5efe82560.webp"
+    }
+  },
+  {
+    "id": 248,
+    "modelName": "Volkswagen Transporter",
+    "brand": "volkswagen",
+    "bodyType": "Van",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/600/657693e9ebf3bb707a6640.webp",
+      "front": "https://flib.samar.pl/600/700/6577174aa28b52bc916640.webp",
+      "rear": "https://flib.samar.pl/600/700/6577010c8a84e71b10b640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/65772051816c04a98e92560.webp"
+    }
+  },
+  {
+    "id": 249,
+    "modelName": "Volkswagen Golf Sportsvan",
+    "brand": "volkswagen",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/500/62459829b24e8775d8c640.webp",
+      "front": "https://flib.samar.pl/600/600/6246227b68ccb5b30bb640.webp",
+      "rear": "https://flib.samar.pl/600/600/6246062659a94b1565a640.webp",
+      "diagonal": "https://flib.samar.pl/600/600/6246259c42808269fe72560.webp"
+    }
+  },
+  {
+    "id": 250,
+    "modelName": "Volkswagen KdF-Wagen",
+    "brand": "volkswagen",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/600/576604b5b17c274d0e2640.webp",
+      "front": "https://flib.samar.pl/500/600/576628c5d6aba9c4eeb640.webp",
+      "rear": "https://flib.samar.pl/500/600/576612689f0d7b24131640.webp",
+      "diagonal": "https://flib.samar.pl/500/600/57663115f78577cc7292560.webp"
+    }
+  },
+  {
+    "id": 251,
+    "modelName": "Volkswagen Touran",
+    "brand": "volkswagen",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/000/568025987a3bc396023640.webp",
+      "front": "https://flib.samar.pl/500/000/568050b7223b6aa7e66640.webp",
+      "rear": "https://flib.samar.pl/500/000/5680339395377a8a700640.webp",
+      "diagonal": "https://flib.samar.pl/500/000/568053d9ed3895d2fd02560.webp"
+    }
+  },
+  {
+    "id": 252,
+    "modelName": "Volvo EX90",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/94229964e45ae97564e640.webp",
+      "front": "https://flib.samar.pl/900/300/942323b00e684cc6dc7640.webp",
+      "rear": "https://flib.samar.pl/900/300/942307518999642a6d1640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/9423263ce5c00e986052560.webp"
+    }
+  },
+  {
+    "id": 253,
+    "modelName": "Volvo EX30",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/9232514c71991010181640.webp",
+      "front": "https://flib.samar.pl/900/200/9232757a11dfd339838640.webp",
+      "rear": "https://flib.samar.pl/900/200/923259a0de794b8c2ad640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/923278f5307872907602560.webp"
+    }
+  },
+  {
+    "id": 254,
+    "modelName": "Volvo XC60",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "71 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/91145024f6a80a13716640.webp",
+      "front": "https://flib.samar.pl/900/400/911474647f496bb2a52640.webp",
+      "rear": "https://flib.samar.pl/900/400/911458403beb60d349f640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/9114775e26fccac49492560.webp"
+    }
+  },
+  {
+    "id": 255,
+    "modelName": "Volvo S60",
+    "brand": "volvo",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/100/911127f6dccb42a0944640.webp",
+      "front": "https://flib.samar.pl/900/100/91115103aab411725b640.webp",
+      "rear": "https://flib.samar.pl/900/100/9111352bc09159cd453640.webp",
+      "diagonal": "https://flib.samar.pl/900/100/911154176d6aba47c112560.webp"
+    }
+  },
+  {
+    "id": 256,
+    "modelName": "Volvo V60 Cross Country",
+    "brand": "volvo",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/864095fa0bee06f9fbd640.webp",
+      "front": "https://flib.samar.pl/800/100/864119fd56e53c8871c640.webp",
+      "rear": "https://flib.samar.pl/800/100/8641038fb73c08f1121640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/864122c6b7be0f533052560.webp"
+    }
+  },
+  {
+    "id": 257,
+    "modelName": "Volvo V90 Cross Country",
+    "brand": "volvo",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/84968350b42b4c2fca5640.webp",
+      "front": "https://flib.samar.pl/800/700/849707afb8b99097c4c640.webp",
+      "rear": "https://flib.samar.pl/800/600/849691d1664eeca2c17640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/849710bfa24f769b3a72560.webp"
+    }
+  },
+  {
+    "id": 258,
+    "modelName": "Volvo S90",
+    "brand": "volvo",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/843328dd0aea147ece4640.webp",
+      "front": "https://flib.samar.pl/800/300/84335247db33487b929640.webp",
+      "rear": "https://flib.samar.pl/800/300/843336a84796549b816640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8433557d015a9c511102560.webp"
+    }
+  },
+  {
+    "id": 259,
+    "modelName": "Volvo C40",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/833192a5ff2ad2b4a81640.webp",
+      "front": "https://flib.samar.pl/800/200/83321647d0b1c17f779640.webp",
+      "rear": "https://flib.samar.pl/800/200/83320021c733ad24b8a640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/833219157d375bbeadd2560.webp"
+    }
+  },
+  {
+    "id": 260,
+    "modelName": "Volvo V90",
+    "brand": "volvo",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/820013b7c078d210d6a640.webp",
+      "front": "https://flib.samar.pl/800/000/8200372a561d0263272640.webp",
+      "rear": "https://flib.samar.pl/800/000/8200215d675db365aad640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/820040b9c1a3c6e114f2560.webp"
+    }
+  },
+  {
+    "id": 261,
+    "modelName": "Volvo XC40",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "54 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/81977309ebf1fdcc15640.webp",
+      "front": "https://flib.samar.pl/800/700/819797dab54733172f3640.webp",
+      "rear": "https://flib.samar.pl/800/700/81978192c3cae7fab8d640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/819800c1fb66c04b6652560.webp"
+    }
+  },
+  {
+    "id": 262,
+    "modelName": "Volvo V60",
+    "brand": "volvo",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/81593110c54e7db77d4640.webp",
+      "front": "https://flib.samar.pl/800/900/8159558418add53c78d640.webp",
+      "rear": "https://flib.samar.pl/800/900/815939ce7153761f714640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/815958e420c3afa2adb2560.webp"
+    }
+  },
+  {
+    "id": 263,
+    "modelName": "Volvo XC90",
+    "brand": "volvo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "71 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/600/7766359f4f2e0eb95a4640.webp",
+      "front": "https://flib.samar.pl/700/600/77665993fbbc6aada7b640.webp",
+      "rear": "https://flib.samar.pl/700/600/776643a28ed14e9264e640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/77666209dfeaa5d3ca82560.webp"
+    }
+  },
+  {
+    "id": 264,
+    "modelName": "Volvo V40",
+    "brand": "volvo",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "62 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/696423c769fbf77988c640.webp",
+      "front": "https://flib.samar.pl/600/400/69644729649f8c730da640.webp",
+      "rear": "https://flib.samar.pl/600/400/69643176ffac712de29640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/696450028e5b95909d42560.webp"
+    }
+  },
+  {
+    "id": 265,
+    "modelName": "Volvo Amazon",
+    "brand": "volvo",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/640951fbae9c618da1b640.webp",
+      "front": "https://flib.samar.pl/600/900/640975685e2b4fceacd640.webp",
+      "rear": "https://flib.samar.pl/600/900/640959f5a87ce740926640.webp",
+      "diagonal": "https://flib.samar.pl/600/900/640978482eb26427b7e2560.webp"
+    }
+  },
+  {
+    "id": 266,
+    "modelName": "Volvo P1800",
+    "brand": "volvo",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/626440898cf526212c2640.webp",
+      "front": "https://flib.samar.pl/600/400/626464fc5a187f03930640.webp",
+      "rear": "https://flib.samar.pl/600/400/626448c60c17d74be01640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/626467349641f472c422560.webp"
+    }
+  },
+  {
+    "id": 267,
+    "modelName": "Alfa Romeo Stelvio",
+    "brand": "alfa romeo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "64 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/87207449aa63c5ecd45640.webp",
+      "front": "https://flib.samar.pl/800/000/8720984a5570dd9a6a0640.webp",
+      "rear": "https://flib.samar.pl/800/000/872082d5dcf7e92d083640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/8721018ebf0f3a577472560.webp"
+    }
+  },
+  {
+    "id": 268,
+    "modelName": "Alfa Romeo Tonale",
+    "brand": "alfa romeo",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/868927a2f7f313c1d5a640.webp",
+      "front": "https://flib.samar.pl/800/900/8689511a3b94ef73b5b640.webp",
+      "rear": "https://flib.samar.pl/800/900/8689358d5d7bca91ce1640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/868954454577124570d2560.webp"
+    }
+  },
+  {
+    "id": 269,
+    "modelName": "Alfa Romeo Giulia",
+    "brand": "alfa romeo",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "58 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/845371d4e82ba96c0d5640.webp",
+      "front": "https://flib.samar.pl/800/300/845395a6408ba8991f640.webp",
+      "rear": "https://flib.samar.pl/800/300/8453791bd54808e79f7640.webp",
+      "diagonal": "https://flib.samar.pl/800/300/8453985c880a49b28bd2560.webp"
+    }
+  },
+  {
+    "id": 270,
+    "modelName": "Alfa Romeo MiTo",
+    "brand": "alfa romeo",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 3,
+    "numberOfSeats": 4,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/400/62446801913736bd278640.webp",
+      "front": "https://flib.samar.pl/600/400/6244925b814859f2502640.webp",
+      "rear": "https://flib.samar.pl/600/400/624476fdbeba4d26c6c640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/6244958202afc4f25d82560.webp"
+    }
+  },
+  {
+    "id": 271,
+    "modelName": "Alfa Romeo Giulietta",
+    "brand": "alfa romeo",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/400/5914050beeb2d9f7e3c640.webp",
+      "front": "https://flib.samar.pl/500/400/5914291b185d7c8b582640.webp",
+      "rear": "https://flib.samar.pl/500/400/5914139705d6257b907640.webp",
+      "diagonal": "https://flib.samar.pl/500/400/591432ec78331134da52560.webp"
+    }
+  },
+  {
+    "id": 272,
+    "modelName": "Alpine A110",
+    "brand": "alpine",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/8230290e01d2e50943a640.webp",
+      "front": "https://flib.samar.pl/800/000/823053d16991599c3c9640.webp",
+      "rear": "https://flib.samar.pl/800/000/82303727e4535bc8b5c640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/8230562d15f74eb4f612560.webp"
+    }
+  },
+  {
+    "id": 273,
+    "modelName": "Aston Martin DBS Superleggera",
+    "brand": "aston martin",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "78 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/800/6298067c24fd58e2634640.webp",
+      "front": "https://flib.samar.pl/600/800/629830c08d5197e1667640.webp",
+      "rear": "https://flib.samar.pl/600/800/6298141ca039599de19640.webp",
+      "diagonal": "https://flib.samar.pl/600/800/629833ab45b9a5bc8662560.webp"
+    }
+  },
+  {
+    "id": 274,
+    "modelName": "Aston Martin Vantage",
+    "brand": "aston martin",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "73 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/603780c3e919644e859640.webp",
+      "front": "https://flib.samar.pl/600/800/60380494f44185892c2640.webp",
+      "rear": "https://flib.samar.pl/600/700/603788c014037bce8ba640.webp",
+      "diagonal": "https://flib.samar.pl/600/800/60380795cd566ac8a482560.webp"
+    }
+  },
+  {
+    "id": 275,
+    "modelName": "Aston Martin DB11",
+    "brand": "aston martin",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "78 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/400/568424b6b2ea43ee1dc640.webp",
+      "front": "https://flib.samar.pl/500/400/568448bbb992527ad30640.webp",
+      "rear": "https://flib.samar.pl/500/400/5684328baa129c866c5640.webp",
+      "diagonal": "https://flib.samar.pl/500/400/568451ea3c6baa8e1a02560.webp"
+    }
+  },
+  {
+    "id": 276,
+    "modelName": "Aston Martin Rapide",
+    "brand": "aston martin",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "90 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/800/5578671e8e85a942d2d640.webp",
+      "front": "https://flib.samar.pl/500/800/55789160406194c632d640.webp",
+      "rear": "https://flib.samar.pl/500/800/5578753eb2930fcf288640.webp",
+      "diagonal": "https://flib.samar.pl/500/800/557894908d9c2d419732560.webp"
+    }
+  },
+  {
+    "id": 277,
+    "modelName": "Aston Martin Vanquish",
+    "brand": "aston martin",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "78 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/900/55699981d96c46687c8640.webp",
+      "front": "https://flib.samar.pl/500/000/557023bee4df3d06f20640.webp",
+      "rear": "https://flib.samar.pl/500/000/55700730429e470e8bb640.webp",
+      "diagonal": "https://flib.samar.pl/500/000/557026ed1445a5fa5122560.webp"
+    }
+  },
+  {
+    "id": 278,
+    "modelName": "BYD Dolphin",
+    "brand": "byd",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/9127595d850eb732ec4640.webp",
+      "front": "https://flib.samar.pl/900/700/912784db40991aa42f2640.webp",
+      "rear": "https://flib.samar.pl/900/700/91276751033db8c4c2b640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/91278712b182e4ebcbb2560.webp"
+    }
+  },
+  {
+    "id": 279,
+    "modelName": "BYD Seal U",
+    "brand": "byd",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/900/911998ed407c2e1b93a640.webp",
+      "front": "https://flib.samar.pl/900/000/9120221ae51a3df85d6640.webp",
+      "rear": "https://flib.samar.pl/900/000/912006d559a23e854f6640.webp",
+      "diagonal": "https://flib.samar.pl/900/000/9120257b33e83143f3a2560.webp"
+    }
+  },
+  {
+    "id": 280,
+    "modelName": "BYD Seal",
+    "brand": "byd",
+    "bodyType": "Sedan",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/907896a9e827282ed56640.webp",
+      "front": "https://flib.samar.pl/900/900/907920948ece5c28f5b640.webp",
+      "rear": "https://flib.samar.pl/900/900/9079041c18ac6347d7c640.webp",
+      "diagonal": "https://flib.samar.pl/900/900/9079231a5adab76b34f2560.webp"
+    }
+  },
+  {
+    "id": 281,
+    "modelName": "Chevrolet Camaro",
+    "brand": "chevrolet",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/8661444c76dc99a4ca7640.webp",
+      "front": "https://flib.samar.pl/800/100/866168b187a7419630d640.webp",
+      "rear": "https://flib.samar.pl/800/100/866152fb1bee54895ae640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/866171ae6ebd9d390d92560.webp"
+    }
+  },
+  {
+    "id": 282,
+    "modelName": "Chevrolet Apache 10",
+    "brand": "chevrolet",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/700/7687845bfde1f3a5e97640.webp",
+      "front": "https://flib.samar.pl/700/800/76880822f9c2fdf7a39640.webp",
+      "rear": "https://flib.samar.pl/700/700/768792a810bb513c1c0640.webp",
+      "diagonal": "https://flib.samar.pl/700/800/7688119636da89bfb782560.webp"
+    }
+  },
+  {
+    "id": 283,
+    "modelName": "Cupra Leon",
+    "brand": "cupra",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/600/9386354a0db15b15023640.webp",
+      "front": "https://flib.samar.pl/900/600/938660e0f64b3f374dc640.webp",
+      "rear": "https://flib.samar.pl/900/600/938643ed47475a81310640.webp",
+      "diagonal": "https://flib.samar.pl/900/600/9386632abcb9a3936022560.webp"
+    }
+  },
+  {
+    "id": 284,
+    "modelName": "Cupra Formentor",
+    "brand": "cupra",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/927362744932a95c64d640.webp",
+      "front": "https://flib.samar.pl/900/300/927386b12cab7094ef640.webp",
+      "rear": "https://flib.samar.pl/900/300/9273707643be8637047640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/927389494f7e7bafdca2560.webp"
+    }
+  },
+  {
+    "id": 285,
+    "modelName": "Cupra Ateca",
+    "brand": "cupra",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/902380a5a3f15c097c0640.webp",
+      "front": "https://flib.samar.pl/900/400/902412139216e9c2581640.webp",
+      "rear": "https://flib.samar.pl/900/300/9023924cd16f563c858640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/902415978a0b174dbbd2560.webp"
+    }
+  },
+  {
+    "id": 286,
+    "modelName": "Cupra Born",
+    "brand": "cupra",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/600/85363606db1897aff8f640.webp",
+      "front": "https://flib.samar.pl/800/600/853660beebee18d39ff640.webp",
+      "rear": "https://flib.samar.pl/800/600/8536448b9359a19b28d640.webp",
+      "diagonal": "https://flib.samar.pl/800/600/8536634d7016d635fd32560.webp"
+    }
+  },
+  {
+    "id": 287,
+    "modelName": "Dodge Challenger",
+    "brand": "dodge",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 5,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/700/65976567f6b91ce31b2640.webp",
+      "front": "https://flib.samar.pl/600/700/6597896a18a7c56fed4640.webp",
+      "rear": "https://flib.samar.pl/600/700/6597737fc27fc5b305c640.webp",
+      "diagonal": "https://flib.samar.pl/600/700/659792307828718f82a2560.webp"
+    }
+  },
+  {
+    "id": 288,
+    "modelName": "Dodge Durango",
+    "brand": "dodge",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "93 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/900/64294929839a737e6f3640.webp",
+      "front": "https://flib.samar.pl/600/900/6429731ac68f9af8a2a640.webp",
+      "rear": "https://flib.samar.pl/600/900/642957dec9d5a30f7db640.webp",
+      "diagonal": "https://flib.samar.pl/600/900/642976db8767526c1e92560.webp"
+    }
+  },
+  {
+    "id": 289,
+    "modelName": "Honda CR-V",
+    "brand": "honda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "57 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/881878da9517bf4216e640.webp",
+      "front": "https://flib.samar.pl/800/900/8819025927e97782f46640.webp",
+      "rear": "https://flib.samar.pl/800/800/881886c2e1c9a153fc0640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/8819054ec8cf5a8f27b2560.webp"
+    }
+  },
+  {
+    "id": 290,
+    "modelName": "Honda e:Ny1",
+    "brand": "honda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/871458b17563ac399d1640.webp",
+      "front": "https://flib.samar.pl/800/400/871450d10160a7cb0ee640.webp",
+      "rear": "https://flib.samar.pl/800/400/871419b791b7aea7f38640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8714537fc29cad4fcdd2560.webp"
+    }
+  },
+  {
+    "id": 291,
+    "modelName": "Honda ZR-V",
+    "brand": "honda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "57 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/865901e959c0ca5e1a2640.webp",
+      "front": "https://flib.samar.pl/800/900/86592596cad55d3fa38640.webp",
+      "rear": "https://flib.samar.pl/800/900/8659095105383b72fd9640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/86592938e8b620731ab2560.webp"
+    }
+  },
+  {
+    "id": 292,
+    "modelName": "Honda Jazz",
+    "brand": "honda",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/700/8627507f46c0ad81b49640.webp",
+      "front": "https://flib.samar.pl/800/700/86277499ebaf2f508c6640.webp",
+      "rear": "https://flib.samar.pl/800/700/862758dfed430bdde99640.webp",
+      "diagonal": "https://flib.samar.pl/800/700/8627777f3d3d83214d82560.webp"
+    }
+  },
+  {
+    "id": 293,
+    "modelName": "Honda Civic",
+    "brand": "honda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/846218b672e45b0f159640.webp",
+      "front": "https://flib.samar.pl/800/200/846242b4deee671422e640.webp",
+      "rear": "https://flib.samar.pl/800/200/8462260716bb31b9607640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/846245a2c9fd59f024c2560.webp"
+    }
+  },
+  {
+    "id": 294,
+    "modelName": "Honda HR-V",
+    "brand": "honda",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "40 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/200/8062024ad3754060fc3640.webp",
+      "front": "https://flib.samar.pl/800/200/80622645356202bd00e640.webp",
+      "rear": "https://flib.samar.pl/800/200/8062103f39100bccbd8640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/806230234e80d1f98812560.webp"
+    }
+  },
+  {
+    "id": 295,
+    "modelName": "Honda e",
+    "brand": "honda",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/717996a09c3e62a1b57640.webp",
+      "front": "https://flib.samar.pl/700/000/718020415a8d2df8af0640.webp",
+      "rear": "https://flib.samar.pl/700/000/718004f9e4078342a75640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/71802366fdb989486442560.webp"
+    }
+  },
+  {
+    "id": 296,
+    "modelName": "Jaguar F-Pace",
+    "brand": "jaguar",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "62 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/700/908718e503fec6c1838640.webp",
+      "front": "https://flib.samar.pl/900/700/9087429317d34f40e4e640.webp",
+      "rear": "https://flib.samar.pl/900/700/9087264a0c961da8f3640.webp",
+      "diagonal": "https://flib.samar.pl/900/700/9087458f037b61520572560.webp"
+    }
+  },
+  {
+    "id": 297,
+    "modelName": "Jaguar I-Pace",
+    "brand": "jaguar",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/000/758062f57b523a55afc640.webp",
+      "front": "https://flib.samar.pl/700/000/7580866096249dbbb43640.webp",
+      "rear": "https://flib.samar.pl/700/000/758070fa49bac4098df640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/758089a0f1944ca78112560.webp"
+    }
+  },
+  {
+    "id": 298,
+    "modelName": "Jaguar E-Pace",
+    "brand": "jaguar",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "57 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/500/755587be76083e4ebc0640.webp",
+      "front": "https://flib.samar.pl/700/600/755611fd090e5677157640.webp",
+      "rear": "https://flib.samar.pl/700/500/75559569f9a1a86a55e640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/7556149ddc90a8d3cf22560.webp"
+    }
+  },
+  {
+    "id": 299,
+    "modelName": "Jaguar F-Type",
+    "brand": "jaguar",
+    "bodyType": "Coupe",
+    "numberOfDoors": 3,
+    "numberOfSeats": 2,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/752339c92f16478510d640.webp",
+      "front": "https://flib.samar.pl/700/300/752363c56a1200f104e640.webp",
+      "rear": "https://flib.samar.pl/700/300/752347ec1db9014ac3d640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/7523663ae713e03d2ee2560.webp"
+    }
+  },
+  {
+    "id": 300,
+    "modelName": "Jaguar XE",
+    "brand": "jaguar",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "56 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/744367817f570c317ba640.webp",
+      "front": "https://flib.samar.pl/700/300/744392b27494b122503640.webp",
+      "rear": "https://flib.samar.pl/700/300/744375d28e774c3bec4640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/744395625f608e356022560.webp"
+    }
+  },
+  {
+    "id": 301,
+    "modelName": "Jaguar XF",
+    "brand": "jaguar",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/600/7436408864c657b87cc640.webp",
+      "front": "https://flib.samar.pl/700/600/743664ff5d9760ac1a9640.webp",
+      "rear": "https://flib.samar.pl/700/600/743648652006d6bc844640.webp",
+      "diagonal": "https://flib.samar.pl/700/600/743667af58fa69e8e822560.webp"
+    }
+  },
+  {
+    "id": 302,
+    "modelName": "Jaguar XJ",
+    "brand": "jaguar",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "77 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/500/6305779cce8d1b827b5640.webp",
+      "front": "https://flib.samar.pl/600/600/630601c81eb47c8a8f2640.webp",
+      "rear": "https://flib.samar.pl/600/500/630585c883974095252640.webp",
+      "diagonal": "https://flib.samar.pl/600/600/630604e2aa5b3f34de02560.webp"
+    }
+  },
+  {
+    "id": 303,
+    "modelName": "Jeep Renegade",
+    "brand": "jeep",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/9284253dc1d74f62d45640.webp",
+      "front": "https://flib.samar.pl/900/400/928449f34236682887f640.webp",
+      "rear": "https://flib.samar.pl/900/400/92843376939205d7cbd640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/928452b229cfe18a83d2560.webp"
+    }
+  },
+  {
+    "id": 304,
+    "modelName": "Jeep Grand Cherokee",
+    "brand": "jeep",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "72 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/875445242212a4eff14640.webp",
+      "front": "https://flib.samar.pl/800/400/875469fd53c594e4eeb640.webp",
+      "rear": "https://flib.samar.pl/800/400/875453ccc645192f179640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/8754720e4e52471de332560.webp"
+    }
+  },
+  {
+    "id": 305,
+    "modelName": "Jeep Wrangler",
+    "brand": "jeep",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/87097025dd580cf6e90640.webp",
+      "front": "https://flib.samar.pl/800/000/871032a17acc8d64391640.webp",
+      "rear": "https://flib.samar.pl/800/900/870990712f5975eb5ce640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/8710381795b466027a82560.webp"
+    }
+  },
+  {
+    "id": 306,
+    "modelName": "Jeep Avenger",
+    "brand": "jeep",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/869168e7c6f5702fd6d640.webp",
+      "front": "https://flib.samar.pl/800/100/8691924fde67f213717640.webp",
+      "rear": "https://flib.samar.pl/800/100/869176950cd83e4151f640.webp",
+      "diagonal": "https://flib.samar.pl/800/100/869195db49ddcbdee0b2560.webp"
+    }
+  },
+  {
+    "id": 307,
+    "modelName": "Jeep Gladiator",
+    "brand": "jeep",
+    "bodyType": "Pickup",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "71 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/864498dedd233526863640.webp",
+      "front": "https://flib.samar.pl/800/500/8645225d2fa780b7ea6640.webp",
+      "rear": "https://flib.samar.pl/800/500/864506c5a88a8fcc3e3640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/8645255158a7ab4cb352560.webp"
+    }
+  },
+  {
+    "id": 308,
+    "modelName": "Jeep Compass",
+    "brand": "jeep",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/84296625e09434ac7b1640.webp",
+      "front": "https://flib.samar.pl/800/900/84299068bed0961034a640.webp",
+      "rear": "https://flib.samar.pl/800/900/8429745b679c0db6bb7640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/842993793ae8e69bb852560.webp"
+    }
+  },
+  {
+    "id": 309,
+    "modelName": "Jeep Cherokee",
+    "brand": "jeep",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "60 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/300/646373fd5e25e564aa9640.webp",
+      "front": "https://flib.samar.pl/600/300/64639761603355a6a2b640.webp",
+      "rear": "https://flib.samar.pl/600/300/646381f795aa5a30802640.webp",
+      "diagonal": "https://flib.samar.pl/600/400/64640066643999611082560.webp"
+    }
+  },
+  {
+    "id": 310,
+    "modelName": "Range Rover Sport",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "71 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/800/915808d4a57af925de8640.webp",
+      "front": "https://flib.samar.pl/900/800/915832efb65b4fe0da2640.webp",
+      "rear": "https://flib.samar.pl/900/800/9158167f2eb755dbea7640.webp",
+      "diagonal": "https://flib.samar.pl/900/800/915835d826de9421b5f2560.webp"
+    }
+  },
+  {
+    "id": 311,
+    "modelName": "Land Rover Discovery",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 7,
+    "tankCapacity": "89 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/900/9099947f8605ec99983640.webp",
+      "front": "https://flib.samar.pl/900/000/910018262daaa81cf99640.webp",
+      "rear": "https://flib.samar.pl/900/000/91000243ed1658901c6640.webp",
+      "diagonal": "https://flib.samar.pl/900/000/9100213b4988a408e922560.webp"
+    }
+  },
+  {
+    "id": 312,
+    "modelName": "Land Rover Discovery Sport",
+    "brand": "land rover",
+    "bodyType": null,
+    "numberOfDoors": null,
+    "numberOfSeats": null,
+    "tankCapacity": null,
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/300/909342d51ea4f2f990d640.webp",
+      "front": "https://flib.samar.pl/900/300/909366edfa26d4887f6640.webp",
+      "rear": "https://flib.samar.pl/900/300/909350b79b30512654b640.webp",
+      "diagonal": "https://flib.samar.pl/900/300/909369fb17643b3fc4a2560.webp"
+    }
+  },
+  {
+    "id": 313,
+    "modelName": "Range Rover Evoque",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/400/909438eeaab70433ac2640.webp",
+      "front": "https://flib.samar.pl/900/400/909462bf0de618d6cf2640.webp",
+      "rear": "https://flib.samar.pl/900/400/9094466cdd8378cc033640.webp",
+      "diagonal": "https://flib.samar.pl/900/400/909465957b492354baa2560.webp"
+    }
+  },
+  {
+    "id": 314,
+    "modelName": "Range Rover Velar",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "69 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/8941868c6124e89030c640.webp",
+      "front": "https://flib.samar.pl/800/200/8942108e6dcc89e927f640.webp",
+      "rear": "https://flib.samar.pl/800/100/894194f111b60c0e2cf640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/894213f125c6df9f6252560.webp"
+    }
+  },
+  {
+    "id": 315,
+    "modelName": "Range Rover",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "71 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/892833e0a3dfd238b5c640.webp",
+      "front": "https://flib.samar.pl/800/800/89285741462e2cf50a5640.webp",
+      "rear": "https://flib.samar.pl/800/800/892841255862cd3d810640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/892860f0dcf29ab95ad2560.webp"
+    }
+  },
+  {
+    "id": 316,
+    "modelName": "Land Rover Defender",
+    "brand": "land rover",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 8,
+    "tankCapacity": "90 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/862904d943c3ee8c7fd640.webp",
+      "front": "https://flib.samar.pl/800/900/8629282ce4d0f936f61640.webp",
+      "rear": "https://flib.samar.pl/800/900/8629127272f1bb5005b640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/862931ede7b489007082560.webp"
+    }
+  },
+  {
+    "id": 317,
+    "modelName": "Lexus LBX",
+    "brand": "lexus",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "36 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/900/200/9042442ecb61fca078d640.webp",
+      "front": "https://flib.samar.pl/900/200/9042688c649fa91d82b640.webp",
+      "rear": "https://flib.samar.pl/900/200/90425262ec3ef6df00f640.webp",
+      "diagonal": "https://flib.samar.pl/900/200/904271fb2db2c0f471e2560.webp"
+    }
+  },
+  {
+    "id": 318,
+    "modelName": "Lexus LM",
+    "brand": "lexus",
+    "bodyType": "MPV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/500/88550635030410cec45640.webp",
+      "front": "https://flib.samar.pl/800/500/885530da34eb1be0828640.webp",
+      "rear": "https://flib.samar.pl/800/500/885514805db26bdb7b0640.webp",
+      "diagonal": "https://flib.samar.pl/800/500/88553368daed6726dbc2560.webp"
+    }
+  },
+  {
+    "id": 319,
+    "modelName": "Lexus RX",
+    "brand": "lexus",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/000/860068baa3a3f7c6159640.webp",
+      "front": "https://flib.samar.pl/800/000/86009290d6f94d12886640.webp",
+      "rear": "https://flib.samar.pl/800/000/860076c10f7bd992f1f640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/86009592e9f594a502c2560.webp"
+    }
+  },
+  {
+    "id": 320,
+    "modelName": "Lexus UX",
+    "brand": "lexus",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "43 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/85997163195ffbe4c16640.webp",
+      "front": "https://flib.samar.pl/800/900/85999553a974bc20b72640.webp",
+      "rear": "https://flib.samar.pl/800/900/8599796e6bf959a6ffc640.webp",
+      "diagonal": "https://flib.samar.pl/800/900/859998dc6b00c3fb5622560.webp"
+    }
+  },
+  {
+    "id": 321,
+    "modelName": "Lexus NX",
+    "brand": "lexus",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "55 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/900/8389800e814d8aac6b4640.webp",
+      "front": "https://flib.samar.pl/800/000/839004bc28ebc0315e4640.webp",
+      "rear": "https://flib.samar.pl/800/900/83898857d1fc4cad949640.webp",
+      "diagonal": "https://flib.samar.pl/800/000/839007031d18a9b89542560.webp"
+    }
+  },
+  {
+    "id": 322,
+    "modelName": "Lexus ES",
+    "brand": "lexus",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/7863900cdf8e401d717640.webp",
+      "front": "https://flib.samar.pl/700/400/786414d08dc966a96ad640.webp",
+      "rear": "https://flib.samar.pl/700/300/7863989f81ab961a4b8640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/78641731cae285f1a62560.webp"
+    }
+  },
+  {
+    "id": 323,
+    "modelName": "Lexus LS",
+    "brand": "lexus",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 4,
+    "tankCapacity": "82 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/761148077b45aa19b80640.webp",
+      "front": "https://flib.samar.pl/700/100/7611725be53ce21cee0640.webp",
+      "rear": "https://flib.samar.pl/700/100/761156d5ef5f12d9948640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/7611759c50265e8f7cc2560.webp"
+    }
+  },
+  {
+    "id": 324,
+    "modelName": "Lexus LC",
+    "brand": "lexus",
+    "bodyType": "Convertible",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "82 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/300/7463493a326d1c44968640.webp",
+      "front": "https://flib.samar.pl/700/300/746373e8978b10bc7af640.webp",
+      "rear": "https://flib.samar.pl/700/300/74635752c12c36f9ab9640.webp",
+      "diagonal": "https://flib.samar.pl/700/300/746376a87fd3bd057342560.webp"
+    }
+  },
+  {
+    "id": 325,
+    "modelName": "Lexus RC",
+    "brand": "lexus",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 4,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/400/724409c94c28cbdf893640.webp",
+      "front": "https://flib.samar.pl/700/400/724433955f13cf62783640.webp",
+      "rear": "https://flib.samar.pl/700/400/72441712f0700e6f78f640.webp",
+      "diagonal": "https://flib.samar.pl/700/400/72443634ada48d99b4a2560.webp"
+    }
+  },
+  {
+    "id": 326,
+    "modelName": "Lexus CT",
+    "brand": "lexus",
+    "bodyType": "Hatchback",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "45 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/100/716145f7651a8ae810c640.webp",
+      "front": "https://flib.samar.pl/700/100/716169a1ce218fafc87640.webp",
+      "rear": "https://flib.samar.pl/700/100/71615361f357ba309d4640.webp",
+      "diagonal": "https://flib.samar.pl/700/100/716172732fb7d2bd92d2560.webp"
+    }
+  },
+  {
+    "id": 327,
+    "modelName": "Lexus IS",
+    "brand": "lexus",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/600/100/6841827f2391016b7af640.webp",
+      "front": "https://flib.samar.pl/600/200/68420661d7b1f9330e4640.webp",
+      "rear": "https://flib.samar.pl/600/100/684190e408d9d43deb1640.webp",
+      "diagonal": "https://flib.samar.pl/600/200/684209c8e4a08aa252c2560.webp"
+    }
+  },
+  {
+    "id": 328,
+    "modelName": "Lexus GS",
+    "brand": "lexus",
+    "bodyType": "Sedan",
+    "numberOfDoors": 4,
+    "numberOfSeats": 5,
+    "tankCapacity": "66 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/700/563726838f9f2bf469640.webp",
+      "front": "https://flib.samar.pl/500/800/563848cba9ecc483fc2640.webp",
+      "rear": "https://flib.samar.pl/500/700/56375219ae7ce047786640.webp",
+      "diagonal": "https://flib.samar.pl/500/800/563867eb7363820a0eb2560.webp"
+    }
+  },
+  {
+    "id": 329,
+    "modelName": "Lexus LX",
+    "brand": "lexus",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "93 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/500/200/56324269125bf513852640.webp",
+      "front": "https://flib.samar.pl/500/200/563266f489e6f5e8840640.webp",
+      "rear": "https://flib.samar.pl/500/200/56325033ceab85cfa1b640.webp",
+      "diagonal": "https://flib.samar.pl/500/200/5632699a79fbe026bc42560.webp"
+    }
+  },
+  {
+    "id": 330,
+    "modelName": "Porsche Taycan",
+    "brand": "porsche",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "50 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/87483310f1e88e5a567640.webp",
+      "front": "https://flib.samar.pl/800/800/87485727ac0872f5206640.webp",
+      "rear": "https://flib.samar.pl/800/800/874841269f002144fbd640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/874860236e7c890f29f2560.webp"
+    }
+  },
+  {
+    "id": 331,
+    "modelName": "Porsche 718",
+    "brand": "porsche",
+    "bodyType": "Coupe",
+    "numberOfDoors": 2,
+    "numberOfSeats": 2,
+    "tankCapacity": "64 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/800/8648044fc36d6a8378f640.webp",
+      "front": "https://flib.samar.pl/800/800/864828d9c68079029e6640.webp",
+      "rear": "https://flib.samar.pl/800/800/86481200fabfc21f7db640.webp",
+      "diagonal": "https://flib.samar.pl/800/800/8648336a4918326b4262560.webp"
+    }
+  },
+  {
+    "id": 332,
+    "modelName": "Porsche Cayenne",
+    "brand": "porsche",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "70 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/400/827407711338006b8b2640.webp",
+      "front": "https://flib.samar.pl/800/400/827431d6b35b592b4f9640.webp",
+      "rear": "https://flib.samar.pl/800/400/8274158d900bbef74ff640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/827434d9cb702ed129c2560.webp"
+    }
+  },
+  {
+    "id": 333,
+    "modelName": "Porsche Macan",
+    "brand": "porsche",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "65 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/100/825177f83bb508c7d9b640.webp",
+      "front": "https://flib.samar.pl/800/200/825201fbba30a799830640.webp",
+      "rear": "https://flib.samar.pl/800/100/8251851a989607796ac640.webp",
+      "diagonal": "https://flib.samar.pl/800/200/825204eac3d64dcc2192560.webp"
+    }
+  },
+  {
+    "id": 334,
+    "modelName": "Porsche Panamera",
+    "brand": "porsche",
+    "bodyType": "Wagon",
+    "numberOfDoors": 5,
+    "numberOfSeats": 5,
+    "tankCapacity": "80 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/800/300/8143806ac30d297d4c3640.webp",
+      "front": "https://flib.samar.pl/800/400/8144041853a1c1b16d1640.webp",
+      "rear": "https://flib.samar.pl/800/300/8143887b4f009dae18c640.webp",
+      "diagonal": "https://flib.samar.pl/800/400/81440710a1df70443972560.webp"
+    }
+  },
+  {
+    "id": 335,
+    "modelName": "Porsche Cayenne Coupe",
+    "brand": "porsche",
+    "bodyType": "SUV",
+    "numberOfDoors": 5,
+    "numberOfSeats": 4,
+    "tankCapacity": "90 L",
+    "dailyPrice": 0,
+    "images": {
+      "side": "https://flib.samar.pl/700/900/7829860fb1c2992f0e9640.webp",
+      "front": "https://flib.samar.pl/700/000/783018376735d4eeaa1640.webp",
+      "rear": "https://flib.samar.pl/700/900/782996b35cadb62e88c640.webp",
+      "diagonal": "https://flib.samar.pl/700/000/7830248618245c360d52560.webp"
+    }
+  }
+]
