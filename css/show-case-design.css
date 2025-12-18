@@ -12,7 +12,7 @@ html, body{
     font-family: "Roboto", sans-serif;
 }
 
-.container_nav{
+/* .container_nav{
     width: 100vw;
     display: flex;
     justify-items: center;
@@ -94,6 +94,10 @@ width: 100%;
     background-color: transparent;
     border: 0;
 }
+
+i{
+    color: rgb(129, 98, 142);
+} */
 
 /* -----main body----- */
 
@@ -251,7 +255,7 @@ input{
 
 
 
-.footer{
+/* .footer{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -303,7 +307,7 @@ input{
 .price-per-day{
     display: flex;
     gap: 5px;
-}
+} */
 
 /* ---------scroll images----------- */
 
@@ -368,10 +372,6 @@ input{
 }
 
 
-@keyframes anim_360 {
-
-    100%{transform: rotate(360deg);}
-}
 
 
 /* -------------responsive --------------- */

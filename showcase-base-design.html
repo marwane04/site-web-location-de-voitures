@@ -6,31 +6,53 @@
     <title>Rent Porsche 911 - CarbyMy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="css/show-case-design.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
 <div class="container_nav">
     <nav class="navbar">
-        <div class="head_logo">
-            Carby
-            <span>My</span>
-        </div>
         <div class="links">
-            <a href="#">Our services</a>
-            <a href="#">Top Cars</a>
-            <a href="#">Renting</a>
-            <a href="#">Contact</a>
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
-            <a href="signin.html" class="login">Login</a>
-            <a href="#" class="signup">Sign Up</a>
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
             </select>
-            <i class="fa-solid fa-cart-shopping fa-3x">0</i>
         </div>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+            
+            <div class="mobile-btns">
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+            </div>
+            
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
 </div>
 
 
@@ -49,7 +71,7 @@
             <div class="image">
                 <div id="left"><</div>
                 <img src="assets/images/cars/Porshe-911-GT3-RS/img_1.webp">
-                <div id="right">></div>
+                <div id="right">> </div>
             </div>
             <div class="car_specs">
                 <div class="spec-item">
@@ -97,7 +119,7 @@
                     </div>
                     <div class="total-price-box">
                         <p>Estimated Total :</p>
-                        <h3 id="totalDisplay">set your days first</h3>
+                        <h3 id="totalDisplay">-DH</h3>
                     </div>
                     <button type="submit" class="login-btn">Confirm Booking</button>
                 </form>
@@ -137,8 +159,8 @@
     <div class="rights">@ All rights reserved</div>
 </div>
 
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/navbar_links.js"></script>
+    <script src="/js/showcase-base-design.js"></script>
 </body>
-
-
-<script src="/js/showcase-base-design.js"></script>
 </html>
