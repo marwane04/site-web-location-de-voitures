@@ -15,7 +15,7 @@ export const getAllCars = async () => {
 
 export const getCarById = async (id) => {
     const cars = await loadCars();
-    return cars.find(car => car.id === id);
+    return cars.find(car => car.id === Number(id));
 };
 
 export const getCarsByName = async (name) => {
@@ -30,6 +30,5 @@ export const getCarsByBrand = async (brand) => {
 
 export const getPopularCars = async () => {
     const cars = await loadCars();
-    return [cars[0], cars[1], cars[2]];
+    return [cars[0], cars[1], cars[2], cars[3]];
 }
-
