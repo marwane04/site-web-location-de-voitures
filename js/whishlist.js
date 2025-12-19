@@ -18,7 +18,7 @@ document.querySelectorAll('.remove_car').forEach(btn => {
 });
 
 /************************************ WHISHLIST CORRIGÉ ************************************/
-// Wishlist System for Car Rental
+// Wishlist System for Car Rental - UPDATED TO USE SESSIONSTORAGE
 const WISHLIST_KEY = 'car_wishlist';
 let wishlist = [];
 
@@ -40,10 +40,10 @@ async function loadCarsService() {
     }
 }
 
-// Charger la wishlist depuis le localStorage
+// Charger la wishlist depuis le sessionStorage
 function loadWishlist() {
     try {
-        const stored = localStorage.getItem(WISHLIST_KEY);
+        const stored = sessionStorage.getItem(WISHLIST_KEY);
         wishlist = stored ? JSON.parse(stored) : [];
         if (!Array.isArray(wishlist)) wishlist = [];
         updateWishlistCount();
@@ -55,10 +55,10 @@ function loadWishlist() {
     }
 }
 
-// Sauvegarder la wishlist dans le localStorage
+// Sauvegarder la wishlist dans le sessionStorage
 function saveWishlist() {
     try {
-        localStorage.setItem(WISHLIST_KEY, JSON.stringify(wishlist));
+        sessionStorage.setItem(WISHLIST_KEY, JSON.stringify(wishlist));
         updateWishlistCount();
     } catch (error) {
         console.error('Error saving wishlist:', error);
@@ -129,22 +129,6 @@ function updateAllWishlistButtons() {
 }
 
 // Mettre à jour un seul bouton
-//ancien function
-/*** 
-function updateSingleButton(button, carId) {
-    if (!button) return;
-    
-    if (isInWishlist(carId)) {
-        button.textContent = 'REMOVE FROM WISHLIST';
-        button.classList.add('in-wishlist');
-        button.classList.remove('not-in-wishlist');
-    } else {
-        button.textContent = 'ADD TO WISHLIST';
-        button.classList.remove('in-wishlist');
-        button.classList.add('not-in-wishlist');
-    }
-}
-***/
 function updateSingleButton(button, carId) {
     if (!button) return;
     
@@ -343,7 +327,7 @@ function createWishlistItem(car) {
             </a>
         </div>
         <div class="car_info">
-            <h5>${carBrand} ${carName}</h5>
+            <h5> ${carName}</h5>
             <p><strong>Price:</strong> ${formattedPrice}</p>
             <p><strong>tank capacity:</strong> ${tankCapacity}</p>
             <p><strong>number Of Seats:</strong> ${numberOfSeats}</p>
@@ -502,7 +486,7 @@ function initSidebarRefresh() {
 
 // Initialiser tout
 async function initWishlistSystem() {
-    console.log('Starting wishlist system...');
+    console.log('Starting wishlist system (using sessionStorage)...');
     
     await loadCarsService();
     loadWishlist();
@@ -513,7 +497,8 @@ async function initWishlistSystem() {
     // Observer les changements dans le carousel pour réinitialiser les boutons
     observeCarouselChanges();
 
-    console.log('Wishlist system ready');
+    console.log('Wishlist system ready (sessionStorage)');
+    console.log('Wishlist will be cleared when browser tab is closed');
 }
 // Observer les changements dans le carousel
 function observeCarouselChanges() {
@@ -639,6 +624,12 @@ window.Wishlist = {
     getAll: () => [...wishlist],
     refresh: renderWishlist,
     updateButtons: updateAllWishlistButtons,
-    init: initWishlistSystem
+    init: initWishlistSystem,
+    clearSession: () => {
+        sessionStorage.removeItem(WISHLIST_KEY);
+        wishlist = [];
+        renderWishlist();
+        updateAllWishlistButtons();
+    }
 };
 /************************************ WHISHLIST CORRIGÉ ************************************/
