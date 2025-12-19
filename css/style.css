@@ -174,7 +174,7 @@ body{
     animation-duration: 2s;
     animation-fill-mode: forwards; 
 }
-button{
+.contact-form-container button{
     margin-left: 0px;
     margin-top: 40px;
     padding: 15px 30px;
@@ -190,7 +190,7 @@ button{
     animation-duration: 1s; 
     animation-fill-mode: forwards; 
 }
-button:hover{
+.contact-form-container button:hover{
     transform: scale(1.05);
     background-color: #6f567a;
 }
@@ -219,7 +219,6 @@ button:hover{
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 120px;
     padding: 0 5%;
     height: auto;
 }
@@ -257,9 +256,7 @@ button:hover{
     color: #666666;
     font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
 }
-.test{
-    height: 80vh;
-}
+
 .Renting{
     display: flex;
     flex-wrap: wrap;
@@ -320,7 +317,7 @@ margin-top: 40px;
   background-color: #0a2a4a; 
 }
 .contact-section {
-    padding: 80px 20px;
+    padding:0px  20px 40px;
 }
 
 .contact-container {
@@ -330,12 +327,12 @@ margin-top: 40px;
     
 }
 
-.contact-header {
+.section-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 120px 0 30px;
 }
 
-.contact-header h2 {
+.section-header h2 {
     font-size: 2.8rem;
     color: #0a2a4a;
     margin-bottom: 15px;
@@ -344,7 +341,7 @@ margin-top: 40px;
     display: inline-block;
 }
 
-.contact-header h2::after {
+.section-header h2::after {
     content: '';
     position: absolute;
     bottom: -10px;

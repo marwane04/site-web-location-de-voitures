@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CarbyMy Sign In</title>
+    <!--css links-->
     <link rel="stylesheet" href="css/sign_in_up.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!--css links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +19,14 @@
 <div class="container_nav">
     <nav class="navbar">
         <div class="links">
-            <a href="#">Our services</a>
-            <a href="#">Top Cars</a>
-            <a href="#">Renting</a>
-            <a href="#">Contact</a>
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
-            <a href="#" class="login">Login</a>
-            <a href="#" class="signup">Sign Up</a>
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
@@ -33,18 +37,19 @@
             <span class="line"></span>
             <span class="line"></span>
         </div>
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
 
     <div class="mobile-menu">
         <div class="mobile-menu-content">
-            <a href="#">Our services</a>
-            <a href="#">Top Cars</a>
-            <a href="#">Renting</a>
-            <a href="#">Contact</a>
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
             
             <div class="mobile-btns">
-                <a href="#" class="login">Login</a>
-                <a href="#" class="signup">Sign Up</a>
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
             </div>
             
             <select name="lang" id="lang-mobile" class="lang-select">
@@ -56,12 +61,11 @@
 </div>
 <!-- NAVBAR -->
 
-
 <div class="container">
     <!-- LEFT SIDE -->
     <div class="left fade-slide-left">
         <div class="back_to">
-            <a href="#">
+            <a href="/index.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p>Back To</p>
             </a>
@@ -81,12 +85,13 @@
 
             <button type="submit" class="login-btn">Login</button>
 
-            <p class="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
+            <p class="signup-text">Don't have an account? <a href="signup.html">Sign Up</a></p>
         </form>
     </div>
 
     <!-- RIGHT SIDE -->
     <div class="right fade-slide-right">
+        <div class="blur-bg"></div> 
         <p class="sign_in_p">Sign in to rent your next ride.</p>
         <div class="represent">
             <p>Drive.</p>
@@ -94,7 +99,7 @@
             <p>Comfort.</p>
             <p>Freedom.</p>
         </div>
-        <img src="assets/images/bmw.png" alt="Vehicle" class="car-img">
+        <img src="assets/images/cars/bmw.png" alt="Vehicle" class="car-img">
     </div>
 
 </div>
@@ -150,26 +155,7 @@
 </div>
 <!-- FOOTER -->
 
-<script>
-    ///////////////////////////navbar///////////////////////////
-    const hamburger = document.querySelector('.hamburger');
-    const mobileMenu = document.querySelector('.mobile-menu');
-
-    const toggleMenu = () => {
-        hamburger.classList.toggle('hamburger-active');
-        mobileMenu.classList.toggle('active');
-    };
-
-    hamburger.addEventListener('click', toggleMenu);
-
-    const mobileLinks = document.querySelectorAll('.mobile-menu-content a');
-    mobileLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('hamburger-active');
-            mobileMenu.classList.remove('active');
-        });
-    });
-    ///////////////////////////navbar///////////////////////////
-</script>
+    <script src="js/mobile-navbar.js"></script>  
+    <script src="js/navbar_links.js"></script>  
 </body>
 </html>
