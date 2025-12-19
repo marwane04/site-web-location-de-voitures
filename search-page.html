@@ -14,7 +14,6 @@
           rel="stylesheet">
 </head>
 <body>
-<script src="js/search-page.js"></script>
 <!-- NAVBAR -->
 <div class="container_nav">
     <nav class="navbar">
@@ -71,11 +70,27 @@
         <div class="filter-section">
             <div class="filter-title">
                 <h3>Brand</h3>
-                <i class="uil uil-angle-up"></i>
+                <i class="uil uil-angle-up filter-button"></i>
             </div>
-            <div class="filter-options">
+            <div class="filter-options collapsed">
                 <label class="checkbox-container">BMW
-                    <input type="checkbox" name="brand" value="BMW">
+                    <input type="checkbox" name="brand" value="BMW" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Volkswagen
+                    <input type="checkbox" name="brand" value="Volkswagen">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Peugeot
+                    <input type="checkbox" name="brand" value="Peugeot">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Porsche
+                    <input type="checkbox" name="brand" value="Porsche">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">BMW
+                    <input type="checkbox" name="brand" value="BMW" >
                     <span class="checkmark"></span>
                 </label>
                 <label class="checkbox-container">Volkswagen
@@ -105,7 +120,7 @@
         <div class="filter-section">
             <div class="filter-title">
                 <h3>Body Type</h3>
-                <i class="uil uil-angle-up"></i>
+                <i class="uil uil-angle-up filter-button"></i>
             </div>
             <div class="filter-options">
                 <label class="checkbox-container">Sedan
@@ -358,4 +373,5 @@
     </div>
 </div>
 </body>
+<script src="js/search-page.js"></script>
 </html>
