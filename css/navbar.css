@@ -93,7 +93,7 @@
     justify-content: space-between;
     width: 30px;
     height: 21px;
-    z-index: 999;
+    z-index: 997;
 }
 
 .hamburger .line {
@@ -125,7 +125,14 @@
 .logo span {
     color: #967AA1;
 }
-.navbar.active .logo.mobile-logo {display: block;}
+.navbar.active .logo.mobile-logo {
+    display: block;
+    position: relative;
+    right: 40vw;
+}
+.navbar.active .whishlist_btn_mobile{
+    display: none;
+}
 
 /* Mobile Menu Styles */
 .mobile-menu {
@@ -202,6 +209,196 @@
 }
 /* ---------------------- NAVBAR ---------------------- */
 
+/* ----------------------whishlist -------------------- */
+.menu_btn{
+    border:1px solid #212832;
+    padding:6px 16px;
+    border-radius:30px;
+    cursor:pointer;
+    color: #212832;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+.whishlist_length{
+    position: absolute;
+    top: -2em;
+    right: -1em;
+    border: 1px solid  #ef4444;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+/* ================= OVERLAY ================= */
+.overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.6);
+    opacity:0;
+    pointer-events:none;
+    transition:.3s;
+    z-index:998;
+}
+
+body.sidebar_open .overlay{
+    opacity:1;
+    pointer-events:auto;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar{
+    position:fixed;
+    top:10px;
+    right:10px;
+    bottom:10px;
+    width: 0px;
+    overflow:hidden;
+    background:white;
+    border-radius:20px;
+    transition:.4s;
+    z-index:999;
+}
+
+body.sidebar_open .sidebar{
+    width:445px;
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.link_container{
+    height:100%;
+    overflow-y:auto;
+    padding-bottom:20px;
+}
+
+/* menu inside sidebar */
+.menu_inside{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0;
+}
+/* ================= CARS ================= */
+.section_title{
+    font-weight:600;
+    margin:10px 0;
+}
+
+.whishlit_list{margin-bottom: 2.5em;}
+.car_item{
+    display:flex;
+    gap:10px;
+    background:#fafafa;
+    padding:0 12px 12px;
+    border-radius:12px;
+    margin-bottom:12px;
+}
+
+.car_info{
+    font-size:14px;
+    flex-grow: 1;
+}
+
+.car_info h5{
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.car_info p{
+    margin-bottom:3px;
+    color:#555;
+}
+
+.remove_car{
+    margin-top:6px;
+    border:none;
+    background: #ef4444;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    cursor:pointer;
+    transition: all .3s ease;
+}
+.remove_car:hover{
+    background-color: #ef4444c1 ;
+}
+
+.car_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.car_image img{
+    width:200px;
+    height:max-content;
+    background-color: transparent;
+}
+
+/* ================= CHECKOUT ================= */
+.checkout{
+    margin-top:20px;
+}
+
+.checkout a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:6px;
+    background: #22c55e;
+    color:#fff;
+    padding:1em 0;
+    text-decoration:none;
+    font-weight:500;
+    position: absolute;
+    right: 0; 
+    left: 0;
+    bottom: 0;
+}
+
+.checkout a:hover{
+    background:#16a34a;
+}
+
+.whishlist_btn{display: block; position: relative;}
+.whishlist_length{
+    position: absolute;
+    top: -2em;
+    right: -1em;
+    border: 1px solid  #ef4444;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 300;
+}
+.whishlist_btn_mobile{
+    display: none;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.whishlist_btn_mobile .menu_btn{
+    display: inline-flex;
+    width: auto;
+    padding: 6px 14px;
+    white-space: nowrap;
+}
+/* ----------------------whishlist -------------------- */
+
 
 /* ---------------------- RESPONSIVENESS ---------------------- */
 @media (max-width: 1200px) {
@@ -224,11 +421,22 @@
         padding: 25px 5% 15px;
     }
     .container_nav .navbar .links,
-    .container_nav .navbar .btns {
+    .container_nav .navbar .btns{
         display: none;
+    }
+
+    .whishlist_btn_mobile{
+        display: block;
+        position: fixed;
+        left: 65%;
+        top: 1.4em;
+    }
+    .whishlist_btn_mobile i{
+        font-size: 18px;
     }
     .hamburger {
         display: flex;
+        margin-right: 60%;
     }
     
 }
@@ -241,5 +449,11 @@
 @media (max-width: 500px) {
     .logo {
         font-size: 28px;
+    }
+    body.sidebar_open .sidebar{
+        width: 90%;
+        margin: 0 auto;
+        padding:10px;
+        border:1px solid #ddd;
     }
 }

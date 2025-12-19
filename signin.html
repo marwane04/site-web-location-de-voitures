@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/footer.css" />
     <!--css links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
 <!-- NAVBAR -->
@@ -25,6 +27,16 @@
             <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
+            <!--Whislist btn-->
+            <div class="whishlist_btn">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length">99</div>
+            </div>
+            <!--Whislist btn-->
             <a href="/signin.html" class="login">Login</a>
             <a href="/signup.html" class="signup">Sign Up</a>
             <select name="lang" id="lang">
@@ -32,13 +44,25 @@
                 <option value="fr">Fr</option>
             </select>
         </div>
+
         <div class="hamburger">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
         </div>
+        <!--Whislist btn-->
+        <div class="whishlist_btn_mobile">
+            <div class="menu_btn" id="menuBtn">
+                <div>
+                    <i class="uil uil-heart"></i> Wishlist
+                </div>
+            </div>
+            <div class="whishlist_length">99</div>
+        </div>
+        <!--Whislist btn-->
         <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
+
 
     <div class="mobile-menu">
         <div class="mobile-menu-content">
@@ -59,7 +83,33 @@
         </div>
     </div>
 </div>
-<!-- NAVBAR -->
+
+<!--WISHLIST ASIDEBAR-->
+<div class="overlay" id="overlay"></div>
+<aside class="sidebar">
+    <div class="link_container">
+
+        <div class="menu_inside">
+            <div class="menu_btn" id="menuBtn2">
+                <i class="uil uil-multiply"></i> Wishlist
+            </div>
+        </div>
+
+        <h4 class="section_title">Your Cars</h4>
+
+        <div class="whishlit_list">
+            <!--add items dynamically-->
+        </div>
+        
+
+        <div class="checkout">
+            <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+        </div>
+
+    </div>
+</aside>
+<!--WISHLIST ASIDEBAR-->
+
 
 <div class="container">
     <!-- LEFT SIDE -->
@@ -99,9 +149,17 @@
             <p>Comfort.</p>
             <p>Freedom.</p>
         </div>
-        <img src="assets/images/cars/bmw.png" alt="Vehicle" class="car-img">
+        <img src="assets/images/top_cars/bmw.png" alt="Vehicle" class="car-img">
     </div>
 
+</div>
+
+<div class="car_item">
+    <img height="100px" width="100px" src="assets/images/top_cars/peugeot-208.png" alt="">
+    <p>peugeot-208</p>
+    <button style="background-color: transparent;" class="wishlist-btn heart" data-car-id="5">
+        <i class="uil uil-heart"></i>
+    </button>
 </div>
 
 <!-- FOOTER -->
@@ -156,6 +214,7 @@
 <!-- FOOTER -->
 
     <script src="js/mobile-navbar.js"></script>  
-    <script src="js/navbar_links.js"></script>  
+    <script src="js/navbar_links.js"></script> 
+    <script type="module" src="js/whishlist.js"></script>
 </body>
 </html>
