@@ -433,3 +433,78 @@ body {
     background-color: #fff;
     padding: 20px;
 }
+
+/* Pagination Styling */
+.paging-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px;
+    width: 100%;
+}
+
+.paging-container ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+    padding: 0;
+}
+
+.paging-container li {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #212832;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 1px solid transparent;
+}
+
+.paging-container li:hover {
+    background-color: #967AA1;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(150, 122, 161, 0.3);
+}
+
+.paging-container li.active {
+    background-color: #212832;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(33, 40, 50, 0.3);
+}
+
+.paging-container li.arrow {
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 2.4rem;
+    color: #212832;
+    width: auto;
+    padding: 0 10px;
+}
+
+.paging-container li.arrow:hover {
+    background-color: transparent;
+    color: #967AA1;
+    box-shadow: none;
+}
+
+.paging-container li.dots {
+    cursor: default;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    padding: 0 5px;
+}
+
+.paging-container li.dots:hover {
+    background-color: transparent;
+    color: #212832;
+    transform: none;
+    box-shadow: none;
+}

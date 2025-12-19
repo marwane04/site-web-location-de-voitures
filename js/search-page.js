@@ -79,3 +79,74 @@ filterButtons.forEach((button) => {
         })
     }
 )
+
+//variable for testing
+let numOfPages = 14;
+
+//generates array of pages based on the current page and the pagesNumber
+const generatePaging = (currentPage, pagesNumber) => {
+    let pages = [];
+
+    if (pagesNumber < 1) return [];
+
+    pages.push(1);
+
+    let rangeStart = Math.max(2, currentPage - 1);
+    let rangeEnd = Math.min(pagesNumber - 1, currentPage + 1);
+
+    if (rangeStart > 2) {
+        pages.push("...");
+    }
+
+    for (let i = rangeStart; i <= rangeEnd; i++) {
+        pages.push(i);
+    }
+
+    if (rangeEnd < pagesNumber - 1) {
+        pages.push("...");
+    }
+
+    if (pagesNumber > 1) {
+        pages.push(pagesNumber);
+    }
+
+    return pages;
+}
+
+//generates the paging html elements based on the current page and the pagesNumber
+const handlePaging = (currentPage, pagesNumber) => {
+    const pages = generatePaging(currentPage, pagesNumber);
+     const pagesContainer = document.querySelector('.paging-container');
+     pagesContainer.innerHTML = "";
+    let ul = document.createElement("ul");
+
+    let arrowLeft = document.createElement("li");
+    arrowLeft.className = "arrow";
+    arrowLeft.innerHTML = '<i class="uil uil-angle-left-b"></i>';
+
+    ul.appendChild(arrowLeft);
+
+    for(let page of pages){
+        let pageElement = document.createElement("li");
+        if(page === currentPage) {
+            pageElement.className = "active";
+        } else if(page === "...") {
+            pageElement.className = "dots";
+        } else {
+            pageElement.addEventListener("click", () => {
+                handlePaging(page, pagesNumber);
+            })
+        }
+        pageElement.textContent = page;
+        ul.appendChild(pageElement);
+    }
+    let arrowRight = document.createElement("li");
+    arrowRight.className = "arrow";
+    arrowRight.innerHTML = `<i class="uil uil-angle-right-b"></i>`;
+
+    ul.appendChild(arrowRight);
+
+    pagesContainer.appendChild(ul);
+}
+
+handlePaging(3, 20);
