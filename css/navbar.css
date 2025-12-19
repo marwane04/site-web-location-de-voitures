@@ -118,9 +118,13 @@
 .logo {
     font-size: 34px;
     font-weight: 700;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+.logo.mobile-logo{
     display: none;
     margin: auto;
-    cursor: pointer;
 }
 .logo span {
     color: #967AA1;
@@ -128,7 +132,8 @@
 .navbar.active .logo.mobile-logo {
     display: block;
     position: relative;
-    right: 40vw;
+    right: 50%;
+    transform: translateX(50%);
 }
 .navbar.active .whishlist_btn_mobile{
     display: none;
