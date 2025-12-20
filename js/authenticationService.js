@@ -66,7 +66,7 @@ export const isAuthenticated = (userId = null) => {
     if (!loggedInId) return false;
 
     if (userId) {
-        return loggedInId == userId;
+        return loggedInId === userId;
     }
     return true;
 }
