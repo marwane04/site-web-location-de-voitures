@@ -181,6 +181,10 @@ const updateResults = async (currentPage = 1) => {
 
     renderPagination(currentPage, totalPages);
     generateCarsCards(currentPage, cars);
+
+    if (window.Wishlist) {
+        window.Wishlist.updateButtons();
+    }
 }
 
 const generateCarsCards = (currentPage, loadedCars) => {
@@ -203,7 +207,8 @@ const generateCarsCards = (currentPage, loadedCars) => {
         image.className = "car-image";
 
         let wishlistBtn = document.createElement("button");
-        wishlistBtn.className = "wishlist-btn";
+        wishlistBtn.className = "wishlist-btn heart";
+        wishlistBtn.setAttribute('data-car-id', car.id);
         wishlistBtn.innerHTML = '<i class="fa-sharp fa-regular fa-heart"></i>';
 
         imageContainer.appendChild(image);
