@@ -19,7 +19,15 @@ document.querySelectorAll('.remove_car').forEach(btn => {
 
 /************************************ WHISHLIST CORRIGÉ ************************************/
 // Wishlist System for Car Rental - UPDATED TO USE SESSIONSTORAGE
-const WISHLIST_KEY = 'car_wishlist';
+
+////Unique client
+let clientId = localStorage.getItem('client_id');
+if (!clientId) {
+    clientId = crypto.randomUUID(); // Génère un UUID unique
+    localStorage.setItem('client_id', clientId);
+}
+
+const WISHLIST_KEY = `wishlist_client_${clientId}`;
 let wishlist = [];
 
 // Import des fonctions depuis carsService.js

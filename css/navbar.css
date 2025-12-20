@@ -6,7 +6,7 @@
     width: 100vw;
     padding: 25px 0% 15px;
     margin: auto;
-    z-index: 999;
+    z-index: 997;
     position: fixed;
     top: 0;
     backdrop-filter: blur(10px);
