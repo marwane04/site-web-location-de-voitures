@@ -19,12 +19,12 @@ export const addUserToStorage = (user) => {
 // Register a new user
 export const registerUser = (user) => {
     const users = getAllUsers();
-    // if (users.some(u => u.email === user.email)) {
-    //     throw new Error("Email already exists");
-    // }
-    // if (user.phone && users.some(u => u.phone === user.phone)) {
-    //     throw new Error("Phone number already exists");
-    // }
+    if (users.some(u => u.email === user.email)) {
+        throw new Error("Email already exists");
+    }
+    if (user.phone && users.some(u => u.phone === user.phone)) {
+        throw new Error("Phone number already exists");
+    }
     return addUserToStorage(user);
 }
 
@@ -56,7 +56,6 @@ export const getCurrentUser = () => {
     if (!userId) return null;
 
     const users = getAllUsers();
-    // Compare with == because storage stores strings
     return users.find(u => u.id == userId) || null;
 }
 
