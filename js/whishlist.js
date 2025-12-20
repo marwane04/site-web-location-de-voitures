@@ -311,7 +311,7 @@ function createWishlistItem(car) {
     const carName = car.modelName;
     const carBrand = car.brand;
     const carPrice = car.dailyPrice;
-    const carImage = car.images.transparent || car.images.diagonal;
+    const carImage = car.images.side;
     const tankCapacity = car.tankCapacity;
     const numberOfSeats = car.numberOfSeats;
     const numberOfDoors = car.numberOfDoors;
