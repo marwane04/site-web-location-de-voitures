@@ -301,7 +301,7 @@ body.sidebar_open .sidebar{
 .car_item{
     display:flex;
     gap:10px;
-    background:#fafafa;
+    background:#f3f3f3;
     padding:0 12px 12px;
     border-radius:12px;
     margin-bottom:12px;
