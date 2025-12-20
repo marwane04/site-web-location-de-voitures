@@ -1,5 +1,3 @@
-
-import {getPopularCars} from "./carsService.js";
 ///////////////////////////carousel///////////////////////////
 import { getPopularCars } from './carsService.js';
 
