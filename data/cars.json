@@ -9,7 +9,7 @@
     "tankCapacity": "59 L",
     "dailyPrice": 0,
     "images": {
-      "transparent": "assets/cars/bwm.png",
+      "transparent": "assets/images/top_cars/bmw.png",
       "side": "https://flib.samar.pl/800/000/897082cbd4e3e5e0728640.webp",
       "front": "https://flib.samar.pl/800/100/8971069688e2f11195b640.webp",
       "rear": "https://flib.samar.pl/800/000/897090304b539295778640.webp",
@@ -26,7 +26,7 @@
     "tankCapacity": "58 L",
     "dailyPrice": 0,
     "images": {
-      "transparent": "assets/images/cars/volkswagen-tiguan.png",
+      "transparent": "assets/images/top_cars/volkswagen-tiguan.png",
       "side": "https://flib.samar.pl/900/300/921339a9c299a5a5813640.webp",
       "front": "https://flib.samar.pl/900/300/9213963f114e88f697d640.webp",
       "rear": "https://flib.samar.pl/900/300/9213470b17d271b448e640.webp",
@@ -43,7 +43,7 @@
     "tankCapacity": "50 L",
     "dailyPrice": 0,
     "images": {
-      "transparent": "assets/images/cars/peugeot-208.png",
+      "transparent": "assets/images/top_cars/peugeot-208.png",
       "side": "https://flib.samar.pl/800/700/83370753b772e1030bf640.webp",
       "front": "https://flib.samar.pl/800/700/833731ebdc156ff3e4b640.webp",
       "rear": "https://flib.samar.pl/800/700/83371556caae4538a3a640.webp",
@@ -60,7 +60,7 @@
     "tankCapacity": "63 L",
     "dailyPrice": 0,
     "images": {
-      "transparent": "assets/images/cars/Porsche-911.png",
+      "transparent": "assets/images/top_cars/Porsche-911.png",
       "side": "https://flib.samar.pl/900/700/922729943d0088b67bf640.webp",
       "front": "https://flib.samar.pl/900/700/9227534fb414225fc8e640.webp",
       "rear": "https://flib.samar.pl/900/700/922737749ac7d58d321640.webp",

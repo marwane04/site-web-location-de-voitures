@@ -28,6 +28,16 @@
                 <a href="/index.html#contact">Contact</a>
             </div>
             <div class="btns">
+                <!--Whislist btn-->
+                <div class="whishlist_btn">
+                    <div class="menu_btn" id="menuBtn">
+                        <div>
+                            <i class="uil uil-heart"></i> Wishlist
+                        </div>
+                    </div>
+                    <div class="whishlist_length">99</div>
+                </div>
+                <!--Whislist btn-->
                 <a href="/signin.html" class="login">Login</a>
                 <a href="/signup.html" class="signup">Sign Up</a>
                 <select name="lang" id="lang">
@@ -35,15 +45,25 @@
                     <option value="fr">Fr</option>
                 </select>
             </div>
+
             <div class="hamburger">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
+            <!--Whislist btn-->
+            <div class="whishlist_btn_mobile">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length"></div>
+            </div>
+            <!--Whislist btn-->
+            <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
         </nav>
-    </div>
-         <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
-        </nav>
+
 
         <div class="mobile-menu">
             <div class="mobile-menu-content">
@@ -64,212 +84,38 @@
             </div>
         </div>
     </div>
+
+    <!--WISHLIST ASIDEBAR-->
+    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar">
+        <div class="link_container">
+
+            <div class="menu_inside">
+                <div class="menu_btn" id="menuBtn2">
+                    <i class="uil uil-multiply"></i> Wishlist
+                </div>
+            </div>
+
+            <h4 class="section_title">Your Cars</h4>
+
+            <div class="whishlit_list">
+                <!--add items dynamically-->
+            </div>
+            
+
+            <div class="checkout">
+                <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+            </div>
+
+        </div>
+    </aside>
+    <!--WISHLIST ASIDEBAR-->
+
     <!-- NAVBAR -->
 
     <!-- TOP CARS SECTION -->
     <div class="carousel">
-        <div class="list">
-            <div class="item">
-                <img src="assets/images/cars/bmw.png">
-                <div class="introduce">
-                    <div class="title">FEATURED CAR</div>
-                    <div class="topic">BMW 3 Series</div>
-                    <div class="des">
-                        Experience the BMW 3 Series — a perfect blend of performance, comfort, and modern design.
-                        Built for everyday driving and long-distance travel with premium quality.
-                    </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
-                </div>
-
-                <div class="detail">
-                    <div class="title">BMW 3 Series – Specifications</div>
-                    <div class="des">
-                        The BMW 3 Series delivers an outstanding driving experience with a powerful engine,
-                        precise handling, and a refined interior. Equipped with advanced technology, safety features,
-                        and elegant design, it is crafted for drivers who want both performance and comfort.
-                    </div>
-
-                    <div class="specifications">
-                        <div>
-                            <p>Engine</p>
-                            <p>2.0L Turbo</p>
-                        </div>
-                        <div>
-                            <p>Horsepower</p>
-                            <p>184 HP</p>
-                        </div>
-                        <div>
-                            <p>Fuel </p>
-                            <p>6.2 L/100km</p>
-                        </div>
-                        <div>
-                            <p>Transmission</p>
-                            <p>Automatic</p>
-                        </div>
-                        <div>
-                            <p>Seats</p>
-                            <p>5</p>
-                        </div>
-                    </div>
-
-                    <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="assets/images/cars/volkswagen-tiguan.png">
-                <div class="introduce">
-                    <div class="title">FEATURED CAR</div>
-                    <div class="topic">BMW 3 Series</div>
-                    <div class="des">
-                        Experience the BMW 3 Series — a perfect blend of performance, comfort, and modern design.
-                        Built for everyday driving and long-distance travel with premium quality.
-                    </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
-                </div>
-
-                <div class="detail">
-                    <div class="title">BMW 3 Series – Specifications</div>
-                    <div class="des">
-                        The BMW 3 Series delivers an outstanding driving experience with a powerful engine,
-                        precise handling, and a refined interior. Equipped with advanced technology, safety features,
-                        and elegant design, it is crafted for drivers who want both performance and comfort.
-                    </div>
-
-                    <div class="specifications">
-                        <div>
-                            <p>Engine</p>
-                            <p>2.0L Turbo</p>
-                        </div>
-                        <div>
-                            <p>Horsepower</p>
-                            <p>184 HP</p>
-                        </div>
-                        <div>
-                            <p>Fuel </p>
-                            <p>6.2 L/100km</p>
-                        </div>
-                        <div>
-                            <p>Transmission</p>
-                            <p>Automatic</p>
-                        </div>
-                        <div>
-                            <p>Seats</p>
-                            <p>5</p>
-                        </div>
-                    </div>
-
-                    <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="assets/images/cars/peugeot-208.png">
-                <div class="introduce">
-                    <div class="title">FEATURED CAR</div>
-                    <div class="topic">BMW 3 Series</div>
-                    <div class="des">
-                        Experience the BMW 3 Series — a perfect blend of performance, comfort, and modern design.
-                        Built for everyday driving and long-distance travel with premium quality.
-                    </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
-                </div>
-
-                <div class="detail">
-                    <div class="title">BMW 3 Series – Specifications</div>
-                    <div class="des">
-                        The BMW 3 Series delivers an outstanding driving experience with a powerful engine,
-                        precise handling, and a refined interior. Equipped with advanced technology, safety features,
-                        and elegant design, it is crafted for drivers who want both performance and comfort.
-                    </div>
-
-                    <div class="specifications">
-                        <div>
-                            <p>Engine</p>
-                            <p>2.0L Turbo</p>
-                        </div>
-                        <div>
-                            <p>Horsepower</p>
-                            <p>184 HP</p>
-                        </div>
-                        <div>
-                            <p>Fuel </p>
-                            <p>6.2 L/100km</p>
-                        </div>
-                        <div>
-                            <p>Transmission</p>
-                            <p>Automatic</p>
-                        </div>
-                        <div>
-                            <p>Seats</p>
-                            <p>5</p>
-                        </div>
-                    </div>
-
-                    <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="assets/images/cars/Porsche-911.png">
-                <div class="introduce">
-                    <div class="title">FEATURED CAR</div>
-                    <div class="topic">BMW 3 Series</div>
-                    <div class="des">
-                        Experience the BMW 3 Series — a perfect blend of performance, comfort, and modern design.
-                        Built for everyday driving and long-distance travel with premium quality.
-                    </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
-                </div>
-
-                <div class="detail">
-                    <div class="title">BMW 3 Series – Specifications</div>
-                    <div class="des">
-                        The BMW 3 Series delivers an outstanding driving experience with a powerful engine,
-                        precise handling, and a refined interior. Equipped with advanced technology, safety features,
-                        and elegant design, it is crafted for drivers who want both performance and comfort.
-                    </div>
-
-                    <div class="specifications">
-                        <div>
-                            <p>Engine</p>
-                            <p>2.0L Turbo</p>
-                        </div>
-                        <div>
-                            <p>Horsepower</p>
-                            <p>184 HP</p>
-                        </div>
-                        <div>
-                            <p>Fuel </p>
-                            <p>6.2 L/100km</p>
-                        </div>
-                        <div>
-                            <p>Transmission</p>
-                            <p>Automatic</p>
-                        </div>
-                        <div>
-                            <p>Seats</p>
-                            <p>5</p>
-                        </div>
-                    </div>
-
-                    <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <div class="list"><!--added dynamically--></div>
         <div class="arrows">
             <div class="arrows_content">
                 <button id="prev">
@@ -347,8 +193,8 @@
 
 
     <div class="section-header">
-            <h2>We offer best services</h2>
-        </div>
+        <h2>We offer best services</h2>
+    </div>
 
 
     <div class="our_services">
@@ -374,8 +220,8 @@
         </div>
     </div>
     <div class="section-header">
-            <h2>What People Say About Us</h2>
-        </div>
+        <h2>What People Say About Us</h2>
+    </div>
     <div class="test">
         <div class="Renting">
             <div class="opinion">
@@ -505,7 +351,9 @@
 
     <script src="js/mobile-navbar.js"></script>  
     <script src="js/navbar_links.js"></script>  
-    <script type="module" src="js/home.js"></script>
-
+    <script type="module" defer src="js/home.js"></script>
+    <script type="module" src="js/whishlist.js"></script>
+    <script src="js/sandbox.js"></script>
+    
 </body>
 </html>
