@@ -265,7 +265,7 @@ input{
     font-weight: 500;
 }
 
-.characteristic{
+/* .characteristic{
     width: 60%;
     margin: 50px auto;
     padding: 20px;
@@ -276,14 +276,18 @@ input{
     font-size: large;
     font-weight: 500;
     color: rgb(80, 80, 80);
-}
+} */
 
-.characteristic {
+.car_specs {
     -webkit-user-select: none; 
     -moz-user-select: none;    
     -ms-user-select: none;    
     user-select: none;         
-    cursor: default;           
+    cursor: default;     
+    padding: 20px;      
+    background-color: #30082c39;
+    border: solid rgba(31, 4, 65, 0.205) 1px;
+    margin: 50px 0;
 }
 
 /* ----------le footer ----------- */
