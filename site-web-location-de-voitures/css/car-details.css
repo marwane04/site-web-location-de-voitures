@@ -250,6 +250,14 @@ input{
     border-bottom: 1px solid;
 }
 
+.spec-item img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    border: none;
+    box-shadow: none;
+}
+
 .spec-item p{
     margin: 0;
     text-align: center;
