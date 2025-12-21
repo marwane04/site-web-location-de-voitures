@@ -18,4 +18,12 @@ mobileLinks.forEach(link => {
         mobileMenu.classList.remove('active');
     });
 });
+
+const clicked_links = document.querySelectorAll(".mobile-menu a")
+clicked_links.forEach(link=>{
+    link.addEventListener('click', ()=>{
+        const logo_mobile = document.querySelector(".navbar.active .logo.mobile-logo")
+        logo_mobile.style.display = "none"
+    })
+})
 ///////////////////////////NAVBAR///////////////////////////
