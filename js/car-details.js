@@ -1,3 +1,15 @@
+import {getCarById} from "./carsService.js";
+
+function renderCarDetails(car) {
+    document.getElementById('carName').innerText = car.modelName;
+    document.getElementById('carImage').src = car.images.diagonal;
+    document.getElementById('tankCapacity').innerText = car.tankCapacity;
+    document.getElementById('numberOfDoors').innerText = car.numberOfDoors + " Doors";
+    document.getElementById('numberOfSeats').innerText = car.numberOfSeats + " Seats";
+    document.getElementById('bodyType').innerText = car.bodyType;
+    document.getElementById('tarif').innerText = car.dailyPrice;
+}
+
 /////////////Set today's date as default \\\\\\\\\\\\\\\
 
 
@@ -30,3 +42,17 @@ function calculateTotal() {
 daysInput.addEventListener('input', calculateTotal);
 insurance.addEventListener('change', calculateTotal);
 gps.addEventListener('change', calculateTotal);
+
+
+//render car details
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+if (id) {
+    getCarById(id).then(car => {
+        if (car) {
+            renderCarDetails(car);
+            calculateTotal();
+        }
+    });
+}

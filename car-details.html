@@ -6,6 +6,7 @@
     <title>Rent - CarbyMy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/car-details.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -65,11 +66,11 @@
     <div class="content">
         <div class="left_fade-slide-left">
             <div class="logo_welcome">
-                <h2>BMW 3</h2>
+                <h2 id="carName">BMW 3</h2>
             </div>
             <div class="image">
 
-                <img src="https://flib.samar.pl/800/100/8971092868c4c665cda2560.webp">
+                <img id="carImage" >
 
             </div>
             <!-- <div class="characteristic">
@@ -79,19 +80,19 @@
             <div class="car_specs">
                 <div class="spec-item">
                     <i class="fa-solid fa-gas-pump fa-3x"></i>
-                    <p>63 L</p>
+                    <p id="tankCapacity">63 L</p>
                 </div>
                 <div class="spec-item">
                     <img src="./assets/icons/car-door.png" alt="">
-                    <p>2 Doors</p>
+                    <p id="numberOfDoors">2 Doors</p>
                 </div>
                 <div class="spec-item">
                     <i class="fa-solid fa-user-group fa-3x"></i>
-                    <p>2 Seats</p>
+                    <p id="numberOfSeats">2 Seats</p>
                 </div>
                 <div class="spec-item">
                     <i class="fa-solid fa-car-side fa-3x"></i>
-                    <p>Coupe</p>
+                    <p id="bodyType">Coupe</p>
                 </div>
             </div>
         </div>
@@ -164,6 +165,6 @@
 
 <script src="js/mobile-navbar.js"></script>
 <script src="js/navbar_links.js"></script>
-<script src="js/car-details.js"></script>
+<script type="module" src="js/car-details.js"></script>
 </body>
 </html>
