@@ -7,7 +7,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "59 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "transparent": "assets/images/top_cars/bmw.png",
       "side": "https://flib.samar.pl/800/000/897082cbd4e3e5e0728640.webp",
@@ -24,7 +24,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "transparent": "assets/images/top_cars/volkswagen-tiguan.png",
       "side": "https://flib.samar.pl/900/300/921339a9c299a5a5813640.webp",
@@ -41,7 +41,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "transparent": "assets/images/top_cars/peugeot-208.png",
       "side": "https://flib.samar.pl/800/700/83370753b772e1030bf640.webp",
@@ -58,7 +58,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "63 L",
-    "dailyPrice": 0,
+    "dailyPrice": 860,
     "images": {
       "transparent": "assets/images/top_cars/Porsche-911.png",
       "side": "https://flib.samar.pl/900/700/922729943d0088b67bf640.webp",
@@ -75,7 +75,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "85 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/900/800/931808e283111204d02640.webp",
       "front": "https://flib.samar.pl/900/800/9318323c9aefafe4137640.webp",
@@ -91,7 +91,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/900/800/9048480d3b2920dd425640.webp",
       "front": "https://flib.samar.pl/900/800/90487205393be0a0b39640.webp",
@@ -107,7 +107,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "63 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/800/700/8797371622e99893a85640.webp",
       "front": "https://flib.samar.pl/800/700/879761e2f5fd4be5d0d640.webp",
@@ -123,7 +123,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "73 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/600/876679eaad3bc8abf7e640.webp",
       "front": "https://flib.samar.pl/800/700/8767036cedd0e6c2b77640.webp",
@@ -139,7 +139,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/900/8519575e7f76c4bfe6a640.webp",
       "front": "https://flib.samar.pl/800/900/851982f229a55d67884640.webp",
@@ -155,7 +155,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/000/80403561a4cb1491269640.webp",
       "front": "https://flib.samar.pl/800/000/804059715d5ca619bf1640.webp",
@@ -171,7 +171,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/700/79179605c5ba659608e640.webp",
       "front": "https://flib.samar.pl/700/800/7918207f1cd16c72f4a640.webp",
@@ -187,7 +187,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 660,
     "images": {
       "side": "https://flib.samar.pl/700/900/7649545693ac9a3ad13640.webp",
       "front": "https://flib.samar.pl/700/900/764978b2cd806dfddfa640.webp",
@@ -203,7 +203,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/400/761468cefd7d1f2a023640.webp",
       "front": "https://flib.samar.pl/700/400/761492d733b03d059db640.webp",
@@ -219,7 +219,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/500/7575110613431ea180d640.webp",
       "front": "https://flib.samar.pl/700/500/757535579f43f6dc8b6640.webp",
@@ -235,7 +235,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/300/755351fbe160df778dd640.webp",
       "front": "https://flib.samar.pl/700/300/755375ca38f5ec3af8f640.webp",
@@ -251,7 +251,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/400/7244423b7a1adfb886e640.webp",
       "front": "https://flib.samar.pl/700/400/7244667e7adb0e9ee90640.webp",
@@ -267,7 +267,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/700/700/71976558526c8816eca640.webp",
       "front": "https://flib.samar.pl/700/700/719789eb3a43d46e136640.webp",
@@ -283,7 +283,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/000/7040990df45797c6c07640.webp",
       "front": "https://flib.samar.pl/700/100/70412413a5fee07827c640.webp",
@@ -299,7 +299,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/600/400/68545366ab68a4e70b0640.webp",
       "front": "https://flib.samar.pl/600/400/68547790ceda10102cb640.webp",
@@ -315,7 +315,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "85 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/600/400/673441d4b226e73c4fe640.webp",
       "front": "https://flib.samar.pl/600/400/6734651eea3ad5e7b84640.webp",
@@ -331,7 +331,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "73 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/600/500/6405787b1a2c28a2d1c640.webp",
       "front": "https://flib.samar.pl/600/600/6406020595b0cf2b264640.webp",
@@ -347,7 +347,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/600/900/6319258a3a5f625d344640.webp",
       "front": "https://flib.samar.pl/600/900/631949d5a8c90137d47640.webp",
@@ -363,7 +363,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/500/400/597434c6a2d19a75402640.webp",
       "front": "https://flib.samar.pl/500/400/597458a64a64ae589b0640.webp",
@@ -379,7 +379,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/800/899845c7c23fd574ff1640.webp",
       "front": "https://flib.samar.pl/800/800/899869bfdcf740237cd640.webp",
@@ -395,7 +395,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/600/89764669fc520856741640.webp",
       "front": "https://flib.samar.pl/800/600/8976701b5385c6624ed640.webp",
@@ -411,7 +411,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/600/838697acc5fbcb70936640.webp",
       "front": "https://flib.samar.pl/800/700/838721d0be6a5a4e3d6640.webp",
@@ -427,7 +427,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 6,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/900/8379823a8d3899c8e55640.webp",
       "front": "https://flib.samar.pl/800/000/8380067dec2c3685041640.webp",
@@ -443,7 +443,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/300/8373070f9cba9120424640.webp",
       "front": "https://flib.samar.pl/800/300/837331d63c7e8fac917640.webp",
@@ -459,7 +459,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "47 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/500/832594140e45be9c310640.webp",
       "front": "https://flib.samar.pl/800/600/8326185859cbcb456f8640.webp",
@@ -475,7 +475,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "52 L",
-    "dailyPrice": 0,
+    "dailyPrice": 620,
     "images": {
       "side": "https://flib.samar.pl/800/100/81316570cd5266bdf1c640.webp",
       "front": "https://flib.samar.pl/800/100/8131899644dd506e39d640.webp",
@@ -491,7 +491,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "47 L",
-    "dailyPrice": 0,
+    "dailyPrice": 590,
     "images": {
       "side": "https://flib.samar.pl/800/500/8075849576d95712b5b640.webp",
       "front": "https://flib.samar.pl/800/600/80760885f8986c1a2e7640.webp",
@@ -507,7 +507,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/400/787403674753389a243640.webp",
       "front": "https://flib.samar.pl/700/400/7874271a9ed9198725d640.webp",
@@ -523,7 +523,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/500/786578ee497dcdf4ac3640.webp",
       "front": "https://flib.samar.pl/700/600/786602d1efc308de7ea640.webp",
@@ -539,7 +539,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/900/76798732dd93d8c167e640.webp",
       "front": "https://flib.samar.pl/700/000/76801181c8c44a2aba0640.webp",
@@ -555,7 +555,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "61 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/600/200/681236ef276d9fbc39d640.webp",
       "front": "https://flib.samar.pl/600/200/681260d0d59ff32a842640.webp",
@@ -571,7 +571,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 4,
     "tankCapacity": "68 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/600/300/67337049aaa617da75d640.webp",
       "front": "https://flib.samar.pl/600/300/6733946c5ee28862d84640.webp",
@@ -587,7 +587,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "83 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/600/700/6487736a7998ac9d89d640.webp",
       "front": "https://flib.samar.pl/600/700/648797f9e6a7681daa3640.webp",
@@ -603,7 +603,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/600/700/6457813b4654a47d1ce640.webp",
       "front": "https://flib.samar.pl/600/800/645805c547a03d3a0ea640.webp",
@@ -619,7 +619,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/600/300/646303a402a9d068a6d640.webp",
       "front": "https://flib.samar.pl/600/300/646327fa43ee11cd21f640.webp",
@@ -635,7 +635,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "83 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/600/200/644201957e7e9a7a192640.webp",
       "front": "https://flib.samar.pl/600/200/6442254a0378a15eb00640.webp",
@@ -651,7 +651,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "52 L",
-    "dailyPrice": 0,
+    "dailyPrice": 660,
     "images": {
       "side": "https://flib.samar.pl/600/200/6392176253aabbf5d64640.webp",
       "front": "https://flib.samar.pl/600/200/63924129ca313b7c8b3640.webp",
@@ -667,7 +667,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "30 L",
-    "dailyPrice": 0,
+    "dailyPrice": 620,
     "images": {
       "side": "https://flib.samar.pl/500/900/56399739d0a3a38bcc1640.webp",
       "front": "https://flib.samar.pl/500/000/564021248e9e2918ab3640.webp",
@@ -683,7 +683,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 400,
     "images": {
       "side": "https://flib.samar.pl/900/100/9221785c75fa48492c4640.webp",
       "front": "https://flib.samar.pl/900/200/9222020da5ba85533a0640.webp",
@@ -699,7 +699,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/300/919346fa2fcbb755d78640.webp",
       "front": "https://flib.samar.pl/900/300/919370682b7930a596b640.webp",
@@ -715,7 +715,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/400/9184556f13dea0dc6ab640.webp",
       "front": "https://flib.samar.pl/900/400/91847976f412db3b5cf640.webp",
@@ -731,7 +731,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/900/900/914958177fcd96364a6640.webp",
       "front": "https://flib.samar.pl/900/900/9149824130231c88122640.webp",
@@ -747,7 +747,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/800/400/8564718de4c095959d0640.webp",
       "front": "https://flib.samar.pl/800/400/856495d4e31f0e7650f640.webp",
@@ -763,7 +763,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "53 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/200/8022300cfc6ca2da1ad640.webp",
       "front": "https://flib.samar.pl/800/200/802254aba16c74bdb64640.webp",
@@ -779,7 +779,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 6,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/700/600/74769365d5afed37d05640.webp",
       "front": "https://flib.samar.pl/700/700/747717f88f1185382fb640.webp",
@@ -795,7 +795,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/700/100/70510066afb2be7f9f0640.webp",
       "front": "https://flib.samar.pl/700/100/705124929924cd416c0640.webp",
@@ -811,7 +811,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 430,
     "images": {
       "side": "https://flib.samar.pl/600/000/6320935284836f03c98640.webp",
       "front": "https://flib.samar.pl/600/100/63211718f6688138186640.webp",
@@ -827,7 +827,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/600/200/6292806df50a1b325c5640.webp",
       "front": "https://flib.samar.pl/600/300/629304559f13b6ad77c640.webp",
@@ -843,28 +843,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 9,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/600/300/623368460b537b713f2640.webp",
       "front": "https://flib.samar.pl/600/300/6233937fcdb4659aaa5640.webp",
       "rear": "https://flib.samar.pl/600/300/623376a3793ae38b80d640.webp",
       "diagonal": "https://flib.samar.pl/600/300/623396ae48c04282b432560.webp"
-    }
-  },
-  {
-    "id": 54,
-    "modelName": "Citroen 2CV",
-    "brand": "Citroen",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/500/400/576480f5e289b65d66d640.webp",
-      "front": "https://flib.samar.pl/500/500/57650450b03f136b94d640.webp",
-      "rear": "https://flib.samar.pl/500/400/576488d01b1888b02a0640.webp",
-      "diagonal": "https://flib.samar.pl/500/500/576507becf468f491d32560.webp"
     }
   },
   {
@@ -875,7 +859,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/500/000/565069251d210361bb1640.webp",
       "front": "https://flib.samar.pl/500/000/565099a80402a6460e3640.webp",
@@ -891,7 +875,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/900/200/9482455a08626ca34f0640.webp",
       "front": "https://flib.samar.pl/900/200/948269d956309f05aa640.webp",
@@ -907,7 +891,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 340,
     "images": {
       "side": "https://flib.samar.pl/900/700/937741b86b59c382051640.webp",
       "front": "https://flib.samar.pl/900/700/937776217d2b819ed97640.webp",
@@ -923,7 +907,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 340,
     "images": {
       "side": "https://flib.samar.pl/900/400/9244978ef27035cfd38640.webp",
       "front": "https://flib.samar.pl/900/500/92452144efbc175821e640.webp",
@@ -939,7 +923,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 390,
     "images": {
       "side": "https://flib.samar.pl/900/100/9191229afdbdc45b0fa640.webp",
       "front": "https://flib.samar.pl/900/100/919146c97bd208b7801640.webp",
@@ -955,7 +939,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 360,
     "images": {
       "side": "https://flib.samar.pl/700/100/724122a01081895ec05640.webp",
       "front": "https://flib.samar.pl/700/100/7241465530d010c152d640.webp",
@@ -971,28 +955,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 390,
     "images": {
       "side": "https://flib.samar.pl/600/900/6869009d2bfbdcf4a54640.webp",
       "front": "https://flib.samar.pl/600/900/68692417467a17f393d640.webp",
       "rear": "https://flib.samar.pl/600/900/686908154d66ef8429c640.webp",
       "diagonal": "https://flib.samar.pl/600/900/6869270e0519cc6a6152560.webp"
-    }
-  },
-  {
-    "id": 62,
-    "modelName": "Dacia Dokker Van",
-    "brand": "Dacia",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/600/200/650278471c1f5122025640.webp",
-      "front": "https://flib.samar.pl/600/300/650302cf32d998ba1e0640.webp",
-      "rear": "https://flib.samar.pl/600/200/65028605034edc18d43640.webp",
-      "diagonal": "https://flib.samar.pl/600/300/6503054b7dcb8d44b82560.webp"
     }
   },
   {
@@ -1003,7 +971,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/700/8917788a3760a4363f5640.webp",
       "front": "https://flib.samar.pl/800/800/8918024c953e6fdf6f0640.webp",
@@ -1019,7 +987,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/100/84214411ead8fb944a7640.webp",
       "front": "https://flib.samar.pl/800/100/8421683365d1f94a5b0640.webp",
@@ -1035,7 +1003,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/500/834560570e89befcb86640.webp",
       "front": "https://flib.samar.pl/800/500/8345849d19191e5cb9d640.webp",
@@ -1051,7 +1019,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "37 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/800/100/8271427b3831bc853b1640.webp",
       "front": "https://flib.samar.pl/800/100/82716675f069c76a672640.webp",
@@ -1067,28 +1035,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "48 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/800/8078847cefa0f078f69640.webp",
       "front": "https://flib.samar.pl/800/900/80792680ff9e21710fc640.webp",
       "rear": "https://flib.samar.pl/800/800/807898793b81e9affcf640.webp",
       "diagonal": "https://flib.samar.pl/800/900/807932360b283e1572a2560.webp"
-    }
-  },
-  {
-    "id": 68,
-    "modelName": "Fiat 125",
-    "brand": "Fiat",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/700/100/7631108dd9e15a5cd87640.webp",
-      "front": "https://flib.samar.pl/700/100/763134d9242dd53e1ef640.webp",
-      "rear": "https://flib.samar.pl/700/100/7631188d7850bce5cd640.webp",
-      "diagonal": "https://flib.samar.pl/700/100/763137600de76affee52560.webp"
     }
   },
   {
@@ -1099,28 +1051,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "37 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/700/100/719127af48c5e8034e9640.webp",
       "front": "https://flib.samar.pl/700/100/7191516cebc536fa3b9640.webp",
       "rear": "https://flib.samar.pl/700/100/7191356fdb61b223293640.webp",
       "diagonal": "https://flib.samar.pl/700/100/7191549a773d0c1edbd2560.webp"
-    }
-  },
-  {
-    "id": 70,
-    "modelName": "Fiat Coupe",
-    "brand": "Fiat",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/700/000/71700477382879322d2640.webp",
-      "front": "https://flib.samar.pl/700/000/7170282b9b9685ea215640.webp",
-      "rear": "https://flib.samar.pl/700/000/71701256c00795ebcd3640.webp",
-      "diagonal": "https://flib.samar.pl/700/000/7170311740efcc69c892560.webp"
     }
   },
   {
@@ -1131,7 +1067,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 5,
     "tankCapacity": "37 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/600/100/671186b260fd2b160f6640.webp",
       "front": "https://flib.samar.pl/600/200/6712106211aea56c39a640.webp",
@@ -1147,7 +1083,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/600/200/670226251ab6d7298a4640.webp",
       "front": "https://flib.samar.pl/600/200/67025004b1deb71563a640.webp",
@@ -1163,7 +1099,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/600/000/6560475c69e15a9655d640.webp",
       "front": "https://flib.samar.pl/600/000/656071d32d37eb3bf80640.webp",
@@ -1179,7 +1115,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 9,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/600/600/626682ebbb36e698222640.webp",
       "front": "https://flib.samar.pl/600/700/6267067e38030cf6575640.webp",
@@ -1195,7 +1131,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 430,
     "images": {
       "side": "https://flib.samar.pl/600/700/6227068de61a6810fd2640.webp",
       "front": "https://flib.samar.pl/600/700/622730d505f79582db0640.webp",
@@ -1211,28 +1147,12 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "75 L",
-    "dailyPrice": 0,
+    "dailyPrice": 490,
     "images": {
       "side": "https://flib.samar.pl/500/800/56987213afad19c36d1640.webp",
       "front": "https://flib.samar.pl/500/800/5698961e3a7c4f1435f640.webp",
       "rear": "https://flib.samar.pl/500/800/56988022b6ca58e7c4d640.webp",
       "diagonal": "https://flib.samar.pl/500/800/569899675bf69544ab52560.webp"
-    }
-  },
-  {
-    "id": 77,
-    "modelName": "Fiat 126 EL",
-    "brand": "Fiat",
-    "bodyType": "Hatchback",
-    "numberOfDoors": 2,
-    "numberOfSeats": null,
-    "tankCapacity": "50 L",
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/500/200/56926493df0b75a5cb9640.webp",
-      "front": "https://flib.samar.pl/500/200/5692885e18ed2f9101b640.webp",
-      "rear": "https://flib.samar.pl/500/200/5692722ab4f0686ae0e640.webp",
-      "diagonal": "https://flib.samar.pl/500/200/569291468e1f9c3150e2560.webp"
     }
   },
   {
@@ -1243,7 +1163,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/600/9366705fa8756e0b655640.webp",
       "front": "https://flib.samar.pl/900/600/936695c432394a56fd9640.webp",
@@ -1259,7 +1179,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "47 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/400/934454eb69b1137780d640.webp",
       "front": "https://flib.samar.pl/900/400/934478e68e5ff4e5c5c640.webp",
@@ -1275,7 +1195,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "54 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/300/930368d94a53ac093db640.webp",
       "front": "https://flib.samar.pl/900/300/93039224b1f526beaa0640.webp",
@@ -1291,7 +1211,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/900/900/9279579b9b29652963e640.webp",
       "front": "https://flib.samar.pl/900/900/927981a7599b13b7bf0640.webp",
@@ -1307,7 +1227,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/900/400/905403b395782370b16640.webp",
       "front": "https://flib.samar.pl/900/400/905427cb6820d88359e640.webp",
@@ -1323,7 +1243,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/700/886748d942bf6e5f2c6640.webp",
       "front": "https://flib.samar.pl/800/700/8867721465d5ef99b59640.webp",
@@ -1339,7 +1259,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "36 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/500/849572cdd6f328eef99640.webp",
       "front": "https://flib.samar.pl/800/500/849596f61172e17efd1640.webp",
@@ -1355,7 +1275,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/800/600/8476009369749eda353640.webp",
       "front": "https://flib.samar.pl/800/600/8476247bddc4d36bd7b640.webp",
@@ -1371,7 +1291,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/700/900/79291451d4962973990640.webp",
       "front": "https://flib.samar.pl/700/900/792938cf4a24b9917e6640.webp",
@@ -1387,7 +1307,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "47 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/700/700/7447532401af3b80721640.webp",
       "front": "https://flib.samar.pl/700/700/74477734d2671bbd2cb640.webp",
@@ -1403,7 +1323,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/600/900/646968581d579e36bed640.webp",
       "front": "https://flib.samar.pl/600/900/64699287f90254fbe84640.webp",
@@ -1419,7 +1339,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/600/900/6439757698f49892e43640.webp",
       "front": "https://flib.samar.pl/600/900/6439990b3fff6007c15640.webp",
@@ -1435,7 +1355,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/000/906048a1a842284d8bd640.webp",
       "front": "https://flib.samar.pl/900/000/9060721f34e2f2e920a640.webp",
@@ -1451,7 +1371,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/200/89324079e0579a58088640.webp",
       "front": "https://flib.samar.pl/800/200/89326442dd89b2b4b7c640.webp",
@@ -1467,7 +1387,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/100/855123293e8d17fc813640.webp",
       "front": "https://flib.samar.pl/800/100/855166e66dc85a80327640.webp",
@@ -1483,7 +1403,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/600/84563099dfd65814097640.webp",
       "front": "https://flib.samar.pl/800/600/845654f0c0359ed9651640.webp",
@@ -1499,7 +1419,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "42 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/700/818717a1b9e8cd84dc1640.webp",
       "front": "https://flib.samar.pl/800/700/8187419c5a67f54ecb2640.webp",
@@ -1515,7 +1435,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/300/81637899081bf282ed8640.webp",
       "front": "https://flib.samar.pl/800/400/816402b2dba112d4073640.webp",
@@ -1531,7 +1451,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "67 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/700/8067720ab67c7fcc6fc640.webp",
       "front": "https://flib.samar.pl/800/700/806796cf6a466e53824640.webp",
@@ -1547,7 +1467,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/100/805144f207ea2f715b6640.webp",
       "front": "https://flib.samar.pl/800/100/805168ba827f4d00d7f640.webp",
@@ -1563,7 +1483,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/700/200/7662193545486837efe640.webp",
       "front": "https://flib.samar.pl/700/200/766243918046eb1accb640.webp",
@@ -1579,7 +1499,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/500/7585805ebc2b1c828ff640.webp",
       "front": "https://flib.samar.pl/700/600/758604567a068e7a692640.webp",
@@ -1595,7 +1515,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/700/100/740141a7a7e0a90c1a3640.webp",
       "front": "https://flib.samar.pl/700/100/74016565bb5cadd2e33640.webp",
@@ -1611,7 +1531,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/300/70733383de0598bfc22640.webp",
       "front": "https://flib.samar.pl/700/300/7073574fbf73840d3ef640.webp",
@@ -1627,7 +1547,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 440,
     "images": {
       "side": "https://flib.samar.pl/600/600/638627e5d84d733f54a640.webp",
       "front": "https://flib.samar.pl/600/600/638651ea1261897e6d1640.webp",
@@ -1643,7 +1563,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/600/300/6363711f8f63d63e4bc640.webp",
       "front": "https://flib.samar.pl/600/300/6363958d4774efd2396640.webp",
@@ -1659,7 +1579,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/500/400/5684716e26fa05c1023640.webp",
       "front": "https://flib.samar.pl/500/400/56849552baa96300c41640.webp",
@@ -1675,7 +1595,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 6,
     "tankCapacity": "57 L",
-    "dailyPrice": 0,
+    "dailyPrice": 670,
     "images": {
       "side": "https://flib.samar.pl/900/800/943851632fe3a2943df640.webp",
       "front": "https://flib.samar.pl/900/800/943875176582b3c7763640.webp",
@@ -1691,7 +1611,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/900/600/94162734b88e777965640.webp",
       "front": "https://flib.samar.pl/900/600/9416512a38f89e2741a640.webp",
@@ -1707,7 +1627,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "67 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/100/9401909ef540012c62b640.webp",
       "front": "https://flib.samar.pl/900/200/9402140ff12073b6f41640.webp",
@@ -1723,7 +1643,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/900/300/93633865ba10359c8a1640.webp",
       "front": "https://flib.samar.pl/900/300/9363624f41b84a54a3a640.webp",
@@ -1739,7 +1659,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 4,
     "tankCapacity": "57 L",
-    "dailyPrice": 0,
+    "dailyPrice": 670,
     "images": {
       "side": "https://flib.samar.pl/900/700/932732d478b02409e25640.webp",
       "front": "https://flib.samar.pl/900/700/9327596551f958be1ad640.webp",
@@ -1755,7 +1675,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 650,
     "images": {
       "side": "https://flib.samar.pl/900/200/9322310eeaca62b692d640.webp",
       "front": "https://flib.samar.pl/900/200/932255a8b00e3d5705b640.webp",
@@ -1771,7 +1691,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 6,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 670,
     "images": {
       "side": "https://flib.samar.pl/900/900/930904be944f134136a640.webp",
       "front": "https://flib.samar.pl/900/900/93092801c63f082be94640.webp",
@@ -1787,7 +1707,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 660,
     "images": {
       "side": "https://flib.samar.pl/900/800/90180694a534ce8cdc4640.webp",
       "front": "https://flib.samar.pl/900/800/90183054e29c23ba3fb640.webp",
@@ -1803,7 +1723,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "62 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/800/500/8985671c67c45714c7f640.webp",
       "front": "https://flib.samar.pl/800/500/8985913caec729e866e640.webp",
@@ -1819,7 +1739,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "54 L",
-    "dailyPrice": 0,
+    "dailyPrice": 660,
     "images": {
       "side": "https://flib.samar.pl/800/400/894422b73b9d74d2418640.webp",
       "front": "https://flib.samar.pl/800/400/8944468d88a05189ba1640.webp",
@@ -1835,7 +1755,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 3,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 650,
     "images": {
       "side": "https://flib.samar.pl/900/400/93744742820e51a9ca3640.webp",
       "front": "https://flib.samar.pl/900/400/9374719032692f91c22640.webp",
@@ -1851,7 +1771,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 650,
     "images": {
       "side": "https://flib.samar.pl/800/700/877708f0ff16e3a1af7640.webp",
       "front": "https://flib.samar.pl/800/700/8777324c967a449ae53640.webp",
@@ -1867,7 +1787,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/800/200/870255475d9ceda8f66640.webp",
       "front": "https://flib.samar.pl/800/200/8702792d49366b03a42640.webp",
@@ -1883,7 +1803,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/800/400/854421184f32aed88d8640.webp",
       "front": "https://flib.samar.pl/800/400/8544459031794d9ac50640.webp",
@@ -1899,7 +1819,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/800/300/84732085cd06b51d86f640.webp",
       "front": "https://flib.samar.pl/800/300/847363114cf6e73141d640.webp",
@@ -1915,7 +1835,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/800/200/83626116c9a82af8321640.webp",
       "front": "https://flib.samar.pl/800/200/8362853f4bf49a10497640.webp",
@@ -1931,7 +1851,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/800/400/888464421dad22bc556640.webp",
       "front": "https://flib.samar.pl/800/400/888489e5a0d94b0ea66640.webp",
@@ -1947,7 +1867,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/800/600/82867924b28c298f609640.webp",
       "front": "https://flib.samar.pl/800/700/828703ca3c4bf63eb41640.webp",
@@ -1963,7 +1883,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 700,
     "images": {
       "side": "https://flib.samar.pl/800/500/8205607e799b61039c0640.webp",
       "front": "https://flib.samar.pl/800/500/82058470ae0e4582f9b640.webp",
@@ -1979,7 +1899,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/800/900/808992bda5e4f1bca89640.webp",
       "front": "https://flib.samar.pl/800/000/8090167d01b720e77f9640.webp",
@@ -1995,7 +1915,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/800/500/80859984b7847666d82640.webp",
       "front": "https://flib.samar.pl/800/600/8086230338f02109565640.webp",
@@ -2011,7 +1931,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/700/100/796105d58f84470a7aa640.webp",
       "front": "https://flib.samar.pl/700/100/7961294d1a02a59a6a3640.webp",
@@ -2027,7 +1947,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 620,
     "images": {
       "side": "https://flib.samar.pl/700/100/7941940e68e072d82a3640.webp",
       "front": "https://flib.samar.pl/700/200/7942185ea3d29499c16640.webp",
@@ -2043,7 +1963,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "90 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/700/300/7923554e95772d7f5a8640.webp",
       "front": "https://flib.samar.pl/700/300/792379937050577cf90640.webp",
@@ -2059,7 +1979,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "51 L",
-    "dailyPrice": 0,
+    "dailyPrice": 620,
     "images": {
       "side": "https://flib.samar.pl/700/800/768877e8396486cb0c4640.webp",
       "front": "https://flib.samar.pl/700/900/76890112bd41af8b9c5640.webp",
@@ -2075,7 +1995,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/700/700/7657828ad7bd0af5a56640.webp",
       "front": "https://flib.samar.pl/700/800/7658069d3e1298d4697640.webp",
@@ -2091,7 +2011,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/700/200/743223f79df913491c1640.webp",
       "front": "https://flib.samar.pl/700/200/743247fc928c480bf17640.webp",
@@ -2107,7 +2027,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "51 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/700/300/71233554cdb847003e6640.webp",
       "front": "https://flib.samar.pl/700/300/7123590923a921cb33d640.webp",
@@ -2123,7 +2043,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "100 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/700/600/7006796dc98ee676474640.webp",
       "front": "https://flib.samar.pl/700/700/7007034c185ba938051640.webp",
@@ -2139,7 +2059,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 580,
     "images": {
       "side": "https://flib.samar.pl/600/700/683728527ea261518e6640.webp",
       "front": "https://flib.samar.pl/600/700/6837522db39fdac9410640.webp",
@@ -2155,7 +2075,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "85 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/600/700/63478424d6b6b865fec640.webp",
       "front": "https://flib.samar.pl/600/800/63480859ac8392ac653640.webp",
@@ -2171,7 +2091,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 680,
     "images": {
       "side": "https://flib.samar.pl/600/400/633414a6d689739fa6c640.webp",
       "front": "https://flib.samar.pl/600/400/63343848002374e08cb640.webp",
@@ -2187,7 +2107,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 690,
     "images": {
       "side": "https://flib.samar.pl/600/300/614359bc7fe4dbf0345640.webp",
       "front": "https://flib.samar.pl/600/300/61438541726a88de7c5640.webp",
@@ -2203,7 +2123,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "51 L",
-    "dailyPrice": 0,
+    "dailyPrice": 630,
     "images": {
       "side": "https://flib.samar.pl/600/100/609156456631e44d8cf640.webp",
       "front": "https://flib.samar.pl/600/100/60918019ec1f4ef188b640.webp",
@@ -2219,7 +2139,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/700/927740f078ef2c0fc92640.webp",
       "front": "https://flib.samar.pl/900/700/9277648fef157c96ba7640.webp",
@@ -2235,7 +2155,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/800/92580708e40e0e36c35640.webp",
       "front": "https://flib.samar.pl/900/800/9258317ff6696996e0a640.webp",
@@ -2251,7 +2171,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/400/92544829a027388e2a2640.webp",
       "front": "https://flib.samar.pl/900/400/9254729e5ed2d92fc77640.webp",
@@ -2267,7 +2187,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "46 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/600/9176761aaa031a90bdf640.webp",
       "front": "https://flib.samar.pl/900/700/917700c37ef0057df20640.webp",
@@ -2283,7 +2203,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 490,
     "images": {
       "side": "https://flib.samar.pl/800/800/87182812467e34e14a8640.webp",
       "front": "https://flib.samar.pl/800/800/8718524328d888ce9b1640.webp",
@@ -2299,7 +2219,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/200/751201244780222a830640.webp",
       "front": "https://flib.samar.pl/700/200/751226c6229508aff5c640.webp",
@@ -2315,7 +2235,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 490,
     "images": {
       "side": "https://flib.samar.pl/700/300/7093874d4b6e123c848640.webp",
       "front": "https://flib.samar.pl/700/400/709411b50f58d76a138640.webp",
@@ -2331,7 +2251,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "73 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/500/100/5541690515a166d7799640.webp",
       "front": "https://flib.samar.pl/500/100/55419327b6deec96ec7640.webp",
@@ -2347,7 +2267,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "41 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/500/700/551765c14cc92a71f1c640.webp",
       "front": "https://flib.samar.pl/500/700/551789d8ea186e4cc43640.webp",
@@ -2363,7 +2283,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/300/931300e8c675eaca1eb640.webp",
       "front": "https://flib.samar.pl/900/300/931324a090ea0b8912d640.webp",
@@ -2379,28 +2299,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/900/200/918221d18237542551b640.webp",
       "front": "https://flib.samar.pl/900/200/918245804effae92632640.webp",
       "rear": "https://flib.samar.pl/900/200/918229164f98ca8424d640.webp",
       "diagonal": "https://flib.samar.pl/900/200/91824887b5291f8e0182560.webp"
-    }
-  },
-  {
-    "id": 150,
-    "modelName": "Opel Corsa",
-    "brand": "Opel",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/900/300/911335130cb09d6160b640.webp",
-      "front": "https://flib.samar.pl/900/300/91135904e1b4ff7fdc4640.webp",
-      "rear": "https://flib.samar.pl/900/300/911343ffb2e698feafb640.webp",
-      "diagonal": "https://flib.samar.pl/900/300/911362fc25c536baaa12560.webp"
     }
   },
   {
@@ -2411,7 +2315,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/000/845096d3dbf0fc672e1640.webp",
       "front": "https://flib.samar.pl/800/100/8451314f00d4bd13b84640.webp",
@@ -2427,7 +2331,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/700/800/78088029c33e0f18ea7640.webp",
       "front": "https://flib.samar.pl/700/900/780916d4ef9e2e6b6ab640.webp",
@@ -2443,7 +2347,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/700/200/78029619912df40ad4f640.webp",
       "front": "https://flib.samar.pl/700/300/78032078e8de7f31ce2640.webp",
@@ -2459,7 +2363,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 6,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/700/200/7632037464d7db02a4e640.webp",
       "front": "https://flib.samar.pl/700/200/763227492df7e2c29de640.webp",
@@ -2475,7 +2379,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "62 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/500/7595885a753c2e4404d640.webp",
       "front": "https://flib.samar.pl/700/600/759612c10aa8e2f9ea8640.webp",
@@ -2491,7 +2395,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/700/300/74430085508c34f7466640.webp",
       "front": "https://flib.samar.pl/700/300/7443243eddf431fd0d0640.webp",
@@ -2507,7 +2411,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 6,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/700/000/719035895ba28cb7b01640.webp",
       "front": "https://flib.samar.pl/700/000/7190598de51462b749c640.webp",
@@ -2523,7 +2427,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "44 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/500/931594adec4155473a6640.webp",
       "front": "https://flib.samar.pl/900/600/931618a056f888c7dbc640.webp",
@@ -2539,7 +2443,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "52 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/900/200/916283d54fa85db11ba640.webp",
       "front": "https://flib.samar.pl/900/300/916307b42360dd424a6640.webp",
@@ -2555,7 +2459,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/100/903139180ea23371c3c640.webp",
       "front": "https://flib.samar.pl/900/100/9031633a44a4b01411c640.webp",
@@ -2571,7 +2475,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "42 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/400/890437edbab0ee27980640.webp",
       "front": "https://flib.samar.pl/800/400/8904616cc09e99b7965640.webp",
@@ -2587,7 +2491,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "56 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/400/8874152870f6c0f7d1c640.webp",
       "front": "https://flib.samar.pl/800/400/8874391c80eb6f78bee640.webp",
@@ -2603,7 +2507,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/800/900/8479917cd0260451313640.webp",
       "front": "https://flib.samar.pl/800/000/848015e25f854b3da9f640.webp",
@@ -2619,7 +2523,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/700/300/770350cac619f35303e640.webp",
       "front": "https://flib.samar.pl/700/300/770374623b3ad58d1a9640.webp",
@@ -2635,7 +2539,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/700/200/77024504a8dc746fc62640.webp",
       "front": "https://flib.samar.pl/700/200/770269bafddd66b90c3640.webp",
@@ -2651,7 +2555,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 6,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/700/200/75926868965473c7fe640.webp",
       "front": "https://flib.samar.pl/700/200/759292effdf82fbe466640.webp",
@@ -2667,7 +2571,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 6,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/700/400/713427b1e96661ba65d640.webp",
       "front": "https://flib.samar.pl/700/400/713451f21f861982b82640.webp",
@@ -2683,7 +2587,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/500/9475414eda4c24854a5640.webp",
       "front": "https://flib.samar.pl/900/500/9475658ed298942a23f640.webp",
@@ -2699,7 +2603,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "48 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/100/94311682614c07b4725640.webp",
       "front": "https://flib.samar.pl/900/100/943140e49e9018ec9fb640.webp",
@@ -2715,7 +2619,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "48 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/700/9267580124a99e119cd640.webp",
       "front": "https://flib.samar.pl/900/700/926782a07c6d3c64339640.webp",
@@ -2731,7 +2635,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/100/909173b6c02170275ce640.webp",
       "front": "https://flib.samar.pl/900/100/909197ec0def77400f1640.webp",
@@ -2747,7 +2651,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 6,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/900/800/90587015864d88461f7640.webp",
       "front": "https://flib.samar.pl/900/800/90589483f2cb9a33bef640.webp",
@@ -2763,7 +2667,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/900/500/9035404dba6f8a40fd5640.webp",
       "front": "https://flib.samar.pl/900/500/9035642918a6d30b2c4640.webp",
@@ -2779,7 +2683,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/800/9028002b2ed6da16be3640.webp",
       "front": "https://flib.samar.pl/900/800/9028240bc6b6a1361e1640.webp",
@@ -2795,7 +2699,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/300/8993987cc2362b03edc640.webp",
       "front": "https://flib.samar.pl/800/400/899422b5cc5bed40643640.webp",
@@ -2811,7 +2715,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "39 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/800/100/8761341292f1a11609a640.webp",
       "front": "https://flib.samar.pl/800/100/876158f6515ed7006e0640.webp",
@@ -2827,7 +2731,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/600/8706157a527f4377599640.webp",
       "front": "https://flib.samar.pl/800/600/870606cd6e203dc8acf640.webp",
@@ -2843,28 +2747,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/800/400/8554970d3f86721d2b4640.webp",
       "front": "https://flib.samar.pl/800/400/85548980617154aa4fe640.webp",
       "rear": "https://flib.samar.pl/800/400/8554537eb100f7279aa640.webp",
       "diagonal": "https://flib.samar.pl/800/400/8554929af185a89aa52560.webp"
-    }
-  },
-  {
-    "id": 179,
-    "modelName": "Renault Kangoo Van",
-    "brand": "Renault",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/800/400/825480b8987f06ac9fa640.webp",
-      "front": "https://flib.samar.pl/800/500/825504ad7f1d548a6d1640.webp",
-      "rear": "https://flib.samar.pl/800/400/8254883dbbafd3a1585640.webp",
-      "diagonal": "https://flib.samar.pl/800/500/82550745ad74e00c7242560.webp"
     }
   },
   {
@@ -2875,7 +2763,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/800/900/816935f63a7cd63a5aa640.webp",
       "front": "https://flib.samar.pl/800/900/8169592ccaa3849a624640.webp",
@@ -2891,7 +2779,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/700/200/745230a582651877bd4640.webp",
       "front": "https://flib.samar.pl/700/200/745254c1980487cfd9c640.webp",
@@ -2907,7 +2795,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/900/7379044d94c9d42314b640.webp",
       "front": "https://flib.samar.pl/700/900/7379283991c4c7af5cf640.webp",
@@ -2923,7 +2811,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 5,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 430,
     "images": {
       "side": "https://flib.samar.pl/700/900/716912d7915dca0a0c2640.webp",
       "front": "https://flib.samar.pl/700/900/71693647c53a0df224d640.webp",
@@ -2939,7 +2827,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 450,
     "images": {
       "side": "https://flib.samar.pl/700/700/709792896336ca5aeed640.webp",
       "front": "https://flib.samar.pl/700/800/709833ac1ce00f4961f640.webp",
@@ -2955,28 +2843,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/600/300/622382b228b7b83057e640.webp",
       "front": "https://flib.samar.pl/600/400/6224064363a99f45d76640.webp",
       "rear": "https://flib.samar.pl/600/300/62239061fcf8b49ad49640.webp",
       "diagonal": "https://flib.samar.pl/600/400/622409495dc6ab57ab22560.webp"
-    }
-  },
-  {
-    "id": 186,
-    "modelName": "Renault Twizy",
-    "brand": "Renault",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/600/100/615120a396e0c4d611a640.webp",
-      "front": "https://flib.samar.pl/600/100/615144ce6de6bcd0c2f640.webp",
-      "rear": "https://flib.samar.pl/600/100/61512821070f1a22beb640.webp",
-      "diagonal": "https://flib.samar.pl/600/100/615147e09f68a99af442560.webp"
     }
   },
   {
@@ -2987,7 +2859,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "53 L",
-    "dailyPrice": 0,
+    "dailyPrice": 430,
     "images": {
       "side": "https://flib.samar.pl/500/300/56732050a794a436666640.webp",
       "front": "https://flib.samar.pl/500/300/5673440190368c4bd03640.webp",
@@ -3003,7 +2875,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/500/500/554563980e92871871e640.webp",
       "front": "https://flib.samar.pl/500/500/5545884211e2ff4924b640.webp",
@@ -3019,7 +2891,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/800/923816894e50e391b6e640.webp",
       "front": "https://flib.samar.pl/900/800/923840baec8e368ea26640.webp",
@@ -3035,7 +2907,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/900/600/911666af91ceca54136640.webp",
       "front": "https://flib.samar.pl/900/600/911690e62c1ee0c994d640.webp",
@@ -3051,7 +2923,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/700/844740abd8d147a1c18640.webp",
       "front": "https://flib.samar.pl/800/700/8447649224a281b75ed640.webp",
@@ -3067,7 +2939,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/700/300/7733894fdfe3045c63c640.webp",
       "front": "https://flib.samar.pl/700/400/773413b129b30d7b931640.webp",
@@ -3083,7 +2955,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/700/000/734036962f1aa6b2bb4640.webp",
       "front": "https://flib.samar.pl/700/000/73406027ba40892d074640.webp",
@@ -3099,7 +2971,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 470,
     "images": {
       "side": "https://flib.samar.pl/600/100/616150d9466930e96f4640.webp",
       "front": "https://flib.samar.pl/600/100/616174ecdded4cc342d640.webp",
@@ -3115,7 +2987,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/900/000/94606912ed710321502640.webp",
       "front": "https://flib.samar.pl/900/000/946093acbbd24b29fde640.webp",
@@ -3131,7 +3003,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/100/927106d960230a8b883640.webp",
       "front": "https://flib.samar.pl/900/100/92713033fbd3e86a93d640.webp",
@@ -3147,7 +3019,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/400/926472f77faf684cb34640.webp",
       "front": "https://flib.samar.pl/900/400/92649694cc47e8f9a21640.webp",
@@ -3163,7 +3035,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/900/100/9251682c03097debb86640.webp",
       "front": "https://flib.samar.pl/900/100/92519278f5b69eda9a4640.webp",
@@ -3179,7 +3051,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/900/700/921727bd7a14b1bd9df640.webp",
       "front": "https://flib.samar.pl/900/700/9217514e96e157ac021640.webp",
@@ -3195,7 +3067,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/600/9176025b547e664e209640.webp",
       "front": "https://flib.samar.pl/900/600/91762630efd07c2fdb2640.webp",
@@ -3211,7 +3083,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/700/887750a4a34ecf53001640.webp",
       "front": "https://flib.samar.pl/800/700/887774e68b1a87348ae640.webp",
@@ -3227,7 +3099,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/800/700/8837222d3f46265cd35640.webp",
       "front": "https://flib.samar.pl/800/700/88374646b65373760a2640.webp",
@@ -3243,7 +3115,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/600/500/601550522dad3ee2090640.webp",
       "front": "https://flib.samar.pl/600/500/601574f4fd59fd276c3640.webp",
@@ -3259,7 +3131,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 420,
     "images": {
       "side": "https://flib.samar.pl/500/200/5782282b6d32e731d04640.webp",
       "front": "https://flib.samar.pl/500/200/578252d159a7c2192b2640.webp",
@@ -3275,7 +3147,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/200/899276e308517061c8b640.webp",
       "front": "https://flib.samar.pl/800/300/8993007acb0e4a72289640.webp",
@@ -3291,7 +3163,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/300/879347cc5e30336d9b5640.webp",
       "front": "https://flib.samar.pl/800/300/879371d9bd0321ffd55640.webp",
@@ -3307,7 +3179,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/400/8744123ee446a17bfa0640.webp",
       "front": "https://flib.samar.pl/800/400/8744360c9a62c793e93640.webp",
@@ -3323,7 +3195,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/800/600/867616ce43528ce0647640.webp",
       "front": "https://flib.samar.pl/800/600/867640587264ee8c9b7640.webp",
@@ -3339,7 +3211,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "36 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/200/849281c8260c51a28a8640.webp",
       "front": "https://flib.samar.pl/800/300/8493059310d1a6d16e0640.webp",
@@ -3355,7 +3227,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/900/846983c955c911db617640.webp",
       "front": "https://flib.samar.pl/800/000/8470074a5b5f9ee4e7f640.webp",
@@ -3371,7 +3243,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/900/825922997fcb4267de1640.webp",
       "front": "https://flib.samar.pl/800/900/8259466f47ff4c06672640.webp",
@@ -3387,7 +3259,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "36 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/900/824921a18a0cb460fdd640.webp",
       "front": "https://flib.samar.pl/800/900/824945950960c793a31640.webp",
@@ -3403,7 +3275,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/300/82430015bbbd4139f58640.webp",
       "front": "https://flib.samar.pl/800/300/824324e16d4ba4e73e8640.webp",
@@ -3419,7 +3291,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/900/8219436c08b73d6bf58640.webp",
       "front": "https://flib.samar.pl/800/900/821967ef571f947fcf4640.webp",
@@ -3435,7 +3307,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/700/818790f846f75dc410f640.webp",
       "front": "https://flib.samar.pl/800/800/8188146741663001284640.webp",
@@ -3451,7 +3323,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/200/809278590af8aef82ae640.webp",
       "front": "https://flib.samar.pl/800/300/809302a08304412f51b640.webp",
@@ -3467,7 +3339,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 2,
     "tankCapacity": "52 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/800/80486690ab59619c4ed640.webp",
       "front": "https://flib.samar.pl/800/800/8048908dcccb9a7c642640.webp",
@@ -3483,7 +3355,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "30 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/700/700/7997585a0a57dea7cb8640.webp",
       "front": "https://flib.samar.pl/700/700/79978239b0a883ac4e640.webp",
@@ -3499,7 +3371,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 570,
     "images": {
       "side": "https://flib.samar.pl/700/700/741727395ba31ed3d9f640.webp",
       "front": "https://flib.samar.pl/700/700/741751acdc8c8e2a50b640.webp",
@@ -3515,7 +3387,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 3,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/700/800/7378292fe4e086961b0640.webp",
       "front": "https://flib.samar.pl/700/800/737853309ec55f1609c640.webp",
@@ -3531,7 +3403,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 2,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/700/900/718959e9ca43b6bdec8640.webp",
       "front": "https://flib.samar.pl/700/900/7189834062baeda51d5640.webp",
@@ -3547,7 +3419,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/700/715751fcaa116f55a99640.webp",
       "front": "https://flib.samar.pl/700/700/71577541b801dbdefad640.webp",
@@ -3563,7 +3435,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 9,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 550,
     "images": {
       "side": "https://flib.samar.pl/600/200/6932007faab191eaf86640.webp",
       "front": "https://flib.samar.pl/600/200/693224a33b634693adc640.webp",
@@ -3579,7 +3451,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "87 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/600/700/655715d60d64cfce42c640.webp",
       "front": "https://flib.samar.pl/600/700/65573901505a7c4b8db640.webp",
@@ -3595,7 +3467,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/500/900/5909386fb78a53f6420640.webp",
       "front": "https://flib.samar.pl/500/900/5909628714e17b6733c640.webp",
@@ -3611,7 +3483,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "35 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/500/200/5742507b33b58db2823640.webp",
       "front": "https://flib.samar.pl/500/200/574274466ad268d9543640.webp",
@@ -3627,7 +3499,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/500/300/555399d1b46871ec19a640.webp",
       "front": "https://flib.samar.pl/500/400/555423946e051da299b640.webp",
@@ -3643,7 +3515,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 3,
     "tankCapacity": "78 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/900/800/944878de4c2114665cb640.webp",
       "front": "https://flib.samar.pl/900/900/944902103d13db89857640.webp",
@@ -3659,7 +3531,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 550,
     "images": {
       "side": "https://flib.samar.pl/900/100/939156a68bddd4ebe02640.webp",
       "front": "https://flib.samar.pl/900/100/939180c97eacae670b2640.webp",
@@ -3675,7 +3547,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/900/300/93435100861d9a7b89b640.webp",
       "front": "https://flib.samar.pl/900/300/934375885dc4fea7955640.webp",
@@ -3691,7 +3563,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "76 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/900/300/9333386ed75f512c3a9640.webp",
       "front": "https://flib.samar.pl/900/300/9333623e2342051471f640.webp",
@@ -3707,7 +3579,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/200/891294ad76a259ce233640.webp",
       "front": "https://flib.samar.pl/800/300/8913183659539265d6f640.webp",
@@ -3723,7 +3595,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/800/000/898046d22c838a6a095640.webp",
       "front": "https://flib.samar.pl/800/000/89807088825f3ffb77b640.webp",
@@ -3739,7 +3611,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/000/89408037837aabd171e640.webp",
       "front": "https://flib.samar.pl/800/100/89410429c3518ea9613640.webp",
@@ -3755,7 +3627,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/600/868640f83c2423b73b4640.webp",
       "front": "https://flib.samar.pl/800/600/868664c8e22c631accd640.webp",
@@ -3771,7 +3643,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/200/8672680299ae10d75d9640.webp",
       "front": "https://flib.samar.pl/800/200/867292ff071300c52c9640.webp",
@@ -3787,7 +3659,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 570,
     "images": {
       "side": "https://flib.samar.pl/800/400/860462ab4c661010775640.webp",
       "front": "https://flib.samar.pl/800/400/8604868ae36f5aee30d640.webp",
@@ -3803,7 +3675,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/400/858482e08a66708f5d0640.webp",
       "front": "https://flib.samar.pl/800/500/8585425ab213f5c1d99640.webp",
@@ -3819,7 +3691,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/800/100/8401579a1bda86ada00640.webp",
       "front": "https://flib.samar.pl/800/100/840181affd1c2cddd5a640.webp",
@@ -3835,7 +3707,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/600/838617fe121788ec475640.webp",
       "front": "https://flib.samar.pl/800/600/8386417ead43e53ed17640.webp",
@@ -3851,7 +3723,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 3,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/800/600/8366401493a755f82d8640.webp",
       "front": "https://flib.samar.pl/800/600/836664e0d98adf175d5640.webp",
@@ -3867,7 +3739,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 550,
     "images": {
       "side": "https://flib.samar.pl/800/500/829545a5f02ff71cec3640.webp",
       "front": "https://flib.samar.pl/800/500/829569abce2c4bf9430640.webp",
@@ -3883,7 +3755,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/900/797990a74d3cc8ba6fb640.webp",
       "front": "https://flib.samar.pl/700/000/7980144b721c5a97b7b640.webp",
@@ -3899,7 +3771,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/000/785045055d4bc256b7a640.webp",
       "front": "https://flib.samar.pl/700/000/785069b3accd7a811ec640.webp",
@@ -3915,28 +3787,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/900/736937b2210d9294120640.webp",
       "front": "https://flib.samar.pl/700/900/736961f69cbd93310e0640.webp",
       "rear": "https://flib.samar.pl/700/900/736945e1486aca33d59640.webp",
       "diagonal": "https://flib.samar.pl/700/900/736964d9a138225dd082560.webp"
-    }
-  },
-  {
-    "id": 246,
-    "modelName": "Volkswagen Schwimmwagen",
-    "brand": "volkswagen",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/900/500/9495007cc7cfbd6ab4a640.webp",
-      "front": "https://flib.samar.pl/900/500/9495248c3e2716a0d52640.webp",
-      "rear": "https://flib.samar.pl/900/500/9495088b7d526d807d7640.webp",
-      "diagonal": "https://flib.samar.pl/900/500/9495277d1700b548ef92560.webp"
     }
   },
   {
@@ -3947,7 +3803,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/600/400/682483cc94093cc465d640.webp",
       "front": "https://flib.samar.pl/600/500/68250748a521b278f95640.webp",
@@ -3963,7 +3819,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 530,
     "images": {
       "side": "https://flib.samar.pl/600/600/657693e9ebf3bb707a6640.webp",
       "front": "https://flib.samar.pl/600/700/6577174aa28b52bc916640.webp",
@@ -3979,28 +3835,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 510,
     "images": {
       "side": "https://flib.samar.pl/600/500/62459829b24e8775d8c640.webp",
       "front": "https://flib.samar.pl/600/600/6246227b68ccb5b30bb640.webp",
       "rear": "https://flib.samar.pl/600/600/6246062659a94b1565a640.webp",
       "diagonal": "https://flib.samar.pl/600/600/6246259c42808269fe72560.webp"
-    }
-  },
-  {
-    "id": 250,
-    "modelName": "Volkswagen KdF-Wagen",
-    "brand": "volkswagen",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/500/600/576604b5b17c274d0e2640.webp",
-      "front": "https://flib.samar.pl/500/600/576628c5d6aba9c4eeb640.webp",
-      "rear": "https://flib.samar.pl/500/600/576612689f0d7b24131640.webp",
-      "diagonal": "https://flib.samar.pl/500/600/57663115f78577cc7292560.webp"
     }
   },
   {
@@ -4011,7 +3851,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 510,
     "images": {
       "side": "https://flib.samar.pl/500/000/568025987a3bc396023640.webp",
       "front": "https://flib.samar.pl/500/000/568050b7223b6aa7e66640.webp",
@@ -4027,7 +3867,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/200/94229964e45ae97564e640.webp",
       "front": "https://flib.samar.pl/900/300/942323b00e684cc6dc7640.webp",
@@ -4043,7 +3883,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/200/9232514c71991010181640.webp",
       "front": "https://flib.samar.pl/900/200/9232757a11dfd339838640.webp",
@@ -4059,7 +3899,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "71 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/400/91145024f6a80a13716640.webp",
       "front": "https://flib.samar.pl/900/400/911474647f496bb2a52640.webp",
@@ -4075,7 +3915,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/900/100/911127f6dccb42a0944640.webp",
       "front": "https://flib.samar.pl/900/100/91115103aab411725b640.webp",
@@ -4091,7 +3931,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/000/864095fa0bee06f9fbd640.webp",
       "front": "https://flib.samar.pl/800/100/864119fd56e53c8871c640.webp",
@@ -4107,7 +3947,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/600/84968350b42b4c2fca5640.webp",
       "front": "https://flib.samar.pl/800/700/849707afb8b99097c4c640.webp",
@@ -4123,7 +3963,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 520,
     "images": {
       "side": "https://flib.samar.pl/800/300/843328dd0aea147ece4640.webp",
       "front": "https://flib.samar.pl/800/300/84335247db33487b929640.webp",
@@ -4139,7 +3979,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/800/100/833192a5ff2ad2b4a81640.webp",
       "front": "https://flib.samar.pl/800/200/83321647d0b1c17f779640.webp",
@@ -4155,7 +3995,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/000/820013b7c078d210d6a640.webp",
       "front": "https://flib.samar.pl/800/000/8200372a561d0263272640.webp",
@@ -4171,7 +4011,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "54 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/800/700/81977309ebf1fdcc15640.webp",
       "front": "https://flib.samar.pl/800/700/819797dab54733172f3640.webp",
@@ -4187,7 +4027,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/800/900/81593110c54e7db77d4640.webp",
       "front": "https://flib.samar.pl/800/900/8159558418add53c78d640.webp",
@@ -4203,7 +4043,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "71 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/700/600/7766359f4f2e0eb95a4640.webp",
       "front": "https://flib.samar.pl/700/600/77665993fbbc6aada7b640.webp",
@@ -4219,44 +4059,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "62 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/600/400/696423c769fbf77988c640.webp",
       "front": "https://flib.samar.pl/600/400/69644729649f8c730da640.webp",
       "rear": "https://flib.samar.pl/600/400/69643176ffac712de29640.webp",
       "diagonal": "https://flib.samar.pl/600/400/696450028e5b95909d42560.webp"
-    }
-  },
-  {
-    "id": 265,
-    "modelName": "Volvo Amazon",
-    "brand": "volvo",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/600/900/640951fbae9c618da1b640.webp",
-      "front": "https://flib.samar.pl/600/900/640975685e2b4fceacd640.webp",
-      "rear": "https://flib.samar.pl/600/900/640959f5a87ce740926640.webp",
-      "diagonal": "https://flib.samar.pl/600/900/640978482eb26427b7e2560.webp"
-    }
-  },
-  {
-    "id": 266,
-    "modelName": "Volvo P1800",
-    "brand": "volvo",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/600/400/626440898cf526212c2640.webp",
-      "front": "https://flib.samar.pl/600/400/626464fc5a187f03930640.webp",
-      "rear": "https://flib.samar.pl/600/400/626448c60c17d74be01640.webp",
-      "diagonal": "https://flib.samar.pl/600/400/626467349641f472c422560.webp"
     }
   },
   {
@@ -4267,7 +4075,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "64 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/000/87207449aa63c5ecd45640.webp",
       "front": "https://flib.samar.pl/800/000/8720984a5570dd9a6a0640.webp",
@@ -4283,7 +4091,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/900/868927a2f7f313c1d5a640.webp",
       "front": "https://flib.samar.pl/800/900/8689511a3b94ef73b5b640.webp",
@@ -4299,7 +4107,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "58 L",
-    "dailyPrice": 0,
+    "dailyPrice": 400,
     "images": {
       "side": "https://flib.samar.pl/800/300/845371d4e82ba96c0d5640.webp",
       "front": "https://flib.samar.pl/800/300/845395a6408ba8991f640.webp",
@@ -4315,7 +4123,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 4,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/600/400/62446801913736bd278640.webp",
       "front": "https://flib.samar.pl/600/400/6244925b814859f2502640.webp",
@@ -4331,7 +4139,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/500/400/5914050beeb2d9f7e3c640.webp",
       "front": "https://flib.samar.pl/500/400/5914291b185d7c8b582640.webp",
@@ -4347,7 +4155,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/000/8230290e01d2e50943a640.webp",
       "front": "https://flib.samar.pl/800/000/823053d16991599c3c9640.webp",
@@ -4363,7 +4171,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "78 L",
-    "dailyPrice": 0,
+    "dailyPrice": 940,
     "images": {
       "side": "https://flib.samar.pl/600/800/6298067c24fd58e2634640.webp",
       "front": "https://flib.samar.pl/600/800/629830c08d5197e1667640.webp",
@@ -4379,7 +4187,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "73 L",
-    "dailyPrice": 0,
+    "dailyPrice": 980,
     "images": {
       "side": "https://flib.samar.pl/600/700/603780c3e919644e859640.webp",
       "front": "https://flib.samar.pl/600/800/60380494f44185892c2640.webp",
@@ -4395,7 +4203,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "78 L",
-    "dailyPrice": 0,
+    "dailyPrice": 980,
     "images": {
       "side": "https://flib.samar.pl/500/400/568424b6b2ea43ee1dc640.webp",
       "front": "https://flib.samar.pl/500/400/568448bbb992527ad30640.webp",
@@ -4411,7 +4219,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "90 L",
-    "dailyPrice": 0,
+    "dailyPrice": 860,
     "images": {
       "side": "https://flib.samar.pl/500/800/5578671e8e85a942d2d640.webp",
       "front": "https://flib.samar.pl/500/800/55789160406194c632d640.webp",
@@ -4427,7 +4235,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "78 L",
-    "dailyPrice": 0,
+    "dailyPrice": 980,
     "images": {
       "side": "https://flib.samar.pl/500/900/55699981d96c46687c8640.webp",
       "front": "https://flib.samar.pl/500/000/557023bee4df3d06f20640.webp",
@@ -4443,7 +4251,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 380,
     "images": {
       "side": "https://flib.samar.pl/900/700/9127595d850eb732ec4640.webp",
       "front": "https://flib.samar.pl/900/700/912784db40991aa42f2640.webp",
@@ -4459,7 +4267,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/900/900/911998ed407c2e1b93a640.webp",
       "front": "https://flib.samar.pl/900/000/9120221ae51a3df85d6640.webp",
@@ -4475,44 +4283,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 400,
     "images": {
       "side": "https://flib.samar.pl/900/800/907896a9e827282ed56640.webp",
       "front": "https://flib.samar.pl/900/900/907920948ece5c28f5b640.webp",
       "rear": "https://flib.samar.pl/900/900/9079041c18ac6347d7c640.webp",
       "diagonal": "https://flib.samar.pl/900/900/9079231a5adab76b34f2560.webp"
-    }
-  },
-  {
-    "id": 281,
-    "modelName": "Chevrolet Camaro",
-    "brand": "chevrolet",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/800/100/8661444c76dc99a4ca7640.webp",
-      "front": "https://flib.samar.pl/800/100/866168b187a7419630d640.webp",
-      "rear": "https://flib.samar.pl/800/100/866152fb1bee54895ae640.webp",
-      "diagonal": "https://flib.samar.pl/800/100/866171ae6ebd9d390d92560.webp"
-    }
-  },
-  {
-    "id": 282,
-    "modelName": "Chevrolet Apache 10",
-    "brand": "chevrolet",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/700/700/7687845bfde1f3a5e97640.webp",
-      "front": "https://flib.samar.pl/700/800/76880822f9c2fdf7a39640.webp",
-      "rear": "https://flib.samar.pl/700/700/768792a810bb513c1c0640.webp",
-      "diagonal": "https://flib.samar.pl/700/800/7688119636da89bfb782560.webp"
     }
   },
   {
@@ -4523,7 +4299,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/900/600/9386354a0db15b15023640.webp",
       "front": "https://flib.samar.pl/900/600/938660e0f64b3f374dc640.webp",
@@ -4539,7 +4315,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/300/927362744932a95c64d640.webp",
       "front": "https://flib.samar.pl/900/300/927386b12cab7094ef640.webp",
@@ -4555,7 +4331,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 600,
     "images": {
       "side": "https://flib.samar.pl/900/300/902380a5a3f15c097c0640.webp",
       "front": "https://flib.samar.pl/900/400/902412139216e9c2581640.webp",
@@ -4571,7 +4347,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 500,
     "images": {
       "side": "https://flib.samar.pl/800/600/85363606db1897aff8f640.webp",
       "front": "https://flib.samar.pl/800/600/853660beebee18d39ff640.webp",
@@ -4587,7 +4363,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 5,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/600/700/65976567f6b91ce31b2640.webp",
       "front": "https://flib.samar.pl/600/700/6597896a18a7c56fed4640.webp",
@@ -4603,7 +4379,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "93 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/600/900/64294929839a737e6f3640.webp",
       "front": "https://flib.samar.pl/600/900/6429731ac68f9af8a2a640.webp",
@@ -4619,7 +4395,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "57 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/800/881878da9517bf4216e640.webp",
       "front": "https://flib.samar.pl/800/900/8819025927e97782f46640.webp",
@@ -4635,7 +4411,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/400/871458b17563ac399d1640.webp",
       "front": "https://flib.samar.pl/800/400/871450d10160a7cb0ee640.webp",
@@ -4651,7 +4427,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "57 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/900/865901e959c0ca5e1a2640.webp",
       "front": "https://flib.samar.pl/800/900/86592596cad55d3fa38640.webp",
@@ -4667,7 +4443,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 510,
     "images": {
       "side": "https://flib.samar.pl/800/700/8627507f46c0ad81b49640.webp",
       "front": "https://flib.samar.pl/800/700/86277499ebaf2f508c6640.webp",
@@ -4683,7 +4459,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/800/200/846218b672e45b0f159640.webp",
       "front": "https://flib.samar.pl/800/200/846242b4deee671422e640.webp",
@@ -4699,7 +4475,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "40 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/800/200/8062024ad3754060fc3640.webp",
       "front": "https://flib.samar.pl/800/200/80622645356202bd00e640.webp",
@@ -4715,7 +4491,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 460,
     "images": {
       "side": "https://flib.samar.pl/700/900/717996a09c3e62a1b57640.webp",
       "front": "https://flib.samar.pl/700/000/718020415a8d2df8af0640.webp",
@@ -4731,7 +4507,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "62 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/900/700/908718e503fec6c1838640.webp",
       "front": "https://flib.samar.pl/900/700/9087429317d34f40e4e640.webp",
@@ -4747,7 +4523,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/700/000/758062f57b523a55afc640.webp",
       "front": "https://flib.samar.pl/700/000/7580866096249dbbb43640.webp",
@@ -4763,7 +4539,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "57 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/700/500/755587be76083e4ebc0640.webp",
       "front": "https://flib.samar.pl/700/600/755611fd090e5677157640.webp",
@@ -4779,7 +4555,7 @@
     "numberOfDoors": 3,
     "numberOfSeats": 2,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 700,
     "images": {
       "side": "https://flib.samar.pl/700/300/752339c92f16478510d640.webp",
       "front": "https://flib.samar.pl/700/300/752363c56a1200f104e640.webp",
@@ -4795,28 +4571,12 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "56 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/700/300/744367817f570c317ba640.webp",
       "front": "https://flib.samar.pl/700/300/744392b27494b122503640.webp",
       "rear": "https://flib.samar.pl/700/300/744375d28e774c3bec4640.webp",
       "diagonal": "https://flib.samar.pl/700/300/744395625f608e356022560.webp"
-    }
-  },
-  {
-    "id": 301,
-    "modelName": "Jaguar XF",
-    "brand": "jaguar",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/700/600/7436408864c657b87cc640.webp",
-      "front": "https://flib.samar.pl/700/600/743664ff5d9760ac1a9640.webp",
-      "rear": "https://flib.samar.pl/700/600/743648652006d6bc844640.webp",
-      "diagonal": "https://flib.samar.pl/700/600/743667af58fa69e8e822560.webp"
     }
   },
   {
@@ -4827,28 +4587,12 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "77 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/600/500/6305779cce8d1b827b5640.webp",
       "front": "https://flib.samar.pl/600/600/630601c81eb47c8a8f2640.webp",
       "rear": "https://flib.samar.pl/600/500/630585c883974095252640.webp",
       "diagonal": "https://flib.samar.pl/600/600/630604e2aa5b3f34de02560.webp"
-    }
-  },
-  {
-    "id": 303,
-    "modelName": "Jeep Renegade",
-    "brand": "jeep",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/900/400/9284253dc1d74f62d45640.webp",
-      "front": "https://flib.samar.pl/900/400/928449f34236682887f640.webp",
-      "rear": "https://flib.samar.pl/900/400/92843376939205d7cbd640.webp",
-      "diagonal": "https://flib.samar.pl/900/400/928452b229cfe18a83d2560.webp"
     }
   },
   {
@@ -4859,7 +4603,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "72 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/400/875445242212a4eff14640.webp",
       "front": "https://flib.samar.pl/800/400/875469fd53c594e4eeb640.webp",
@@ -4875,7 +4619,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/900/87097025dd580cf6e90640.webp",
       "front": "https://flib.samar.pl/800/000/871032a17acc8d64391640.webp",
@@ -4891,7 +4635,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/100/869168e7c6f5702fd6d640.webp",
       "front": "https://flib.samar.pl/800/100/8691924fde67f213717640.webp",
@@ -4907,7 +4651,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "71 L",
-    "dailyPrice": 0,
+    "dailyPrice": 490,
     "images": {
       "side": "https://flib.samar.pl/800/400/864498dedd233526863640.webp",
       "front": "https://flib.samar.pl/800/500/8645225d2fa780b7ea6640.webp",
@@ -4923,7 +4667,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/800/900/84296625e09434ac7b1640.webp",
       "front": "https://flib.samar.pl/800/900/84299068bed0961034a640.webp",
@@ -4939,7 +4683,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "60 L",
-    "dailyPrice": 0,
+    "dailyPrice": 480,
     "images": {
       "side": "https://flib.samar.pl/600/300/646373fd5e25e564aa9640.webp",
       "front": "https://flib.samar.pl/600/300/64639761603355a6a2b640.webp",
@@ -4955,7 +4699,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "71 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/900/800/915808d4a57af925de8640.webp",
       "front": "https://flib.samar.pl/900/800/915832efb65b4fe0da2640.webp",
@@ -4971,28 +4715,12 @@
     "numberOfDoors": 5,
     "numberOfSeats": 7,
     "tankCapacity": "89 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/900/900/9099947f8605ec99983640.webp",
       "front": "https://flib.samar.pl/900/000/910018262daaa81cf99640.webp",
       "rear": "https://flib.samar.pl/900/000/91000243ed1658901c6640.webp",
       "diagonal": "https://flib.samar.pl/900/000/9100213b4988a408e922560.webp"
-    }
-  },
-  {
-    "id": 312,
-    "modelName": "Land Rover Discovery Sport",
-    "brand": "land rover",
-    "bodyType": null,
-    "numberOfDoors": null,
-    "numberOfSeats": null,
-    "tankCapacity": null,
-    "dailyPrice": 0,
-    "images": {
-      "side": "https://flib.samar.pl/900/300/909342d51ea4f2f990d640.webp",
-      "front": "https://flib.samar.pl/900/300/909366edfa26d4887f6640.webp",
-      "rear": "https://flib.samar.pl/900/300/909350b79b30512654b640.webp",
-      "diagonal": "https://flib.samar.pl/900/300/909369fb17643b3fc4a2560.webp"
     }
   },
   {
@@ -5003,7 +4731,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/900/400/909438eeaab70433ac2640.webp",
       "front": "https://flib.samar.pl/900/400/909462bf0de618d6cf2640.webp",
@@ -5019,7 +4747,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "69 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/800/100/8941868c6124e89030c640.webp",
       "front": "https://flib.samar.pl/800/200/8942108e6dcc89e927f640.webp",
@@ -5035,7 +4763,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "71 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/800/800/892833e0a3dfd238b5c640.webp",
       "front": "https://flib.samar.pl/800/800/89285741462e2cf50a5640.webp",
@@ -5051,7 +4779,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 8,
     "tankCapacity": "90 L",
-    "dailyPrice": 0,
+    "dailyPrice": 720,
     "images": {
       "side": "https://flib.samar.pl/800/900/862904d943c3ee8c7fd640.webp",
       "front": "https://flib.samar.pl/800/900/8629282ce4d0f936f61640.webp",
@@ -5067,7 +4795,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "36 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/900/200/9042442ecb61fca078d640.webp",
       "front": "https://flib.samar.pl/900/200/9042688c649fa91d82b640.webp",
@@ -5083,7 +4811,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 590,
     "images": {
       "side": "https://flib.samar.pl/800/500/88550635030410cec45640.webp",
       "front": "https://flib.samar.pl/800/500/885530da34eb1be0828640.webp",
@@ -5099,7 +4827,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/000/860068baa3a3f7c6159640.webp",
       "front": "https://flib.samar.pl/800/000/86009290d6f94d12886640.webp",
@@ -5115,7 +4843,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "43 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/900/85997163195ffbe4c16640.webp",
       "front": "https://flib.samar.pl/800/900/85999553a974bc20b72640.webp",
@@ -5131,7 +4859,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "55 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/800/900/8389800e814d8aac6b4640.webp",
       "front": "https://flib.samar.pl/800/000/839004bc28ebc0315e4640.webp",
@@ -5147,7 +4875,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/300/7863900cdf8e401d717640.webp",
       "front": "https://flib.samar.pl/700/400/786414d08dc966a96ad640.webp",
@@ -5163,7 +4891,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 4,
     "tankCapacity": "82 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/700/100/761148077b45aa19b80640.webp",
       "front": "https://flib.samar.pl/700/100/7611725be53ce21cee0640.webp",
@@ -5179,7 +4907,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "82 L",
-    "dailyPrice": 0,
+    "dailyPrice": 660,
     "images": {
       "side": "https://flib.samar.pl/700/300/7463493a326d1c44968640.webp",
       "front": "https://flib.samar.pl/700/300/746373e8978b10bc7af640.webp",
@@ -5195,7 +4923,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 4,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 620,
     "images": {
       "side": "https://flib.samar.pl/700/400/724409c94c28cbdf893640.webp",
       "front": "https://flib.samar.pl/700/400/724433955f13cf62783640.webp",
@@ -5211,7 +4939,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "45 L",
-    "dailyPrice": 0,
+    "dailyPrice": 540,
     "images": {
       "side": "https://flib.samar.pl/700/100/716145f7651a8ae810c640.webp",
       "front": "https://flib.samar.pl/700/100/716169a1ce218fafc87640.webp",
@@ -5227,7 +4955,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/600/100/6841827f2391016b7af640.webp",
       "front": "https://flib.samar.pl/600/200/68420661d7b1f9330e4640.webp",
@@ -5243,7 +4971,7 @@
     "numberOfDoors": 4,
     "numberOfSeats": 5,
     "tankCapacity": "66 L",
-    "dailyPrice": 0,
+    "dailyPrice": 560,
     "images": {
       "side": "https://flib.samar.pl/500/700/563726838f9f2bf469640.webp",
       "front": "https://flib.samar.pl/500/800/563848cba9ecc483fc2640.webp",
@@ -5259,7 +4987,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "93 L",
-    "dailyPrice": 0,
+    "dailyPrice": 640,
     "images": {
       "side": "https://flib.samar.pl/500/200/56324269125bf513852640.webp",
       "front": "https://flib.samar.pl/500/200/563266f489e6f5e8840640.webp",
@@ -5275,7 +5003,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "50 L",
-    "dailyPrice": 0,
+    "dailyPrice": 820,
     "images": {
       "side": "https://flib.samar.pl/800/800/87483310f1e88e5a567640.webp",
       "front": "https://flib.samar.pl/800/800/87485727ac0872f5206640.webp",
@@ -5291,7 +5019,7 @@
     "numberOfDoors": 2,
     "numberOfSeats": 2,
     "tankCapacity": "64 L",
-    "dailyPrice": 0,
+    "dailyPrice": 860,
     "images": {
       "side": "https://flib.samar.pl/800/800/8648044fc36d6a8378f640.webp",
       "front": "https://flib.samar.pl/800/800/864828d9c68079029e6640.webp",
@@ -5307,7 +5035,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "70 L",
-    "dailyPrice": 0,
+    "dailyPrice": 880,
     "images": {
       "side": "https://flib.samar.pl/800/400/827407711338006b8b2640.webp",
       "front": "https://flib.samar.pl/800/400/827431d6b35b592b4f9640.webp",
@@ -5323,7 +5051,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "65 L",
-    "dailyPrice": 0,
+    "dailyPrice": 880,
     "images": {
       "side": "https://flib.samar.pl/800/100/825177f83bb508c7d9b640.webp",
       "front": "https://flib.samar.pl/800/200/825201fbba30a799830640.webp",
@@ -5339,7 +5067,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 5,
     "tankCapacity": "80 L",
-    "dailyPrice": 0,
+    "dailyPrice": 820,
     "images": {
       "side": "https://flib.samar.pl/800/300/8143806ac30d297d4c3640.webp",
       "front": "https://flib.samar.pl/800/400/8144041853a1c1b16d1640.webp",
@@ -5355,7 +5083,7 @@
     "numberOfDoors": 5,
     "numberOfSeats": 4,
     "tankCapacity": "90 L",
-    "dailyPrice": 0,
+    "dailyPrice": 880,
     "images": {
       "side": "https://flib.samar.pl/700/900/7829860fb1c2992f0e9640.webp",
       "front": "https://flib.samar.pl/700/000/783018376735d4eeaa1640.webp",
