@@ -42,11 +42,15 @@ export const loginUser = (email, password) => {
 
 // Set session for logged in user
 export const authenticateUser = (user) => {
+    /**removing the wishlist of the previous client and also his id  */
+    window.sessionStorage.clear();
     window.sessionStorage.setItem("loggedInUser", user.id);
 }
 
 // Logout user
 export const logoutUser = () => {
+    /**removing the wishlist of the previous client and also his id  */
+    window.sessionStorage.clear();
     window.sessionStorage.removeItem("loggedInUser");
 }
 
@@ -56,7 +60,8 @@ export const getCurrentUser = () => {
     if (!userId) return null;
 
     const users = getAllUsers();
-    return users.find(u => u.id == userId) || null;
+    // Compare with == because storage stores strings
+    return users.find(u => u.id === userId) || null;
 }
 
 // Check if user is authenticated

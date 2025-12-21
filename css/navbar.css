@@ -6,7 +6,7 @@
     width: 100vw;
     padding: 25px 0% 15px;
     margin: auto;
-    z-index: 999;
+    z-index: 997;
     position: fixed;
     top: 0;
     backdrop-filter: blur(10px);
@@ -326,7 +326,7 @@ body.sidebar_open .sidebar{
     display:flex;
     gap:10px;
     background:#f3f3f3;
-    padding:0 12px 12px;
+    padding:12px;
     border-radius:12px;
     margin-bottom:12px;
 }

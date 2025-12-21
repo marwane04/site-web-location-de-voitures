@@ -17,9 +17,13 @@ document.querySelectorAll('.remove_car').forEach(btn => {
     });
 });
 
-/************************************ WHISHLIST CORRIGÉ ************************************/
-// Wishlist System for Car Rental - UPDATED TO USE SESSIONSTORAGE
-const WISHLIST_KEY = 'car_wishlist';
+/************************************ WHISHLIST ************************************/
+let clientId = window.sessionStorage.getItem("loggedInUser");
+if (!clientId) {
+    clientId = crypto.randomUUID(); // Génère un UUID unique
+}
+
+const WISHLIST_KEY = `wishlist_client_${clientId}`;
 let wishlist = [];
 
 // Import des fonctions depuis carsService.js
@@ -58,6 +62,7 @@ function loadWishlist() {
 // Sauvegarder la wishlist dans le sessionStorage
 function saveWishlist() {
     try {
+        window.sessionStorage.setItem('client_id', clientId);
         sessionStorage.setItem(WISHLIST_KEY, JSON.stringify(wishlist));
         updateWishlistCount();
     } catch (error) {
@@ -640,4 +645,4 @@ window.Wishlist = {
         updateAllWishlistButtons();
     }
 };
-/************************************ WHISHLIST CORRIGÉ ************************************/
+/************************************ WHISHLIST ************************************/
