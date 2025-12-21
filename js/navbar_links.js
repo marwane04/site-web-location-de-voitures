@@ -39,11 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     if (initLink) setActive(initLink);
 
-    if (!document.querySelector('.container_nav .navbar .links a.active')) {
-        const defaultLink = document.querySelector('.container_nav .navbar .links a[href="#top-cars"], .mobile-menu-content a[href="#top-cars"]');
-        if (defaultLink) setActive(defaultLink);
-    }
-
     // Scroll spy
     let scrollTimeout;
     window.addEventListener('scroll', () => {
@@ -68,4 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (link) setActive(link);
         }
     });
+
+    if (!document.querySelector('.container_nav .navbar .links a.active')) {
+        const defaultLink = document.querySelector('.container_nav .navbar .links a[href="#top-cars"], .mobile-menu-content a[href="#top-cars"]');
+        if (defaultLink) setActive(defaultLink);
+    }
 });
