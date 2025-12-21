@@ -44,10 +44,11 @@
 .container_nav .navbar .links a.active::after,
 .container_nav .navbar .btns a.login:hover::after,
 .mobile-menu-content a:hover::after,
-.mobile-menu-content a.active::after{
+.mobile-menu-content a.active::after {
     width: 100%;
 }
 .mobile-menu-content .mobile-btns a.signup:hover::after{width: 0;}
+.mobile-menu-content .mobile-btns a.logout:hover::after{width: 0;}
 
 .container_nav .navbar .btns {
     display: flex;
@@ -76,6 +77,21 @@
 .container_nav .navbar .btns a.signup:hover {
     color: white;
     background-color: #212832;
+}
+
+.container_nav .navbar .btns a.logout {
+    border: 1px solid #dc3545;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    font-weight: 500;
+    color: #dc3545;
+    background-color: transparent;
+}
+
+.container_nav .navbar .btns a.logout:hover {
+    color: white;
+    background-color: #dc3545;
 }
 
 .container_nav .navbar .btns select {
@@ -204,6 +220,14 @@
     transition: all .3s ease;
 }
 .mobile-menu-content .mobile-btns a.signup:hover{background-color: transparent; color: #212832; border: 1px solid #212832;}
+
+.mobile-menu-content .mobile-btns a.logout {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    transition: all .3s ease;
+}
+.mobile-menu-content .mobile-btns a.logout:hover{background-color: transparent; color: #dc3545; border: 1px solid #dc3545;}
 
 .mobile-menu-content .lang-select {
     margin-top: 20px;

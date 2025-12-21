@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
 <div class="container_nav">
     <nav class="navbar">
         <div class="links">
@@ -20,20 +21,44 @@
             <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
+            <!--Whislist btn-->
+            <div class="whishlist_btn">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length">99</div>
+            </div>
+            <!--Whislist btn-->
             <a href="/signin.html" class="login">Login</a>
             <a href="/signup.html" class="signup">Sign Up</a>
+            <a href="#" class="logout" id="logoutBtn">Logout</a>
+
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
             </select>
         </div>
+
         <div class="hamburger">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
         </div>
+        <!--Whislist btn-->
+        <div class="whishlist_btn_mobile">
+            <div class="menu_btn" id="menuBtn">
+                <div>
+                    <i class="uil uil-heart"></i> Wishlist
+                </div>
+            </div>
+            <div class="whishlist_length"></div>
+        </div>
+        <!--Whislist btn-->
         <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
+
 
     <div class="mobile-menu">
         <div class="mobile-menu-content">
@@ -41,12 +66,13 @@
             <a href="/index.html#top-cars">Top Cars</a>
             <a href="/index.html#renting">Renting</a>
             <a href="/index.html#contact">Contact</a>
-            
+
             <div class="mobile-btns">
                 <a href="/signin.html" class="login">Login</a>
                 <a href="/signup.html" class="signup">Sign Up</a>
+                <a href="#" class="logout" id="logoutBtnMobile">Logout</a>
             </div>
-            
+
             <select name="lang" id="lang-mobile" class="lang-select">
                 <option value="eng">English</option>
                 <option value="fr">Français</option>
@@ -54,6 +80,35 @@
         </div>
     </div>
 </div>
+
+<!--WISHLIST ASIDEBAR-->
+<div class="overlay" id="overlay"></div>
+<aside class="sidebar">
+    <div class="link_container">
+
+        <div class="menu_inside">
+            <div class="menu_btn" id="menuBtn2">
+                <i class="uil uil-multiply"></i> Wishlist
+            </div>
+        </div>
+
+        <h4 class="section_title">Your Cars</h4>
+
+        <div class="whishlit_list">
+            <!--add items dynamically-->
+        </div>
+
+
+        <div class="checkout">
+            <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+        </div>
+
+    </div>
+</aside>
+<!--WISHLIST ASIDEBAR-->
+
+<!-- NAVBAR -->
+
 
 
 <!-- ------main body------- -->
@@ -162,5 +217,7 @@
     <script src="js/mobile-navbar.js"></script>
     <script src="js/navbar_links.js"></script>
     <script src="js/car-details.js"></script>
+    <script type="module" src="js/navbar-login.js"></script>
+
 </body>
 </html>
