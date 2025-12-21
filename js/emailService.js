@@ -6,7 +6,7 @@ emailjs.init("VFEyXWVtFUhjYJcwY");
  * @param {string} subject 
  * @param {string} message 
  */
-export function sendEmail(destination, subject, message) {
+export function sendContactEmail(destination, subject, message) {
   return emailjs.send(
     "service_ba0ny18",   
     "template_62mzqcg",
@@ -16,4 +16,13 @@ export function sendEmail(destination, subject, message) {
       message: message
     }
   );
+}
+
+export function sendConfirmationEmail(templateParams) {
+    return emailjs.send(
+        "service_ba0ny18",
+        "template_pvu9rri",
+        templateParams
+
+    )
 }

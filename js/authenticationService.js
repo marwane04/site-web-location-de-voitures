@@ -61,7 +61,7 @@ export const getCurrentUser = () => {
 
     const users = getAllUsers();
     // Compare with == because storage stores strings
-    return users.find(u => u.id === userId) || null;
+    return users.find(u => u.id == userId) || null;
 }
 
 // Check if user is authenticated
