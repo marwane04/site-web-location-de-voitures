@@ -1,13 +1,12 @@
+import { sendEmail } from "./emailService.js";
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     document.getElementById('send-btn').textContent="Sending... " ;
         event.preventDefault();
-        emailjs.sendForm(
-            'service_ba0ny18',       
-            'template_62mzqcg',
-            this,
-            'VFEyXWVtFUhjYJcwY'       
-        )
+        const destination =document.getElementById('email').value;
+        const subject =document.getElementById('fullName').value;
+        const message=document.getElementById('message').value;
+        sendEmail(destination,subject,message)
         .then(function() {
             document.getElementById('send-btn').textContent="Message Sent " ;
             document.getElementById('fullName').value=" ";
