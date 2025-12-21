@@ -1,0 +1,510 @@
+@import "navbar.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background-color: #F4F4F4;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    flex: 1;
+    padding: 0 12px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.search-box {
+    position: relative;
+    width: 80%;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+}
+
+
+
+.search-icon {
+    font-size: 2.4rem;
+    color: #967AA1;
+    margin-right: 15px;
+}
+
+.search-dropdown {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.6rem;
+    color: #212832;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.separator {
+    width: 1px;
+    height: 30px;
+    background-color: #ddd;
+    margin: 0 15px;
+}
+
+.search-box input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: #212832;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+    caret-color: #212832;
+}
+
+.search-box input::placeholder {
+    color: #aaa;
+}
+
+.search-btn {
+    padding: 10px 25px;
+    background-color: #212832;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-btn:hover {
+    background-color: #323f4e;
+}
+
+.filters-container {
+    width: 19%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #eee;
+    overflow-y: auto;
+    border-top: 2px solid #f0f0f0;
+
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.filter-header h2 {
+    font-size: 2.2rem;
+    color: #212832;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-header h2 i {
+    color: #967AA1;
+}
+
+.clear-filters {
+    background: none;
+    border: none;
+    color: #967AA1;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.filter-section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+.filter-section:last-child {
+    border-bottom: none;
+}
+
+.filter-section h3 {
+    font-size: 1.6rem;
+    color: #212832;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.filter-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    list-style: none; /* Remove default marker */
+}
+
+.filter-title::-webkit-details-marker {
+    display: none; /* Remove default marker in WebKit */
+}
+
+
+.filter-title i {
+    font-size: 2.4rem;
+    color: #212832;
+    transition: transform 0.3s ease;
+}
+
+
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 2000px;
+    transition: max-height .8s;
+}
+
+.collapsed {
+    max-height: 123px;
+    overflow: hidden;
+}
+
+/* Custom Checkbox Styling */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #555;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #967AA1;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Price Range Styling */
+.price-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.price-input:focus {
+    border-color: #967AA1;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Cars Grid */
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding: 30px 0;
+    width: 80%;
+    margin: 25px auto;
+}
+
+/* Car Card */
+.car-card {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.car-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-image-container {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-image {
+    max-width: 130%;
+    max-height: 130%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+
+
+.wishlist-btn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    color: #ccc;
+    font-size: 1.8rem;
+}
+
+.wishlist-btn:hover {
+    color: #ff4d4d;
+    transform: scale(1.1);
+}
+
+
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4px 0 15px;
+}
+
+.car-model {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #212832;
+    margin-bottom: 5px;
+}
+
+.car-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #212832;
+}
+
+.car-price span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #888;
+}
+
+.car-specs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.spec-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.spec-item i {
+    font-size: 1.8rem;
+    color: #967AA1;
+}
+
+.rent-now-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #212832;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.rent-now-btn:hover {
+    background-color: #967AA1;
+}
+
+.container_nav > .navbar {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Pagination Styling */
+.paging-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px;
+    width: 100%;
+}
+
+.paging-container ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+    padding: 0;
+}
+
+.paging-container li {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #212832;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 1px solid transparent;
+}
+
+.paging-container li:hover {
+    background-color: #967AA1;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(150, 122, 161, 0.3);
+}
+
+.paging-container li.active {
+    background-color: #212832;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(33, 40, 50, 0.3);
+}
+
+.paging-container li.arrow {
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 2.4rem;
+    color: #212832;
+    width: auto;
+    padding: 0 10px;
+}
+
+.paging-container li.arrow:hover {
+    background-color: transparent;
+    color: #967AA1;
+    box-shadow: none;
+}
+
+.paging-container li.dots {
+    cursor: default;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    padding: 0 5px;
+}
+
+.paging-container li.dots:hover {
+    background-color: transparent;
+    color: #212832;
+    transform: none;
+    box-shadow: none;
+}

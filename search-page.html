@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarbyMy</title>
+    <link rel="stylesheet" href="css/search-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="container_nav">
+    <nav class="navbar">
+        <div class="links">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="btns">
+            <!--Whislist btn-->
+            <div class="whishlist_btn">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length">99</div>
+            </div>
+            <!--Whislist btn-->
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
+            <a href="#" class="logout" id="logoutBtn">Logout</a>
+
+            <select name="lang" id="lang">
+                <option value="eng">En</option>
+                <option value="fr">Fr</option>
+            </select>
+        </div>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <!--Whislist btn-->
+        <div class="whishlist_btn_mobile">
+            <div class="menu_btn" id="menuBtn">
+                <div>
+                    <i class="uil uil-heart"></i> Wishlist
+                </div>
+            </div>
+            <div class="whishlist_length"></div>
+        </div>
+        <!--Whislist btn-->
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
+    </nav>
+
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+
+            <div class="mobile-btns">
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+                <a href="#" class="logout" id="logoutBtnMobile">Logout</a>
+            </div>
+
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!--WISHLIST ASIDEBAR-->
+<div class="overlay" id="overlay"></div>
+<aside class="sidebar">
+    <div class="link_container">
+
+        <div class="menu_inside">
+            <div class="menu_btn" id="menuBtn2">
+                <i class="uil uil-multiply"></i> Wishlist
+            </div>
+        </div>
+
+        <h4 class="section_title">Your Cars</h4>
+
+        <div class="whishlit_list">
+            <!--add items dynamically-->
+        </div>
+
+
+        <div class="checkout">
+            <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+        </div>
+
+    </div>
+</aside>
+<!--WISHLIST ASIDEBAR-->
+
+<!-- NAVBAR -->
+
+
+<div class="container">
+    <div class="filters-container">
+        <div class="filter-header">
+            <h2>Filters</h2>
+            <button class="clear-filters">Clear all</button>
+        </div>
+
+        <div class="filter-section">
+            <div class="filter-title">
+                <h3>Brand</h3>
+                <i class="uil uil-angle-up filter-button"></i>
+            </div>
+            <div class="filter-options collapsed">
+
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Price Range (DH/day)</h3>
+            <div class="price-range">
+                <input type="number" placeholder="Min" class="price-input" min="0">
+                -
+                <input type="number" placeholder="Max" class="price-input" min="0">
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <div class="filter-title ">
+                <h3>Body Type</h3>
+                <i class="uil uil-angle-up filter-button"></i>
+            </div>
+            <div class="filter-options collapsed">
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Seats</h3>
+            <div class="filter-options">
+                <label class="checkbox-container">2 Seats
+                    <input type="checkbox" name="seats" value="2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">4 Seats
+                    <input type="checkbox" name="seats" value="4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">5 Seats
+                    <input type="checkbox" name="seats" value="5">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">7+ Seats
+                    <input type="checkbox" name="seats" value="7">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <h3>Doors</h3>
+            <div class="filter-options">
+                <label class="checkbox-container">2 Doors
+                    <input type="checkbox" name="doors" value="2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">4 Doors
+                    <input type="checkbox" name="doors" value="4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">5 Doors
+                    <input type="checkbox" name="doors" value="5">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <select class="search-dropdown" name="sort">
+                <option value="" selected>Sort by</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+            </select>
+            <div class="separator"></div>
+            <input type="text" placeholder="Search for your perfect car..."/>
+            <button class="search-btn">Search</button>
+        </div>
+
+        <div class="cars-grid">
+
+        </div>
+        <div class="paging-container">
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/search-page.js" type="module"></script>
+<script type="module" src="js/whishlist.js"></script>
+<script type="module" src="js/navbar-login.js"></script>
+
+
+</html>

@@ -1,5 +1,5 @@
 const body = document.body;
-const btns = document.querySelectorAll('#menuBtn, #menuBtn2, #menuBtn3');
+const btns = document.querySelectorAll('.menu_btn');
 const overlay = document.getElementById('overlay');
 
 btns.forEach(btn => {
@@ -142,9 +142,13 @@ function updateSingleButton(button, carId) {
         if (heartIcon) {
             if (isInList) {
                 // Coeur rempli (rouge)
+                heartIcon.classList.remove('fa-regular');
+                heartIcon.classList.add('fa-solid');
                 heartIcon.style.color = '#e74c3c';
             } else {
                 // Coeur vide (retour à la couleur par défaut)
+                heartIcon.classList.remove('fa-solid');
+                heartIcon.classList.add('fa-regular');
                 heartIcon.style.color = '';
             }
         }
@@ -307,7 +311,7 @@ function createWishlistItem(car) {
     const carName = car.modelName;
     const carBrand = car.brand;
     const carPrice = car.dailyPrice;
-    const carImage = car.images.transparent || car.images.diagonal;
+    const carImage = car.images.side;
     const tankCapacity = car.tankCapacity;
     const numberOfSeats = car.numberOfSeats;
     const numberOfDoors = car.numberOfDoors;
@@ -547,7 +551,7 @@ if (!document.querySelector('#wishlist-styles')) {
     const style = document.createElement('style');
     style.id = 'wishlist-styles';
     style.textContent = `
-        .wishlist-btn {
+        .wishlist-btn:not(.heart) {
             cursor: pointer;
             transition: all 0.3s ease;
             padding: 10px 15px;
@@ -555,6 +559,10 @@ if (!document.querySelector('#wishlist-styles')) {
             border-radius: 4px;
             font-size: 14px;
             font-weight: 500;
+        }
+        
+        .heart.in-wishlist {
+            color: red;
         }
         
         .wishlist-btn.in-wishlist {

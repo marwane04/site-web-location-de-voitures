@@ -1,5 +1,16 @@
 ///////////////////////////carousel///////////////////////////
 import { getPopularCars } from './carsService.js';
+import {addUserToStorage} from "./authenticationService.js";
+
+let user = {firstName: "marwane",
+    lastName: "fakir",
+    phone: "0123456789",
+    city: "casa",
+    email: "marwane@gm.com",
+    password: "12345678",
+
+};
+
 
 let nextButton = document.getElementById('next');
 let prevButton = document.getElementById('prev');

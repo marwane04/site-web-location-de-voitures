@@ -40,6 +40,8 @@
             <!--Whislist btn-->
             <a href="/signin.html" class="login">Login</a>
             <a href="/signup.html" class="signup">Sign Up</a>
+            <a href="#" class="logout" id="logoutBtn">Logout</a>
+
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
@@ -58,7 +60,7 @@
                     <i class="uil uil-heart"></i> Wishlist
                 </div>
             </div>
-            <div class="whishlist_length">99</div>
+            <div class="whishlist_length"></div>
         </div>
         <!--Whislist btn-->
         <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
@@ -71,12 +73,13 @@
             <a href="/index.html#top-cars">Top Cars</a>
             <a href="/index.html#renting">Renting</a>
             <a href="/index.html#contact">Contact</a>
-            
+
             <div class="mobile-btns">
                 <a href="/signin.html" class="login">Login</a>
                 <a href="/signup.html" class="signup">Sign Up</a>
+                <a href="#" class="logout" id="logoutBtnMobile">Logout</a>
             </div>
-            
+
             <select name="lang" id="lang-mobile" class="lang-select">
                 <option value="eng">English</option>
                 <option value="fr">Français</option>
@@ -101,7 +104,7 @@
         <div class="whishlit_list">
             <!--add items dynamically-->
         </div>
-        
+
 
         <div class="checkout">
             <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
@@ -112,6 +115,7 @@
 <!--WISHLIST ASIDEBAR-->
 
 <!-- NAVBAR -->
+
 
 <div class="container">
     <!-- LEFT SIDE -->
@@ -131,21 +135,21 @@
         <form id="loginForm">
             <div class="grp_label">
                 <div class="label">
-                    <label id="first_name">First Name</label>
+                    <label>First Name</label>
                     <input type="text" form="first_name" id="first_name" placeholder="Enter your first name" required>
                 </div>
                 <div class="label">
-                    <label id="last_name">Last Name</label>
+                    <label>Last Name</label>
                     <input type="text" form="last_name" id="last_name" placeholder="Enter your last name" required>
                 </div>
             </div>
             <div class="grp_label">
                 <div class="label">
-                    <label id="phone">Phone</label>
+                    <label>Phone</label>
                     <input type="tel" form="phone" id="phone" placeholder="Enter your phone" >
                 </div>
                 <div class="label">
-                    <label id="City">City</label>
+                    <label>City</label>
                     <select name="city" id="city">
                         <option value="Casablnca">Casablnca</option>
                         <option value="Fes">Fes</option>
@@ -244,6 +248,9 @@
 <script src="js/mobile-navbar.js"></script>
 <script src="js/navbar_links.js"></script> 
 <script type="module" src="js/whishlist.js"></script>
+<script type="module" src="js/signup.js"></script>
+<script type="module" src="js/navbar-login.js"></script>
+
 
 </body>
 </html>
