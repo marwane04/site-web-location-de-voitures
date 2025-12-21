@@ -1,0 +1,464 @@
+/* ---------------------- NAVBAR ---------------------- */
+.container_nav .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 25px 0% 15px;
+    margin: auto;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    animation: FadeInSlide 1s ease;
+}
+
+@keyframes FadeInSlide {
+    from{opacity: 0; transform: translateY(-30px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+
+.container_nav .navbar .links a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: #212832;
+    font-weight: 500;
+    position: relative;
+}
+
+.container_nav .navbar .links a::after,
+.container_nav .navbar .btns a.login::after,
+.mobile-menu-content a::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #212832;
+    transition: width 0.3s ease;
+}
+
+.container_nav .navbar .links a:hover::after,
+.container_nav .navbar .links a.active::after,
+.container_nav .navbar .btns a.login:hover::after,
+.mobile-menu-content a:hover::after,
+.mobile-menu-content a.active::after{
+    width: 100%;
+}
+.mobile-menu-content .mobile-btns a.signup:hover::after{width: 0;}
+
+.container_nav .navbar .btns {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.container_nav .navbar .btns a {
+    text-decoration: none;
+    color: #212832;
+}
+
+.container_nav .navbar .btns a.login {
+    font-weight: 500;
+    position: relative;
+}
+
+.container_nav .navbar .btns a.signup {
+    border: 1px solid #212832;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.container_nav .navbar .btns a.signup:hover {
+    color: white;
+    background-color: #212832;
+}
+
+.container_nav .navbar .btns select {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    z-index: 997;
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 3px;
+    background-color: #212832;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger-active .line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+.logo {
+    font-size: 34px;
+    font-weight: 700;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+.logo.mobile-logo{
+    display: none;
+    margin: auto;
+}
+.logo span {
+    color: #967AA1;
+}
+.navbar.active .logo.mobile-logo {
+    display: block;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+}
+.navbar.active .whishlist_btn_mobile{
+    display: none;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out ;
+    z-index: 998;
+}
+
+.mobile-menu.active {
+    height: calc(100vh);
+    top: 0;
+    padding-top: 90px;
+}
+.mobile-menu.active .mobile-menu-content{display: flex;}
+
+
+.mobile-menu-content {
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+}
+
+.mobile-menu-content a {
+    text-decoration: none;
+    color: #212832;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+.mobile-menu-content .mobile-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.mobile-menu-content .mobile-btns a {
+    border: none;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.mobile-menu-content .mobile-btns a.login {
+    color: #212832;
+}
+
+.mobile-menu-content .mobile-btns a.signup {
+    background-color: #212832;
+    color: white;
+    border: 1px solid #212832;
+    transition: all .3s ease;
+}
+.mobile-menu-content .mobile-btns a.signup:hover{background-color: transparent; color: #212832; border: 1px solid #212832;}
+
+.mobile-menu-content .lang-select {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+}
+/* ---------------------- NAVBAR ---------------------- */
+
+/* ----------------------whishlist -------------------- */
+.menu_btn{
+    border:1px solid #212832;
+    padding:6px 16px;
+    border-radius:30px;
+    cursor:pointer;
+    color: #212832;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+.whishlist_length{
+    position: absolute;
+    top: -2em;
+    right: -1em;
+    border: 1px solid  #ef4444;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+/* ================= OVERLAY ================= */
+.overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.6);
+    opacity:0;
+    pointer-events:none;
+    transition:.3s;
+    z-index:998;
+}
+
+body.sidebar_open .overlay{
+    opacity:1;
+    pointer-events:auto;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar{
+    position:fixed;
+    top:10px;
+    right:10px;
+    bottom:10px;
+    width: 0px;
+    overflow:hidden;
+    background:white;
+    border-radius:20px;
+    transition:.4s;
+    z-index:999;
+}
+
+body.sidebar_open .sidebar{
+    width:445px;
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.link_container{
+    height:100%;
+    overflow-y:auto;
+    padding-bottom:20px;
+}
+
+/* menu inside sidebar */
+.menu_inside{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0;
+}
+/* ================= CARS ================= */
+.section_title{
+    font-weight:600;
+    margin:10px 0;
+}
+
+.whishlit_list{margin-bottom: 2.5em;}
+.car_item{
+    display:flex;
+    gap:10px;
+    background:#fafafa;
+    padding:0 12px 12px;
+    border-radius:12px;
+    margin-bottom:12px;
+}
+
+.car_info{
+    font-size:14px;
+    flex-grow: 1;
+}
+
+.car_info h5{
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.car_info p{
+    margin-bottom:3px;
+    color:#555;
+}
+
+.remove_car{
+    margin-top:6px;
+    border:none;
+    background: #ef4444;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    cursor:pointer;
+    transition: all .3s ease;
+}
+.remove_car:hover{
+    background-color: #ef4444c1 ;
+}
+
+.car_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.car_image img{
+    width:200px;
+    height:max-content;
+    background-color: transparent;
+}
+
+/* ================= CHECKOUT ================= */
+.checkout{
+    margin-top:20px;
+}
+
+.checkout a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:6px;
+    background: #22c55e;
+    color:#fff;
+    padding:1em 0;
+    text-decoration:none;
+    font-weight:500;
+    position: absolute;
+    right: 0; 
+    left: 0;
+    bottom: 0;
+}
+
+.checkout a:hover{
+    background:#16a34a;
+}
+
+.whishlist_btn{display: block; position: relative;}
+.whishlist_length{
+    position: absolute;
+    top: -2em;
+    right: -1em;
+    border: 1px solid  #ef4444;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 300;
+}
+.whishlist_btn_mobile{
+    display: none;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.whishlist_btn_mobile .menu_btn{
+    display: inline-flex;
+    width: auto;
+    padding: 6px 14px;
+    white-space: nowrap;
+}
+/* ----------------------whishlist -------------------- */
+
+
+/* ---------------------- RESPONSIVENESS ---------------------- */
+@media (max-width: 1200px) {
+    .right, .represent{
+        display: none;
+    }
+    .car-img {
+        width: 100%;
+    }
+    #loginForm {
+        margin: auto;
+    }
+}
+@media (max-width: 900px) {
+    .container_nav .navbar {
+        background-color: transparent;
+        backdrop-filter: blur(0);
+        box-shadow: none;
+        justify-content: space-between;
+        padding: 25px 5% 15px;
+    }
+    .container_nav .navbar .links,
+    .container_nav .navbar .btns{
+        display: none;
+    }
+
+    .whishlist_btn_mobile{
+        display: block;
+        position: fixed;
+        left: 65%;
+        top: 1.4em;
+    }
+    .whishlist_btn_mobile i{
+        font-size: 18px;
+    }
+    .hamburger {
+        display: flex;
+        margin-right: 60%;
+    }
+    
+}
+@media screen and (min-width: 901px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        font-size: 28px;
+    }
+    body.sidebar_open .sidebar{
+        width: 90%;
+        margin: 0 auto;
+        padding:10px;
+        border:1px solid #ddd;
+    }
+}

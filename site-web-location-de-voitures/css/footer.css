@@ -1,0 +1,72 @@
+/* ---------------------- FOOTER ---------------------- */
+.footer{
+    padding: 90px 0 60px;
+    background-color: #2D3142;
+    color: #fff;
+}
+.footer .follows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.footer .follows p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer .follows a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: .5em;
+    font-size: 21px;
+}
+.footer .follows a i{ transition: all .3s ease;}
+.footer .follows a:hover i{
+    color: #ccc;
+}
+
+.footer .contact_us{
+    padding: 36px 0 47px;
+    margin: 36px 0;
+    border-top: 1px solid rgba(150, 150, 150, 20%);
+    border-bottom: 1px solid rgba(150, 150, 150, 20%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_us .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #CFCFCF;
+}
+.contact_us .contact .img i{
+    font-size: 22px;
+}
+.contact_us .contact .title{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer .rights{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #CFCFCF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+/* ---------------------- FOOTER ---------------------- */
+
+@media (max-width: 500px) {
+    .footer .contact_us{
+        flex-direction: column;
+        gap: 1em;
+    }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarbyMy Sign Up</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/sign_in_up.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!--css links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="container_nav">
+    <nav class="navbar">
+        <div class="links">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="btns">
+            <!--Whislist btn-->
+            <div class="whishlist_btn">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length">99</div>
+            </div>
+            <!--Whislist btn-->
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
+            <select name="lang" id="lang">
+                <option value="eng">En</option>
+                <option value="fr">Fr</option>
+            </select>
+        </div>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <!--Whislist btn-->
+        <div class="whishlist_btn_mobile">
+            <div class="menu_btn" id="menuBtn">
+                <div>
+                    <i class="uil uil-heart"></i> Wishlist
+                </div>
+            </div>
+            <div class="whishlist_length">99</div>
+        </div>
+        <!--Whislist btn-->
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
+    </nav>
+
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+            
+            <div class="mobile-btns">
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+            </div>
+            
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!--WISHLIST ASIDEBAR-->
+<div class="overlay" id="overlay"></div>
+<aside class="sidebar">
+    <div class="link_container">
+
+        <div class="menu_inside">
+            <div class="menu_btn" id="menuBtn2">
+                <i class="uil uil-multiply"></i> Wishlist
+            </div>
+        </div>
+
+        <h4 class="section_title">Your Cars</h4>
+
+        <div class="whishlit_list">
+            <!--add items dynamically-->
+        </div>
+        
+
+        <div class="checkout">
+            <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+        </div>
+
+    </div>
+</aside>
+<!--WISHLIST ASIDEBAR-->
+
+<!-- NAVBAR -->
+
+<div class="container">
+    <!-- LEFT SIDE -->
+    <div class="left fade-slide-left">
+        <div class="back_to">
+            <a href="/index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Back To</p>
+            </a>
+        </div>
+
+        <div class="logo_welcome">
+            <h2>Welcome To</h2>
+            <div class="logo">Carby<span>My</span></div>
+        </div>
+
+        <form id="loginForm">
+            <div class="grp_label">
+                <div class="label">
+                    <label id="first_name">First Name</label>
+                    <input type="text" form="first_name" id="first_name" placeholder="Enter your first name" required>
+                </div>
+                <div class="label">
+                    <label id="last_name">Last Name</label>
+                    <input type="text" form="last_name" id="last_name" placeholder="Enter your last name" required>
+                </div>
+            </div>
+            <div class="grp_label">
+                <div class="label">
+                    <label id="phone">Phone</label>
+                    <input type="tel" form="phone" id="phone" placeholder="Enter your phone" >
+                </div>
+                <div class="label">
+                    <label id="City">City</label>
+                    <select name="city" id="city">
+                        <option value="Casablnca">Casablnca</option>
+                        <option value="Fes">Fes</option>
+                        <option value="Rabat">Rabat</option>
+                        <option value="Marrakech">Marrakech</option>
+                    </select>
+                </div>
+            </div>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <div class="grp_label">
+                <div class="label">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="label">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirm_password" placeholder="confirm your password" required>
+                </div>
+            </div>
+
+            <button type="submit" class="login-btn">Sign Up</button>
+
+            <p class="signup-text">You already have an account? <a href="signin.html">Sign in</a></p>
+        </form>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right fade-slide-right">
+        <div class="blur-bg"></div> 
+        <p class="sign_in_p">Sign up to rent your next ride.</p>
+        <div class="represent">
+            <p>Drive.</p>
+            <p>Mobility.</p>
+            <p>Comfort.</p>
+            <p>Freedom.</p>
+        </div>
+        <img src="assets/images/top_cars/bmw.png" alt="Vehicle" class="car-img">
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="follows">
+        <p>Follow us</p>
+        <div class="imgs">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="contact_us">
+        <div class="contact">
+            <div class="img">
+                <i class="fa-regular fa-headphones"></i>
+            </div>
+            <div class="title">
+                Contact Us
+            </div>
+            <div class="adress">
+                support@gmail.com
+            </div>
+        </div>
+        <div class="contact">
+            <div class="img">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="title">
+                Get in touch
+            </div>
+            <div class="adress">
+                contactemail@gmail.com
+            </div>
+        </div>
+        <div class="contact">
+            <div class="img">
+                <i class="fa-solid fa-handshake"></i>
+            </div>
+            <div class="title">
+                Work with Us
+            </div>
+            <div class="adress">
+                career@gmail.com
+            </div>
+        </div>
+    </div>
+    <div class="rights">
+        @ All rights reserved
+    </div>
+</div>
+<!-- FOOTER -->
+
+
+<script src="js/mobile-navbar.js"></script>
+<script src="js/navbar_links.js"></script> 
+<script type="module" src="js/whishlist.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent Porsche 911 - CarbyMy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/car-details.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<div class="container_nav">
+    <nav class="navbar">
+        <div class="links">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="btns">
+            <a href="/signin.html" class="login">Login</a>
+            <a href="/signup.html" class="signup">Sign Up</a>
+            <select name="lang" id="lang">
+                <option value="eng">En</option>
+                <option value="fr">Fr</option>
+            </select>
+        </div>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
+            <a href="/index.html#contact">Contact</a>
+            
+            <div class="mobile-btns">
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+            </div>
+            
+            <select name="lang" id="lang-mobile" class="lang-select">
+                <option value="eng">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+<!-- ------main body------- -->
+
+<div class="container">
+    <div class="white_Bg"></div>
+    <div class="prpl_Bg"></div>
+    <div class="content">
+        <div class="left_fade-slide-left">
+            <div class="logo_welcome">
+                <h2>PORSCHE</h2>
+                <P style="color: rgb(148, 148, 9);">GT3 RS</P>
+                <p>Track ready. Street legal.</p>
+            </div>
+            <div class="image">
+                <div id="left"><</div>
+                <img src="assets/images/cars/Porshe-911-GT3-RS/img_1.webp">
+                <div id="right">> </div>
+            </div>
+            <div class="characteristic">
+                <p>The "Elegant", A masterpiece of aerodynamics and power.<br>
+                    The GT3 RS offers an unfiltered connection to the road for the most demanding drivers.</p>
+            </div>
+            <div class="car_specs">
+                <div class="spec-item">
+                    <i class="fa-solid fa-gauge-high fa-3x"></i>
+                    <p>296 km/h</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fa-solid fa-stopwatch fa-3x"></i>
+                    <p>3.2s 0-100</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fa-solid fa-gas-pump fa-3x"></i>
+                    <p>Essence</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fa-solid fa-gears fa-3x"></i>
+                    <p>Automatic<br>Gearbox</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right_fade-slide-right">
+            <div class="calc-form">
+                <h2>Book your Ride</h2>
+        
+                <form id="bookingForm">
+                    <div class="calc-row">
+                        <label>Pick-up Date</label>
+                        <input type="date" id="startDate" required>
+                    </div>
+                    <div class="calc-row">
+                        <label>Duration (Days)</label>
+                        <input type="number" id="days" min="1" placeholder="0">
+                        <span class="price-per-day">Rate: <div id="tarif">4500</div> DH / day</span>
+                    </div>
+                    <div class="options-group">
+                        <label class="option-item">
+                            <input type="checkbox" id="Calculator" >
+                            Full Insurance (+500 DH/j)
+                        </label><br>
+                        <label class="option-item">
+                            <input type="checkbox" id="opt-gps" >
+                            GPS & Wi-Fi (+150 DH/j)
+                        </label>
+                    </div>
+                    <div class="total-price-box">
+                        <p>Estimated Total :</p>
+                        <h3 id="totalDisplay">-DH</h3>
+                    </div>
+                    <button type="submit" class="login-btn">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------Footer------- -->
+
+<div class="footer">
+    <div class="follows">
+        <p>Follow us</p>
+        <div class="imgs">
+            <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+        </div>
+    </div>
+    <div class="contact_us">
+        <div class="contact">
+            <div class="img"><i class="fa-regular fa-headphones"></i></div>
+            <div class="title">Contact Us</div>
+            <div class="adress">support@carbymy.com</div>
+        </div>
+        <div class="contact">
+            <div class="img"><i class="fa-regular fa-envelope"></i></div>
+            <div class="title">Get in touch</div>
+            <div class="adress">contact@carbymy.com</div>
+        </div>
+        <div class="contact">
+            <div class="img"><i class="fa-solid fa-handshake"></i></div>
+            <div class="title">Work with Us</div>
+            <div class="adress">career@carbymy.com</div>
+        </div>
+    </div>
+    <div class="rights">@ All rights reserved</div>
+</div>
+
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/navbar_links.js"></script>
+    <script src="js/car-details.js"></script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/top_cars.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="container_nav">
+        <nav class="navbar">
+            <div class="links">
+                <a href="/index.html#services" class="active">Our services</a>
+                <a href="/index.html#top-cars">Top Cars</a>
+                <a href="/index.html#renting">Renting</a>
+                <a href="/index.html#contact">Contact</a>
+            </div>
+            <div class="btns">
+                <!--Whislist btn-->
+                <div class="whishlist_btn">
+                    <div class="menu_btn" id="menuBtn">
+                        <div>
+                            <i class="uil uil-heart"></i> Wishlist
+                        </div>
+                    </div>
+                    <div class="whishlist_length">99</div>
+                </div>
+                <!--Whislist btn-->
+                <a href="/signin.html" class="login">Login</a>
+                <a href="/signup.html" class="signup">Sign Up</a>
+                <select name="lang" id="lang">
+                    <option value="eng">En</option>
+                    <option value="fr">Fr</option>
+                </select>
+            </div>
+
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <!--Whislist btn-->
+            <div class="whishlist_btn_mobile">
+                <div class="menu_btn" id="menuBtn">
+                    <div>
+                        <i class="uil uil-heart"></i> Wishlist
+                    </div>
+                </div>
+                <div class="whishlist_length"></div>
+            </div>
+            <!--Whislist btn-->
+            <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
+        </nav>
+
+
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="/index.html#services" class="active">Our services</a>
+                <a href="/index.html#top-cars">Top Cars</a>
+                <a href="/index.html#renting">Renting</a>
+                <a href="/index.html#contact">Contact</a>
+                
+                <div class="mobile-btns">
+                    <a href="/signin.html" class="login">Login</a>
+                    <a href="/signup.html" class="signup">Sign Up</a>
+                </div>
+                
+                <select name="lang" id="lang-mobile" class="lang-select">
+                    <option value="eng">English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!--WISHLIST ASIDEBAR-->
+    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar">
+        <div class="link_container">
+
+            <div class="menu_inside">
+                <div class="menu_btn" id="menuBtn2">
+                    <i class="uil uil-multiply"></i> Wishlist
+                </div>
+            </div>
+
+            <h4 class="section_title">Your Cars</h4>
+
+            <div class="whishlit_list">
+                <!--add items dynamically-->
+            </div>
+            
+
+            <div class="checkout">
+                <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
+            </div>
+
+        </div>
+    </aside>
+    <!--WISHLIST ASIDEBAR-->
+
+    <!-- NAVBAR -->
+
+    <!-- TOP CARS SECTION -->
+    <div class="carousel">
+        <div class="list"><!--added dynamically--></div>
+        <div class="arrows">
+            <div class="arrows_content">
+                <button id="prev">
+                    <img src="https://img.icons8.com/ios/50/left--v1.png" alt="left--v1"/>
+                </button>
+                <button id="back">See All &#8599</button>
+                <button id="next">
+                    <img src="https://img.icons8.com/ios/50/right--v1.png" alt="right--v1"/>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="links_categories">
+        <h1>
+    <span><span>Carb</span>yMy</span>
+    Explore our car categories and find your perfect ride.
+        </h1>
+        <div class="slider">
+            <button class="previous">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                    <path d="M21.559,12.062 L15.618,17.984 L21.5221,23.944 C22.105,24.533 22.1021,25.482 21.5131,26.065 C21.2211,26.355 20.8391,26.4999987 20.4571,26.4999987 C20.0711,26.4999987 19.6851,26.352 19.3921,26.056 L12.4351,19.034 C11.8531,18.446 11.8551,17.4999987 12.4411,16.916 L19.4411,9.938 C20.0261,9.353 20.9781,9.354 21.5621,9.941 C22.1471,10.528 22.1451,11.478 21.5591,12.062 L21.559,12.062 Z"></path>
+                </svg>
+            </button>
+            <div class="list_links">
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_1.png" alt="store-card-1">
+                    <p>Ford</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_2.png" alt="store-card-1">
+                    <p>Toyota</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_3.png" alt="store-card-1">
+                    <p>BMW</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_4.png" alt="store-card-1">
+                    <p>Audi</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_5.png" alt="store-card-1">
+                    <p>Jeep</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_6.png" alt="store-card-1">
+                    <p>Tesla</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_3.png" alt="store-card-1">
+                    <p>BMW</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_4.png" alt="store-card-1">
+                    <p>Audi</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_5.png" alt="store-card-1">
+                    <p>Jeep</p>
+                </a>
+                <a href="#" class="link">
+                    <img src="assets/images/categories/store_categories_6.png" alt="store-card-1">
+                    <p>Tesla</p>
+                </a>
+            </div>
+            <button class="next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                    <path d="M23.5587,16.916 C24.1447,17.4999987 24.1467,18.446 23.5647,19.034 L16.6077,26.056 C16.3147,26.352 15.9287,26.4999987 15.5427,26.4999987 C15.1607,26.4999987 14.7787,26.355 14.4867,26.065 C13.8977,25.482 13.8947,24.533 14.4777,23.944 L20.3818,17.984 L14.4408,12.062 C13.8548,11.478 13.8528,10.5279 14.4378,9.941 C15.0218,9.354 15.9738,9.353 16.5588,9.938 L23.5588,16.916 L23.5587,16.916 Z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <!-- TOP CARS SECTION -->
+
+
+
+    <div class="section-header">
+        <h2>We offer best services</h2>
+    </div>
+
+
+    <div class="our_services">
+        <div class="service">
+            <img src="assets/icons/customer-service.png">
+            <h3>24/7 customer support </h3>
+            <p>Freindly assistance available whenever you need help</p>
+        </div>
+            <div class="service">
+                <img src="assets/icons/delivery.png">
+                <h3>Car delivery </h3>
+                <p>Get your rental car delivered to your location</p>
+            </div>
+        <div class="service">
+            <img src="assets/icons/event.png">
+            <h3>Event rentals </h3>
+            <p>Cars available for wedding, parties,or events</p>
+        </div>
+        <div class="service">
+            <img src="assets/icons/insurance.png">
+            <h3>Insurance options </h3>
+            <p>Protect your rental with flexible insurance coverage</p>
+        </div>
+    </div>
+    <div class="section-header">
+        <h2>What People Say About Us</h2>
+    </div>
+    <div class="test">
+        <div class="Renting">
+            <div class="opinion">
+                <img src="assets/icons/quote.png" id="quote">
+                <p>
+                    "Le service client était excellent. Ils ont livré la voiture gratuitement à mon hôtel et m’ont même aidé
+                    avec
+                    mes bagages. Le véhicule était en parfait état. Je louerai de nouveau sans hésiter !”</p>
+                <p id="name">Ahmed,Casablanca </p>
+        </div>
+        <div class="opinion">
+            <img src="assets/icons/quote.png" id="quote">
+            <p>
+                “Not the newest car, but very clean and well maintained. Everything worked perfectly. Great value for
+                the price.”</p>
+            <p id="name">Salma,Rabat</p>
+        </div>
+        </div>
+    
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <section id="contact" class="contact-section">
+    <div class="contact-container">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Get in touch with us for any inquiries about our car rental services</p>
+        </div>
+        
+        <div class="contact-wrapper">
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="fullName">
+                            <i class="fas fa-user"></i>
+                            Full Name
+                        </label>
+                        <input type="text" id="fullName" class="form-control" 
+                               placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fas fa-envelope"></i>
+                            Email Address
+                        </label>
+                        <input type="email" id="email" class="form-control" 
+                               placeholder="your.email@example.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">
+                            <i class="fas fa-comment"></i>
+                            Your Message
+                        </label>
+                        <textarea id="message" class="form-control" 
+                                  placeholder="Type your message here..." 
+                                  rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+                
+</body>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="follows">
+            <p>Follow us</p>
+            <div class="imgs">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="contact_us">
+            <div class="contact">
+                <div class="img">
+                    <i class="fa-regular fa-headphones"></i>
+                </div>
+                <div class="title">
+                    Contact Us
+                </div>
+                <div class="adress">
+                    support@gmail.com
+                </div>
+            </div>
+            <div class="contact">
+                <div class="img">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="title">
+                    Get in touch
+                </div>
+                <div class="adress">
+                    contactemail@gmail.com
+                </div>
+            </div>
+            <div class="contact">
+                <div class="img">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+                <div class="title">
+                    Work with Us
+                </div>
+                <div class="adress">
+                    career@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            @ All rights reserved
+        </div>
+    </div>
+    <!-- FOOTER -->
+
+    <script src="js/mobile-navbar.js"></script>  
+    <script src="js/navbar_links.js"></script>  
+    <script type="module" defer src="js/home.js"></script>
+    <script type="module" src="js/whishlist.js"></script>
+    <script src="js/sandbox.js"></script>
+    
+</body>
+</html>

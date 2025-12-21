@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ---------------------- LEFT PANEL ---------------------- */
+.left {
+    flex: 1.2;
+    padding: 80px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.back_to a{
+    display: inline-flex;
+    align-items: center;
+    gap: .3em;
+    color: #777777;
+    text-decoration: none;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    transition: all .3s ease;
+}
+.back_to a:hover, .back_to a:hover::after{color: #333;}
+.back_to a::after,
+.navbar .links a::after,
+.navbar .btns a.login::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #777777;
+    transition: all .3s ease;
+}
+
+.back_to a:hover::after,
+.navbar .links a:hover::after,
+.navbar .btns a.login:hover::after
+{width: 100%;}
+
+.logo_welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #967AA1;
+}
+
+h2 {
+    color: #555;
+}
+
+
+form {
+    width: 100%;
+    margin-top: 2em;
+    max-width: calc(100% - 200px);
+}
+
+form .grp_label{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+form .grp_label .label{width: 50%;}
+
+label {
+    font-size: 15px;
+    color: #444;
+    display: block;
+    margin-top: 10px;
+}
+
+
+input,
+form .grp_label select#city{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: none;
+    border-bottom: 2px solid #dcb3e3cd;
+    background: none;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus{
+    box-shadow: 0px 8px 6px -6px #dcb3e3cd;
+}
+.login-btn {
+    width: 150px;
+    padding: 12px;
+    background: #6f567a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.login-btn:hover {
+    background: #6f567a;
+    transform: scale(1.05);
+}
+
+.signup-text {
+    margin-top: 20px;
+    color: #333;
+}
+
+.signup-text a {
+    color: #967AA1;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+.signup-text a::after{
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    left: 0;
+    height:2px;
+    background-color: #967AA1;
+    width: 0;
+    transition: all .3s ease;
+}
+.signup-text a:hover::after{
+    width: 100%;
+}
+
+/* ---------------------- RIGHT PANEL ---------------------- */
+.right {
+    flex: 1;
+    border-top-left-radius: 90% 100%;
+    border-bottom-left-radius: 30% 100%;
+    position: relative;
+    user-select: none;
+}
+.blur-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(70deg, #967AA1, rgba(0, 0, 255, 0.082));
+    filter: blur(150px);
+    z-index: -1;
+}
+
+.car-img {
+    width: 85%;
+    max-width: 550px;
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+    animation: imageFade 1.6s ease forwards;
+    position: absolute;
+    left: -200px;
+    top: calc(-50% + 600px);
+    
+}
+.right P.sign_in_p{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: #967AA1;
+}
+.right .represent{
+    font-size: 2em;
+    position: relative;
+    font-size: 34px;
+    font-weight: 700;
+    width: 45%;
+    height: 50%;
+    top: 32%;
+    left: 330px;
+}
+.right .represent p{position: absolute; color: #f0f6ff; font-weight: bolder;}
+.right .represent p:nth-child(1){
+    top: 0;
+}
+.right .represent p:nth-child(2){
+    top: 2.8em;
+    left: 3em;
+}
+.right .represent p:nth-child(3){
+    top: 6em;
+    left: 2.9em;
+}
+.right .represent p:nth-child(4){
+    top: 9em;
+    left: 0em;
+}
+@keyframes imageFade {
+    from { opacity: 0; transform: translateX(60px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* ---------------------- FADE + SLIDE ANIMATIONS ---------------------- */
+
+.fade-slide-left {
+    opacity: 0;
+    animation: fadeLeft 1.2s ease forwards;
+}
+.fade-slide-right {
+    opacity: 0;
+    animation: fadeRight 1.2s ease forwards;
+}
+
+@keyframes fadeLeft {
+    from { opacity: 0; transform: translateX(-60px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeRight {
+    from { opacity: 0; transform: translateX(60px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* ---------------------- RESPONSIVENESS ---------------------- */
+@media (max-width: 1200px) {
+    .right, .represent{
+        display: none;
+    }
+    .car-img {
+        width: 100%;
+    }
+    #loginForm {
+        margin: auto;
+    }
+}
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .right {
+        clip-path: none;
+        padding: 30px 0;
+        order: -1;
+    }
+
+    .left {
+        padding: 40px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .right, .logo_welcome, .back_to {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .right{padding-top: 70px;}
+    .right p.sign_in_p{
+        position: relative;
+        top: 0;
+        margin-bottom: 5px;
+    }
+    .right .represent{
+        font-size: 9px;
+        position: relative;
+        width: max-content;
+        height: max-content;
+        top: 0%;
+        left: 0%;
+        display: flex;
+        gap: 10px;
+        line-height: normal;
+    }
+    .right .represent p{
+        position: relative;
+    }
+    .right .represent p:nth-child(1),
+    .right .represent p:nth-child(2),
+    .right .represent p:nth-child(3),
+    .right .represent p:nth-child(4){
+        top: 0;
+        left: 0;
+    }
+    form{padding: 2em; max-width: 100%;}
+    form label {
+        float: left;
+    }
+    .back_to{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .back_to a{margin-bottom: 0;}
+    .left {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
