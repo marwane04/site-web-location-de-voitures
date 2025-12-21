@@ -65,7 +65,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     if (!document.querySelector('.container_nav .navbar .links a.active')) {
-        const defaultLink = document.querySelector('.container_nav .navbar .links a[href="#top-cars"], .mobile-menu-content a[href="#top-cars"]');
+        const defaultLink = document.querySelector('.container_nav .navbar .links a[href="/index.html#topCars"], .mobile-menu-content a[href="/index.html#topCars"]');
         if (defaultLink) setActive(defaultLink);
     }
+    if(window.location.href.includes("car-details.html")){
+        document.querySelector('.container_nav .navbar .links a[href="/index.html#topCars"], .mobile-menu-content a[href="/index.html#topCars"]').classList.remove("active");
+        document.querySelector('.container_nav .navbar .links a[href="/search-page.html"], .mobile-menu-content a[href="/search-page.html"]').classList.add("active");
+    }
+    if(window.location.href.includes("signin.html")){
+        document.querySelector('.container_nav .navbar .links a[href="/index.html#topCars"], .mobile-menu-content a[href="/index.html#topCars"]').classList.remove("active");
+        document.querySelector('.container_nav .navbar .links a[href="/signin.html"], .mobile-menu-content a[href="/signin.html"]').classList.add("active");
+    }
+    if(window.location.href.includes("signup.html")){
+        document.querySelector('.container_nav .navbar .links a[href="/index.html#topCars"], .mobile-menu-content a[href="/index.html#topCars"]').classList.remove("active");
+        document.querySelector('.container_nav .navbar .links a[href="/signup.html"], .mobile-menu-content a[href="/signup.html"]').classList.add("active");
+    }
+
 });

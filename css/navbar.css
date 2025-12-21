@@ -166,7 +166,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
     overflow: hidden;
     transition: height 0.5s ease-in-out ;
-    z-index: 998;
+    z-index: 995;
 }
 
 .mobile-menu.active {
@@ -464,7 +464,7 @@ body.sidebar_open .sidebar{
         font-size: 18px;
     }
     .hamburger {
-        display: flex;
+        display: flex !important;
         margin-right: 60%;
     }
     
