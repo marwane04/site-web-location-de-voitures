@@ -3,63 +3,38 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rent Porsche 911 - CarbyMy</title>
+    <title>Rent - CarbyMy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/car-details.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
 <div class="container_nav">
     <nav class="navbar">
         <div class="links">
-            <a href="/index.html#topCars" class="active">Top Cars</a>
-            <a href="/index.html#services">Our services</a>
-            <a href="/search-page.html">Renting</a>
-            <a href="/index.html#aboutUs">about us</a>
+            <a href="/index.html#services" class="active">Our services</a>
+            <a href="/index.html#top-cars">Top Cars</a>
+            <a href="/index.html#renting">Renting</a>
             <a href="/index.html#contact">Contact</a>
         </div>
         <div class="btns">
-            <!--Whislist btn-->
-            <div class="whishlist_btn">
-                <div class="menu_btn" id="menuBtn">
-                    <div>
-                        <i class="uil uil-heart"></i> Wishlist
-                    </div>
-                </div>
-                <div class="whishlist_length">99</div>
-            </div>
-            <!--Whislist btn-->
             <a href="/signin.html" class="login">Login</a>
             <a href="/signup.html" class="signup">Sign Up</a>
-            <a href="#" class="logout" id="logoutBtn">Logout</a>
-
             <select name="lang" id="lang">
                 <option value="eng">En</option>
                 <option value="fr">Fr</option>
             </select>
         </div>
-
         <div class="hamburger">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
         </div>
-        <!--Whislist btn-->
-        <div class="whishlist_btn_mobile">
-            <div class="menu_btn" id="menuBtn">
-                <div>
-                    <i class="uil uil-heart"></i> Wishlist
-                </div>
-            </div>
-            <div class="whishlist_length"></div>
-        </div>
-        <!--Whislist btn-->
         <div class="logo mobile-logo" onclick=" window.location.href = 'index.html'">Carby<span>My</span></div>
     </nav>
-
 
     <div class="mobile-menu">
         <div class="mobile-menu-content">
@@ -71,7 +46,6 @@
             <div class="mobile-btns">
                 <a href="/signin.html" class="login">Login</a>
                 <a href="/signup.html" class="signup">Sign Up</a>
-                <a href="#" class="logout" id="logoutBtnMobile">Logout</a>
             </div>
 
             <select name="lang" id="lang-mobile" class="lang-select">
@@ -82,35 +56,6 @@
     </div>
 </div>
 
-<!--WISHLIST ASIDEBAR-->
-<div class="overlay" id="overlay"></div>
-<aside class="sidebar">
-    <div class="link_container">
-
-        <div class="menu_inside">
-            <div class="menu_btn" id="menuBtn2">
-                <i class="uil uil-multiply"></i> Wishlist
-            </div>
-        </div>
-
-        <h4 class="section_title">Your Cars</h4>
-
-        <div class="whishlit_list">
-            <!--add items dynamically-->
-        </div>
-
-
-        <div class="checkout">
-            <a href="#"><i class="uil uil-credit-card"></i> Checkout</a>
-        </div>
-
-    </div>
-</aside>
-<!--WISHLIST ASIDEBAR-->
-
-<!-- NAVBAR -->
-
-
 
 <!-- ------main body------- -->
 
@@ -120,31 +65,33 @@
     <div class="content">
         <div class="left_fade-slide-left">
             <div class="logo_welcome">
-                <h2>PORSCHE</h2>
-                <P style="color: rgb(148, 148, 9);">GT3 RS</P>
-                <p>Track ready. Street legal.</p>
+                <h2>BMW 3</h2>
             </div>
             <div class="image">
-                <div id="left"><</div>
-                <img src="assets/images/cars/Porshe-911-GT3-RS/img_1.webp">
-                <div id="right">> </div>
+
+                <img src="https://flib.samar.pl/800/100/8971092868c4c665cda2560.webp">
+
             </div>
+            <!-- <div class="characteristic">
+                <p>The "Elegant", A masterpiece of aerodynamics and power.<br>
+                    The GT3 RS offers an unfiltered connection to the road for the most demanding drivers.</p>
+            </div> -->
             <div class="car_specs">
                 <div class="spec-item">
-                    <i class="fa-solid fa-gauge-high fa-3x"></i>
-                    <p>296 km/h</p>
-                </div>
-                <div class="spec-item">
-                    <i class="fa-solid fa-stopwatch fa-3x"></i>
-                    <p>3.2s</p>
-                </div>
-                <div class="spec-item">
                     <i class="fa-solid fa-gas-pump fa-3x"></i>
-                    <p>Essence</p>
+                    <p>63 L</p>
                 </div>
                 <div class="spec-item">
-                    <i class="fa-solid fa-gears fa-3x"></i>
-                    <p>PDK</p>
+                    <img src="./assets/icons/car-door.png" alt="">
+                    <p>2 Doors</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fa-solid fa-user-group fa-3x"></i>
+                    <p>2 Seats</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fa-solid fa-car-side fa-3x"></i>
+                    <p>Coupe</p>
                 </div>
             </div>
         </div>
@@ -152,7 +99,7 @@
         <div class="right_fade-slide-right">
             <div class="calc-form">
                 <h2>Book your Ride</h2>
-        
+
                 <form id="bookingForm">
                     <div class="calc-row">
                         <label>Pick-up Date</label>
@@ -165,7 +112,7 @@
                     </div>
                     <div class="options-group">
                         <label class="option-item">
-                            <input type="checkbox" id="opt-insurance" >
+                            <input type="checkbox" id="Calculator" >
                             Full Insurance (+500 DH/j)
                         </label><br>
                         <label class="option-item">
@@ -175,7 +122,7 @@
                     </div>
                     <div class="total-price-box">
                         <p>Estimated Total :</p>
-                        <h3 id="totalDisplay">-DH</h3>
+                        <h3 id="totalDisplay">DH</h3>
                     </div>
                     <button type="submit" class="login-btn">Confirm Booking</button>
                 </form>
@@ -215,10 +162,8 @@
     <div class="rights">@ All rights reserved</div>
 </div>
 
-    <script src="js/mobile-navbar.js"></script>
-    <script src="js/navbar_links.js"></script>
-    <script src="js/car-details.js"></script>
-    <script type="module" src="js/navbar-login.js"></script>
-
+<script src="js/mobile-navbar.js"></script>
+<script src="js/navbar_links.js"></script>
+<script src="js/car-details.js"></script>
 </body>
 </html>
