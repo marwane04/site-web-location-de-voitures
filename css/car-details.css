@@ -329,6 +329,8 @@ label {
 
 .spec-item i {
     color: #212832;
+    display: block;
+    margin: auto;
 }
 
 .spec-item p {
@@ -440,10 +442,10 @@ label {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
 }
 
 #left {
