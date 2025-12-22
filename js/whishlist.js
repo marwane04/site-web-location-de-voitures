@@ -17,6 +17,19 @@ document.querySelectorAll('.remove_car').forEach(btn => {
     });
 });
 
+const wishlistContainer = document.querySelector('.whishlit_list');
+if (wishlistContainer) {
+    wishlistContainer.addEventListener('click', (ev) => {
+        if (ev.target.closest('.car_image')) {
+            const carItem = ev.target.closest('.car_item');
+            if (carItem) {
+                const carId = carItem.getAttribute("data-car-id")
+                window.location.href = `car-details.html?id=${carId}`;
+            }
+        }
+    });
+}
+
 /************************************ WHISHLIST ************************************/
 let clientId = window.sessionStorage.getItem("loggedInUser");
 if (!clientId) {

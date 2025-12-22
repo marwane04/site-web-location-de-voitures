@@ -308,5 +308,3 @@ document.addEventListener("DOMContentLoaded", () => {
         listLinks.style.transform = "translateX(62px)";
     }
 });
-
-///////////////////////////CATEGORIES SLIDER///////////////////////////
