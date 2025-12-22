@@ -329,6 +329,8 @@ label {
 
 .spec-item i {
     color: #212832;
+    display: block;
+    margin: auto;
 }
 
 .spec-item p {
