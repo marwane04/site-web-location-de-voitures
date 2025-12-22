@@ -32,13 +32,12 @@ function calculateTotal() {
     let tarif = Number(document.getElementById('tarif').innerText);
 
 
-
     let nmbr_days = Number(daysInput.value);
     let total1 = tarif * nmbr_days;
 
-    if (insurance.checked) total1+= 500;
+    if (insurance.checked) total1 += 500;
 
-    if (gps.checked)  total1 += 150;
+    if (gps.checked) total1 += 150;
 
     total.innerText = total1 + 'DH';
 }
@@ -114,3 +113,60 @@ form.addEventListener('submit', (e) => {
             alert("Booking failed. Please try again later.");
         });
 })
+
+//Images slider only fr 911
+if (id === "4") {
+    // ///////Scroll images code \\\\\\\\\\\\\\\
+
+    const leftBtn = document.getElementById('left');
+    const rightBtn = document.getElementById('right');
+    const image = document.getElementsByTagName('img')[0];
+
+    leftBtn.style.display = 'flex'
+    rightBtn.style.display = 'flex';
+
+    const img_lst = [
+        "https://flib.samar.pl/900/700/922756dc09c4ee328722560.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_1.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_2.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_3.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_4.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_5.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_6.webp",
+        "assets/images/cars/Porshe-911-GT3-RS/img_7.webp"
+    ];
+
+
+// slide to right
+
+    rightBtn.addEventListener('click', function () {
+
+        let cheminRelatif = image.getAttribute('src');
+        let position = img_lst.indexOf(cheminRelatif);
+
+
+        if (position == 6) {
+            position = -1;
+        }
+
+        image.src = img_lst[position + 1];
+
+    });
+
+
+// slide to left
+
+    leftBtn.addEventListener('click', function () {
+
+        let cheminRelatif = image.getAttribute('src');
+        let position = img_lst.indexOf(cheminRelatif);
+
+
+        if (position == 0) {
+            position = 7;
+        }
+
+        image.src = img_lst[position - 1];
+
+    });
+}
